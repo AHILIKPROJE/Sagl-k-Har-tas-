@@ -5736,3 +5736,44 @@ function setupDragEvents(wrapper) {
 }
 
 window.onclick = (e) => { if (e.target == document.getElementById('countryModal')) closeModal(); };
+/* --- FAQ (Sıkça Sorulan Sorular) Açma/Kapama --- */
+
+function openFAQ() {
+    // Menüden tıklanınca tam ekran açılır
+    document.getElementById("faqOverlay").classList.add("active");
+    // Arka plandaki sayfanın kaymasını engelleyelim
+    document.body.style.overflow = "hidden";
+}
+
+function closeFAQ() {
+    // Geri dön butonuna basınca kapanır
+    document.getElementById("faqOverlay").classList.remove("active");
+    // Arka plan tekrar kaydırılabilir olsun
+    document.body.style.overflow = "auto";
+}
+
+/* --- Akordiyon Çalışma Mantığı --- */
+const accordions = document.querySelectorAll(".accordion-header");
+
+accordions.forEach(acc => {
+    acc.addEventListener("click", function() {
+        // Tıklanan soruyu aktif yap (rengini değiştir, ikonu döndür)
+        this.classList.toggle("active");
+
+        // Cevap kısmını bul
+        const panel = this.nextElementSibling;
+
+        // Eğer açıksa kapat, kapalıysa aç (Yükseklik ayarı ile animasyon)
+        if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+        } else {
+            // Önce diğer tüm açık olanları kapat (Opsiyonel: İstersen bu bloğu silebilirsin)
+            document.querySelectorAll(".accordion-body").forEach(body => body.style.maxHeight = null);
+            document.querySelectorAll(".accordion-header").forEach(header => header.classList.remove("active"));
+            this.classList.add("active");
+            
+            // Şimdi tıklananı aç
+            panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+    });
+});
