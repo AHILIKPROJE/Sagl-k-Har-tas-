@@ -1571,3 +1571,34 @@ input[type=range]::-webkit-slider-thumb:hover {
         overflow-x: hidden !important;
     }
 }
+/* Mobil cihazlar için (Telefon) */
+@media (max-width: 480px) {
+    /* Butonları ekran genişliğine göre oranla */
+    button, .btn, a.button, .accordion-header {
+        /* Ekranın %80'i kadar geniş olsun ama çok da devleşmesin */
+        width: 80% !important; 
+        
+        /* Yazı boyutunu ekran genişliğine göre ayarla (Dinamik küçülme) */
+        /* 4vw = Ekran genişliğinin %4'ü kadar yazı boyutu */
+        font-size: 4vw !important; 
+        
+        /* İç boşlukları (padding) da küçült ki buton kibar dursun */
+        padding: 3vw 5vw !important; 
+        
+        /* Köşeleri de ekrana göre yuvarla */
+        border-radius: 2vw !important;
+        
+        margin: 2vh auto !important; /* dikey boşluk (vh) */
+        display: block !important;
+    }
+
+    /* Başlıkları da küçültelim ki sırıtmasın */
+    h1 {
+        font-size: 8vw !important;
+        margin-bottom: 5vh;
+    }
+
+    h2 {
+        font-size: 6vw !important;
+    }
+}
