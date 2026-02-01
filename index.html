@@ -20,9 +20,9 @@
         <nav>
             <ul>
                 <a href="javascript:void(0)" class="nav-cta-btn" onclick="openPremiumAppointment()">
-    <i class="fa-solid fa-calendar-check"></i> Randevu Planla
+    <i class="fa-solid fa-calendar-check"></i>Randevu Planla
 </a><a href="javascript:void(0)" class="nav-cta-btn" onclick="openTransportModal()" style="margin-left: 10px; background: #2c3e50; border-color: #2c3e50;">
-    <i class="fa-solid fa-plane-departure"></i> Nasıl Giderim?
+    <i class="fa-solid fa-plane-departure"></i>Nasıl Giderim?
 </a>
 
 <div class="corporate-hamburger" onclick="toggleSideMenu()">
@@ -44,8 +44,10 @@
         <a href="javascript:void(0)" onclick="closeSideMenu()">
             <i class="fa-solid fa-xmark"></i> Kapat
         </a>
+        
     </div>
 </div>
+
 <div id="faqOverlay" class="faq-overlay">
     <div class="faq-header">
         <div class="logo">TurkMed</div> <button class="close-btn" onclick="closeFAQ()">
@@ -485,5 +487,82 @@
     <script src="map-data.js"></script>
     <script src="app.js"></script>
     
+<div id="culture-btn" onclick="toggleCulturePanel()">
+    <i class="fas fa-globe-europe"></i>
+</div>
+
+<div id="culture-overlay" class="culture-overlay">
+    <div class="culture-modal">
+        <span class="close-modal" onclick="toggleCulturePanel()">&times;</span>
+        
+        <div class="modal-header">
+            <h2>🇹🇷 Şehir Rehberi & Tedavi Rotaları</h2>
+            <p>Hangi şehirde, hangi tedavi sonrası nereye gitmelisiniz?</p>
+        </div>
+        
+        <div class="culture-list">
+            <div class="list-item">
+                <div class="item-img-container">
+                    <img src="https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?q=80&w=600" alt="İstanbul Galata">
+                </div>
+                <div class="item-text">
+                    <h4>İstanbul: Estetik & Tarih</h4>
+                    <p><strong>Önerilen Tedavi:</strong> Saç Ekimi, Burun Estetiği.</p>
+                    <p><strong>Nereye Gitmeli?</strong> Operasyon sonrası 2. gün; <strong>Galata Kulesi</strong> çevresinde yürüyüş yapın ve <strong>Eminönü'nden</strong> kalkan vapurlarla Boğaz havası alarak ödem atın. <strong>Adres:</strong> Bereketzade, 34421 Beyoğlu/İstanbul.</p>
+                </div>
+            </div>
+
+            <div class="list-item">
+                <div class="item-img-container">
+                    <img src="https://images.unsplash.com/photo-1542051841857-5f90071e7989?q=80&w=600" alt="Antalya Kaleiçi">
+                </div>
+                <div class="item-text">
+                    <h4>Antalya: Diş & Tatil</h4>
+                    <p><strong>Önerilen Tedavi:</strong> İmplant, Gülüş Tasarımı.</p>
+                    <p><strong>Nereye Gitmeli?</strong> Klinik çıkışı <strong>Kaleiçi (Old Town)</strong> bölgesine geçin. Hadrian Kapısı'ndan girip tarihi sokaklarda dinlenin. Akşam üzeri <strong>Düden Şelalesi'nin</strong> denize döküldüğü noktada (Lara) iyileşme sürecinin tadını çıkarın. <strong>Adres:</strong> Selçuk, 07100 Muratpaşa/Antalya.</p>
+                </div>
+            </div>
+
+            <div class="list-item">
+                <div class="item-img-container">
+                    <img src="https://images.unsplash.com/photo-1587823521235-979f4c330e70?q=80&w=600" alt="Bursa Ulu Cami">
+                </div>
+                <div class="item-text">
+                    <h4>Bursa: Termal & Fizik Tedavi</h4>
+                    <p><strong>Önerilen Tedavi:</strong> Fizik Tedavi, Kaplıca Rehabilitasyonu.</p>
+                    <p><strong>Nereye Gitmeli?</strong> <strong>Çekirge</strong> bölgesindeki tarihi termal otellerde sülfürlü sularla yenilenin. Ardından <strong>Ulu Cami</strong> ve Tarihi Hanlar Bölgesi'nde (Koza Han) bir mola verin. <strong>Adres:</strong> Nalbantoğlu, 16010 Osmangazi/Bursa.</p>
+                </div>
+            </div>
+
+            <div class="list-item">
+                <div class="item-img-container">
+                    <img src="https://images.unsplash.com/photo-1590716209211-ea74d44a8d7d?q=80&w=600" alt="İzmir Saat Kulesi">
+                </div>
+                <div class="item-text">
+                    <h4>İzmir: Göz Sağlığı & Ege Mutfağı</h4>
+                    <p><strong>Önerilen Tedavi:</strong> Lazer Göz Ameliyatı, Tüp Bebek.</p>
+                    <p><strong>Nereye Gitmeli?</strong> Kontroller sonrası <strong>Konak Meydanı'ndaki</strong> Saat Kulesi'ni ziyaret edin. Akşamında <strong>Kordon Boyu'nda</strong> yürüyüş yaparak Ege'nin iyotlu havasıyla gözlerinizi dinlendirin. <strong>Adres:</strong> Kemeraltı Çarşısı, Konak/İzmir.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal-footer">
+            <button class="panel-btn" onclick="toggleCulturePanel()">Anladım, Kapat</button>
+        </div>
+    </div>
+</div>
+   
+<div id="culture-btn" onclick="toggleCulturePanel()" title="Kültür Rehberi">
+    <svg xmlns="http://www.w3.org/2000/svg" height="32" width="32" viewBox="0 0 512 512">
+        <path fill="#ffffff" d="M352 256c0 22.2-1.2 43.6-3.3 64H163.3c-2.2-20.4-3.3-41.8-3.3-64s1.2-43.6 3.3-64h185.4c2.2 20.4 3.3 41.8 3.3 64zM288 176c0-44.2 29.6-82 72.3-94.6C342.3 108.9 316.2 176 288 176zM404.3 320c-26.5 26.5-62.7 41.3-100.3 41.3-37.6 0-73.8-14.8-100.3-41.3H404.3zM107.7 320c26.5 26.5 62.7 41.3 100.3 41.3 37.6 0 73.8-14.8 100.3-41.3H107.7zM224 336c28.2 0 54.3 67.1 72.3 94.6-42.7-12.6-72.3-50.4-72.3-94.6zM224 176c0 44.2-29.6 82-72.3 94.6 18-27.5 44.1-94.6 72.3-94.6z"/>
+    </svg>
+</div>
+
+<div id="accessBtn" onclick="toggleHighContrast()" title="Yüksek Karşıtlık Modu">
+    <svg xmlns="http://www.w3.org/2000/svg" height="32" width="32" viewBox="0 0 576 512">
+        <path fill="#ffffff" d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4 142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.5 93-131.1 3.3-7.9 3.3-16.7 0-24.6-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM144 256a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm144-64c0 35.3-28.7 64-64 64c-7.1 0-13.9-1.2-20.3-3.3c-5.5-1.8-11.9 1.6-11.7 7.4c.3 6.9 1.3 13.8 3.2 20.7c13.7 51.2 66.4 81.6 117.6 67.9s81.6-66.4 67.9-117.6c-11.1-41.5-47.8-69.4-88.6-71.1c-5.8-.2-10.2 4.7-9.4 10.3c.9 8.2 5.3 15.6 11.7 20.7z"/>
+    </svg>
+</div>
+
 </body>
 </html>
