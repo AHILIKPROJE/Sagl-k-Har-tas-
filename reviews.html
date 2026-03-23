@@ -1,1 +1,150 @@
 
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sosyalfest Sağlık Turizmi Değerlendirme Portalı">
+    <title>Yorum Portalı | Sağlık Turizmi</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css"> <link rel="stylesheet" href="reviews.css"> </head>
+<body>
+
+    <div id="main-content" class="locked-content">
+        
+        <nav class="premium-nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <span class="logo-icon">🩺</span>
+                    <div class="logo-text">
+                        <span class="brand-name">TURKMED</span>
+                        
+                    </div>
+                </div>
+                <div id="user-status-area" class="user-status"></div>
+            </div>
+        </nav>
+
+        <main class="portal-container">
+            
+            <section class="portal-card write-section">
+                <div class="card-header">
+                    <h3><span class="header-emoji">✍️</span> Deneyiminizi Paylaşın</h3>
+                    <p>Hizmet aldığınız şehir ve kategori bazında profesyonel değerlendirme yapın.</p>
+                </div>
+                
+                <div class="post-controls">
+                    <div class="input-wrapper">
+                        <label for="post-city">📍 Hizmet Alınan Şehir</label>
+                        <select id="post-city" required>
+                            <option value="" disabled selected>Şehir Seçiniz...</option>
+                            </select>
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="post-category">🏥 Hizmet Kategorisi</label>
+                        <select id="post-category" required>
+                            <option value="" disabled selected>Kategori Seçiniz...</option>
+                            <option value="Cerrahi">Cerrahi & Tıp</option>
+                            <option value="Termal">Termal & Sağlık</option>
+                            <option value="Geriatri">Yaşlı Bakımı</option>
+                            <option value="Diş">Engelli Bakımı</option>
+                            <option value="Rehabilitasyon">Spa&Otel Hizmetleri</option>
+                            <option value="Diğer">Genel</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="text-area-wrapper">
+                    <label for="review-text">💬 Deneyim Detayları</label>
+                    <textarea id="review-text" placeholder="Tesis kalitesi, ulaşım imkanları ve personel ilgisi hakkında detaylı bilgi verin..."></textarea>
+                </div>
+
+                <div class="post-footer">
+                    <button id="submit-review-btn" class="btn-primary-lg" onclick="sendReview()">
+                        <span>Yorumu Yayınla</span>
+                        <span class="btn-icon">🚀</span>
+                    </button>
+                </div>
+            </section>
+
+            <section class="portal-card filter-section">
+                <div class="filter-header">
+                    <h4 style="margin-bottom: 15px;"><span class="header-emoji">🔍</span> Deneyimleri Filtrele</h4>
+                </div>
+                <div class="filter-grid">
+                    <div class="filter-item">
+                        <select id="filter-city" onchange="loadReviews()">
+                            <option value="all">Tüm Türkiye (81 İl)</option>
+                            </select>
+                    </div>
+                    <div class="filter-item">
+                        <select id="filter-category" onchange="loadReviews()">
+                            <option value="all">Tüm Kategoriler</option>
+                            <option value="Cerrahi">Cerrahi & Tıp</option>
+                            <option value="Termal">Termal & Sağlık</option>
+                            <option value="Geriatri">Yaşlı Bakımı</option>
+                            <option value="Diş">Engelli Bakımı</option>
+                            <option value="Rehabilitasyon">Spa&Otel Hizmetleri</option>
+                            <option value="Diğer">Genel</option>
+                        </select>
+                    </div>
+                </div>
+            </section>
+
+            <div id="reviews-list" class="reviews-feed">
+                <div class="loading-spinner">Veriler senkronize ediliyor...</div>
+            </div>
+        </main>
+    </div>
+
+    <div id="gatekeeper-overlay" class="gatekeeper-overlay">
+        <div class="auth-card">
+            <div class="auth-brand">
+                <div class="brand-icon">👤</div>
+                <h2>Sisteme Giriş</h2>
+                <p>Güvenli bir deneyim için lütfen kimliğinizi doğrulayın.</p>
+            </div>
+            
+            <div class="auth-form">
+                <div class="auth-input-group">
+                    <label>E-posta Adresi</label>
+                    <div class="input-with-icon">
+                        <span class="icon">📧</span>
+                        <input type="email" id="email-input" placeholder="ornek@mail.com">
+                    </div>
+                </div>
+
+                <div class="auth-input-group">
+                    <label>Şifre</label>
+                    <div class="input-with-icon">
+                        <span class="icon">🔑</span>
+                        <input type="password" id="pass-input" placeholder="••••••••">
+                    </div>
+                </div>
+
+                <div class="auth-actions">
+                    <button class="btn-auth-primary" onclick="loginUser()">Giriş Yap</button>
+                    <div class="auth-divider"><span>Veya</span></div>
+                    <button class="btn-auth-secondary" onclick="registerUser()">Yeni Kayıt</button>
+                </div>
+                
+                <p id="auth-error" class="error-msg"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
+
+    <script src="firebase-config.js"></script>
+    <script src="auth.js"></script>
+    <script src="comments.js"></script>
+
+</body>
+</html>
