@@ -1,4 +1,3 @@
-
 /**
  * 🛰️ SOSYALFEST VERİ VE ŞEHİR YÖNETİM SİSTEMİ
  * Bu modül 81 ili dinamik olarak yükler ve Firestore filtrelemesini yönetir.
@@ -61,7 +60,7 @@ async function sendReview() {
     const text = document.getElementById('review-text').value;
     const user = auth.currentUser;
     const btn = document.getElementById('submit-review-btn');
-
+    const rating = document.querySelector('input[name="rating"]:checked')?.value || 0;
     // Form Kontrolleri
     if (!user) {
         alert("⚠️ Yorum yapmak için giriş yapmalısınız!");
@@ -83,6 +82,7 @@ async function sendReview() {
             city: city,
             category: category,
             comment: text,
+            rating: parseInt(rating),
             createdAt: firebase.firestore.FieldValue.serverTimestamp()
         });
 
@@ -104,6 +104,7 @@ function loadReviews() {
     const fCity = document.getElementById('filter-city').value;
     const fCat = document.getElementById('filter-category').value;
     const list = document.getElementById('reviews-list');
+    const starsHtml = "⭐".repeat(d.rating || 0);
 
     // Yükleniyor animasyonu
     list.innerHTML = '<div class="loading-spinner">Veriler senkronize ediliyor...</div>';
@@ -139,6 +140,9 @@ function loadReviews() {
                         <span class="meta-tag cat-tag">🏥 ${d.category}</span>
                         <span class="meta-date">📅 ${date}</span>
                     </div>
+
+                    <div class="review-stars">${starsHtml}</div>
+
                     <p class="review-body">${d.comment}</p>
                     <div class="review-footer">
                         <span class="user-id">👤 ${d.userEmail.split('@')[0]}</span>
