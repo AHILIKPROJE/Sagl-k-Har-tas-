@@ -409,3 +409,34 @@ textarea { height: 120px; resize: none; }
     .auth-card { padding: 35px 25px; }
     .portal-card { padding: 25px; }
 }
+/* YILDIZ SİSTEMİ TASARIMI */
+.star-rating-input {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 5px;
+    font-size: 30px;
+}
+
+.star-rating-input input { display: none; }
+
+.star-rating-input label {
+    color: #e2e8f0; /* Boş yıldız rengi */
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.star-rating-input input:checked ~ label,
+.star-rating-input label:hover,
+.star-rating-input label:hover ~ label {
+    color: #fbbf24; /* Seçili/Hover yıldız rengi (Altın sarısı) */
+    transform: scale(1.1);
+}
+
+/* Yorumlardaki Sabit Yıldızlar */
+.review-stars {
+    color: #fbbf24;
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: block;
+}
