@@ -53,356 +53,591 @@ const translations = {
    2. BİLİMSEL VERİ MERKEZİ (FULL DETAY)
    ========================================================== */
 const countryDetailedData = {
-    "Azerbaycan": {
-        surgery: {
-            img: "https://i.imgur.com/zNuNxEg.png", 
-            phone: "+994 12 505 00 00",
-            tr: {
-                hospName: "Bona Dea International Hospital",
-                analysis: `
-                <div class="analysis-content">
-                    <p>Azerbaycan, özellikle başkent Bakü'de yoğunlaşan JCI akreditasyonlu tesisleri ile Kafkasya'nın cerrahi üstüdür. Modern hastaneler, Avrupa ve Amerika eğitimli cerrah kadrosuyla yüksek başarı oranlarına sahiptir.</p>
-                    <h4>👁️ Oftalmoloji ve Göz Cerrahisi</h4>
-                    <p>Akademisyen Zarifa Aliyeva adına Ulusal Oftalmoloji Merkezi, dünya çapında bir ekoldür. Vitreoretinal cerrahi, kornea nakli ve bıçaksız lazer (Femto-Second) operasyonlarında bölgenin en yüksek vaka tecrübesine sahiptir. Miyopi, astigmat ve katarakt tedavilerinde başarı oranı %99'a yakındır.</p>
-                    <h4>❤️ Kardiyovasküler Cerrahi</h4>
-                    <p>Minimal invaziv yöntemlerle kalp kapakçığı onarımı ve robotik bypass operasyonları gerçekleştirilmektedir. Hibrit ameliyathaneler sayesinde, karmaşık vakalarda aynı anda hem girişimsel hem de cerrahi müdahale yapılabilmektedir.</p>
-                    <h4>🔬 İleri Teknoloji</h4>
-                    <ul>
-                        <li><strong>Da Vinci Xi:</strong> Ürolojik ve onkolojik cerrahide milimetrik hassasiyet.</li>
-                        <li><strong>PET-CT & 3 Tesla MR:</strong> En erken evrede tümör teşhisi ve cerrahi planlama.</li>
-                    </ul>
-                </div>`
-            }
-        },
-        thermal: {
-            img: "https://i.imgur.com/vHqQ9W3.jpg", 
-            phone: "+994 50 205 10 10",
-            tr: {
-                hospName: "Chinar Hotel & Spa Naftalan",
-                analysis: `
-                <div class="analysis-content">
-                    <p>Naftalan, dünyada tescillenmiş "iyileştirici petrolün" tek kaynağıdır. Naftenik petrol banyoları, kimyasal ilaçların yapamadığı biyolojik onarımı doğal yollarla sağlar.</p>
-                    <h4>🩸 Biyolojik Etki Mekanizması</h4>
-                    <p>Petrol banyosu sırasında naftenik hidrokarbonlar deri yoluyla emilerek kan dolaşımına katılır. Hücre yenilenmesini hızlandırır, bağışıklığı dengeler ve sinir uçlarındaki ağrı iletimini bloke eder.</p>
-                    <h4>🩺 Tedavi Edilen Patolojiler</h4>
-                    <ul>
-                        <li><strong>Dermatoloji:</strong> Psoriasis (Sedef), kronik egzama ve nörodermatit. Genellikle 15 günlük kür sonrası ciltte %85 iyileşme gözlemlenir.</li>
-                        <li><strong>Ortopedi:</strong> Romatoid artrit, ankilozan spondilit ve fıtık kaynaklı radikülitler.</li>
-                        <li><strong>Vasküler:</strong> Alt ekstremite damar tıkanıklıkları (Endarterit).</li>
-                    </ul>
-                </div>`
-            }
-        },
-        care: {
-            img: "https://via.placeholder.com/300x200?text=Absheron+Rehabilitasyon", 
-            phone: "+994 12 444 44 44",
-            tr: {
-                hospName: "Bakü Rehabilitasyon Merkezi",
-                analysis: `
-                <div class="analysis-content">
-                    <p>Hazar Denizi'nin kıyısında, Absheron yarımadasının eşsiz mikro-klimasıyla birleşen rehabilitasyon protokolleri uygulanmaktadır.</p>
-                    <h4>🧠 Nörolojik ve Fiziksel Rehabilitasyon</h4>
-                    <p>İnme (felç) sonrası hastalar için Lokomat (Yürüme Robotu) ve su altı fizik tedavi yöntemleri ile motor fonksiyonların geri kazanılması hedeflenir. İyot ve brom açısından zengin deniz havası, akciğer kapasitesini artırarak iyileşme sürecini hızlandırır.</p>
-                </div>`
-            }
-        },
-        spa: {
-            img: "https://via.placeholder.com/300x200?text=Galaalti+Bobrek+Sagligi",
-            phone: "+994 12 999 99 99",
-            tr: {
-                hospName: "Galaaltı Hotel & Spa",
-                analysis: `
-                <div class="analysis-content">
-                    <p>Galaaltı maden suyu, böbrek ve ürolojik sistem hastalıklarında dünya çapında bir üne sahiptir.</p>
-                    <h4>💧 Nefrolojik Şifa</h4>
-                    <p>Sodyum, kalsiyum ve magnezyum dengesi sayesinde Galaaltı suyu; böbrek kumlarının ve taşlarının (0.5 mm altı) cerrahi müdahale gerekmeden dökülmesine yardımcı olur. Aynı zamanda kronik sistit ve prostatit tedavilerinde destekleyicidir.</p>
-                </div>`
-            }
-        }
-    }, 
+     "AZERBAYCAN": {
+    meta: {
+        status: "Strategic International Partner",
+        hubs: ["Baku", "Naftalan", "Nakhchivan", "Gabala", "Ganja"],
+        specialty: "Robotic Surgery, Oil Therapy, Speleotherapy, High-End Detox"
+    },
+    surgery: {
+        img: "https://images.unsplash.com/photo-1541356665065-22676f35dd40?q=80&w=800", 
+        phone: "+994 12 599 08 00",
+        tr: {
+            hospName: "Yeni Bakü Kliniği ve Merkez Kliniği (JCI Akreditasyonlu)",
+            shortDesc: "🏙️ Kafkasya'nın dijital sağlık üssü; robotik cerrahi sistemleri, hibrit ameliyathaneler ve yapay zeka destekli radyoloji.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#c0392b;">🔬 Ultra-Modern Cerrahi Altyapı ve Global Tıp Standartları</h4>
+                <p>Bakü, son yıllarda yapılan devasa yatırımlarla medikal cihaz envanteri bakımından dünyadaki en güncel teknolojilere (7 Tesla MR, Da Vinci Xi Robotik Sistemler) ev sahipliği yapmaktadır. Projemizin 'Uluslararası Cerrahi Hub'ı burasıdır.</p>
+                <ul>
+                    <li>🤖 <strong>Robotik ve Minimal İnvaziv Cerrahi:</strong> Da Vinci Xi sistemleri ile ürolojik, jinekolojik ve genel cerrahi operasyonlarında hata payının sıfırlanması; post-op (ameliyat sonrası) iyileşme hızında %40 artış.</li>
+                    <li>🫀 <strong>Kardiyovasküler (KVC) Mükemmeliyet:</strong> TAVI (Ameliyatsız kapak değişimi), çalışan kalpte bypass ve kompleks konjenital kalp cerrahisinde Kafkasya'nın referans merkezi.</li>
+                    <li>🧠 <strong>İleri Nöroşirürji ve Girişimsel Radyoloji:</strong> Navigasyon destekli beyin tümörü rezeksiyonu, anevrizma embolizasyonu ve Parkinson tedavisinde derin beyin stimülasyonu (DBS).</li>
+                    <li>🦴 <strong>Ortopedik Robotik Artroplasti:</strong> Mako SmartRobotics destekli kalça ve diz protezi uygulamaları; kişiye özel protez tasarımı ve 3D yazıcı destekli implantasyon.</li>
+                    <li>🧬 <strong>Onkoloji ve Kemik İliği Nakli:</strong> Gelişmiş hematoloji servisleri, immünoterapi protokolleri ve solid tümör cerrahisinde multidisipliner tümör konseyi yaklaşımı.</li>
+                    <li>🤱 <strong>Modern IVF (Tüp Bebek) ve Genetik:</strong> PGT-M/A (Preimplantasyon Genetik Tanı) yöntemleri ile sağlıklı embriyo seçimi ve yüksek başarı oranlı gebelik takibi.</li>
+                    <li>👁️ <strong>Femto-Saniye Lazer ve Oftalmoloji:</strong> SMILE lazer teknolojisi, keratokonus tedavileri ve akıllı lens implantasyonlarında dünya standartlarında klinik hizmeti.</li>
+                </ul>
 
-    "Kazakistan": {
-        surgery: {
-            img: "https://via.placeholder.com/300x200?text=Astana+Cardiac+Surgery", 
-            phone: "+7 7172 70 31 00",
-            tr: {
-                hospName: "National Research Cardiac Surgery Center",
-                analysis: `
-                <div class="analysis-content">
-                    <p>Astana'daki Ulusal Kalp Cerrahisi Merkezi, Orta Asya'da yapay kalp nakli yapabilen tek, dünyadaki sayılı merkezlerden biridir.</p>
-                    <h4>🫀 İleri Kardiyoloji ve Organ Nakli</h4>
-                    <ul>
-                        <li><strong>HeartMate 3 (VAD):</strong> Terminal dönem kalp yetmezliği yaşayan hastalar için vücuda implante edilen kalp destek pompası teknolojisi.</li>
-                        <li><strong>Hibrit Cerrahi:</strong> Tek bir seansta hem anjiyo hem de açık kalp ameliyatı yapılabilen 2024 model teknolojik odalar.</li>
-                    </ul>
-                    <p>Merkez, Avrupa Kalp Cerrahları Derneği (EACTS) tarafından akredite edilmiştir.</p>
-                </div>`
-            }
-        },
-        thermal: {
-            img: "https://via.placeholder.com/300x200?text=Burabay+Kimiz+Tedavisi", 
-            phone: "+7 716 367 16 00",
-            tr: {
-                hospName: "Okzhetpes Wellness & Sanatorium",
-                analysis: `
-                <div class="analysis-content">
-                    <p>Kazakistan'ın Burabay (Borovoe) bölgesi, "Doğal Biyo-Stimülasyon" merkezi olarak kabul edilir.</p>
-                    <h4>🐎 Kymyzotherapy (Kımız Tedavisi)</h4>
-                    <p>Kısrak sütünün fermente edilmesiyle elde edilen Kımız, doğal bir antibiyotik ve probiyotiktir. İçeriğindeki A, B, C ve E vitaminleri ile biyolojik olarak aktif maddeler, bağışıklık sistemini "şok"layarak aktive eder.</p>
-                    <h4>🫁 Pulmoner Sağlık</h4>
-                    <p>Çam ormanlarından gelen reçine kokulu hava (fitonsitler) ile birleşen kımız kürleri; kronik bronşit, astım ve tüberküloz sonrası akciğer rehabilitasyonunda mucizevi sonuçlar verir.</p>
-                </div>`
-            }
-        },
-        care: {
-            img: "https://via.placeholder.com/300x200?text=Altay+Pantotherapy", 
-            phone: "+7 727 300 34 00",
-            tr: {
-                hospName: "Almaty Pantotherapy Center",
-                analysis: `
-                <div class="analysis-content">
-                    <p>Doğu Kazakistan'ın Altay dağlarında yaşayan Maral geyiklerinin boynuzlarından elde edilen özütler (Pantokrin), dünyadaki en güçlü doğal adaptojenlerden biridir.</p>
-                    <h4>🦌 Pantotherapy (Geyik Boynuzu Banyosu)</h4>
-                    <ul>
-                        <li><strong>Gençleşme:</strong> Hücresel bazda serbest radikallerle savaşır ve DNA onarımını destekler.</li>
-                        <li><strong>Kas ve İskelet:</strong> Ameliyat sonrası doku iyileşmesini %300 oranında hızlandırır.</li>
-                        <li><strong>Hormonal Denge:</strong> Endokrin sistemini düzenleyerek yaşam enerjisini (libido ve stres yönetimi) artırır.</li>
-                    </ul>
-                </div>`
-            }
-        },
-        spa: {
-            img: "https://via.placeholder.com/300x200?text=Almaty+High+Altitude+Spa", 
-            phone: "+7 727 332 88 88",
-            tr: {
-                hospName: "The Ritz-Carlton Almaty Wellness",
-                analysis: `
-                <div class="analysis-content">
-                    <p>Almatı, yüksek irtifa SPA turizminde öncüdür. Tanrı Dağları'ndan gelen saf kaynak suları ile modern wellness teknikleri birleştirilir.</p>
-                    <h4>🧖 Yüksek İrtifa Terapisi</h4>
-                    <p>Düşük oksijenli yüksek irtifa havası, metabolizmayı doğal olarak hızlandırır ve yağ yakımını destekler. Mineralli tuz banyoları ile cilt detoksu yapılarak vücut şehir stresinden arındırılır.</p>
-                </div>`
-            }
+                <h4 style="color:#2c3e50;">💎 VIP Medikal Lojistik ve Global Erişilebilirlik</h4>
+                <p>Bakü, 'Sağlık Diplomasisi' kapsamında Körfez ülkeleri, Avrupa ve Orta Asya'dan gelen hastalar için özel 'Sağlık Vizesi' ve lüks transfer hizmetleri sunar. Hastaneler bünyesindeki 'VIP Lounge' alanları ve beş yıldızlı otel konforundaki suit odalar, projenin premium kitlesi için tasarlanmıştır.</p>
+
+                <h4>➡️ Teknik Dürüst Analiz</h4>
+                <p><strong>Güçlü Yönü:</strong> Finansal yatırım gücüyle tıbbi teknolojinin en son versiyonlarını (Versius Robot, PET-CT Discovery) bünyesinde barındırmasıdır. <strong>Eksik Yönü:</strong> Hizmet kalitesi 'Ultra-Premium' seviyesinde olduğu için maliyetler bölge ortalamasının üzerindedir ancak sonuç odaklı cerrahide rakipsizdir.</p>
+            </div>`
         }
     },
-    "Özbekistan": {
-        surgery: {
-            img: "https://via.placeholder.com/300x200?text=Akfa+Medline+Tashkent", 
-            phone: "+998 71 203 00 00",
-            tr: {
-                hospName: "Akfa Medline Tertiary Care Center (Taşkent)",
-                analysis: `
-                <div class="analysis-content">
-                    <p>Özbekistan, Orta Asya'da "Özel Sağlık Girişimi" konusunda en hızlı büyüyen ülkedir. Taşkent'teki merkezler, özellikle Güney Kore ve Alman hastane yönetim sistemlerini rol model alarak cerrahi standartları stabilize etmiştir.</p>
-                    
-                    <h4>🏥 Modern Cerrahi Branşlar</h4>
-                    <ul>
-                        <li><strong>Robotik ve Laparoskopik Cerrahi:</strong> Genel cerrahi ve ürolojide doku hasarını minimize eden laparoskopik yöntemler %95 başarıyla uygulanmaktadır.</li>
-                        <li><strong>Ortopedi ve Travmatoloji:</strong> Kalça ve diz protezi ameliyatlarında titanyum alaşımlı modern implantlar kullanılmakta, hastalar ameliyattan 24 saat sonra mobilize edilmektedir.</li>
-                        <li><strong>Nöroşirürji:</strong> Beyin tümörleri ve omurga cerrahisinde mikro-nöroşirürji teknikleri kullanılmaktadır.</li>
-                    </ul>
-
-                    <h4>İbn-i Sina Mirası</h4>
-                    <p>Modern cerrahi müdahaleler, fitoterapi (bitkisel tedavi) destekli post-operatif bakım programlarıyla birleştirilerek iyileşme süreci biyolojik olarak desteklenir.</p>
-                </div>`
-            }
-        },
-        thermal: {
-            img: "https://via.placeholder.com/300x200?text=Khodja+Obi+Garm", 
-            phone: "+998 70 202 01 01",
-            tr: {
-                hospName: "Humson Buloq Wellness Resort",
-                analysis: `
-                <div class="analysis-content">
-                    <p>Özbekistan'ın termal turizmi, yer altından çıkan radyoaktif olmayan, mineralli termal suların yanı sıra "Helioterapi" (Güneş tedavisi) ile öne çıkar.</p>
-
-                    <h4>☀️ Helioterapi ve Termal Sinerji</h4>
-                    <ul>
-                        <li><strong>Dermatolojik Onarım:</strong> Yılın 300 günü güneş alan bölgelerde, özel filtreli güneş banyoları ve kükürtlü termal sular; sedef, vitiligo ve kronik akne tedavilerinde %90'a varan klinik başarı sağlar.</li>
-                        <li><strong>Kas-İskelet Sistemi:</strong> Sodyum-klorürlü ve kalsiyum içerikli termal havuzlar, osteokondroz ve kronik eklem iltihaplarını doğal yolla tedavi eder.</li>
-                    </ul>
-                </div>`
-            }
-        },
-        care: {
-            img: "https://via.placeholder.com/300x200?text=Zarkent+Tuz+Magarasi", 
-            phone: "+998 90 123 45 67",
-            tr: {
-                hospName: "Zarkent Speleoterapi Merkezi",
-                analysis: `
-                <div class="analysis-content">
-                    <p>Özbekistan, dünyadaki en etkili **Speleoterapi** (Tuz Mağarası Tedavisi) merkezlerinden birine ev sahipliği yapar. Yerin 300 metre altındaki doğal tuz madenleri, solunum hastaları için ilaçsız bir şifa kaynağıdır.</p>
-
-                    <h4>🧂 Speleoterapi (Tuz Mağarası) Nasıl Çalışır?</h4>
-                    <ul>
-                        <li><strong>Negatif İyonize Hava:</strong> Mağara içindeki hava, alerjenlerden ve bakterilerden tamamen arınmıştır. Havada asılı kalan mikroskobik tuz partikülleri akciğerlerin en derinlerine (alveollere) ulaşır.</li>
-                        <li><strong>Endikasyonlar:</strong> Kronik Astım, KOAH, Alerjik Rinit ve kronik bronşit hastalarında nefes darlığını ilk seanstan itibaren azaltır.</li>
-                        <li><strong>Bağışıklık:</strong> Tuzun doğal antiseptik özelliği, üst solunum yolu enfeksiyonlarına karşı vücut direncini kalıcı olarak artırır.</li>
-                    </ul>
-                </div>`
-            }
-        },
-        spa: {
-            img: "https://via.placeholder.com/300x200?text=Amirsoy+Resort+Spa", 
-            phone: "+998 71 200 22 90",
-            tr: {
-                hospName: "Amirsoy Luxury Wellness & Spa",
-                analysis: `
-                <div class="analysis-content">
-                    <p>Özbekistan'ın dağlık bölgelerinde yer alan modern tesisler, geleneksel "Özbek Hamamı" ritüellerini modern SPA teknolojileriyle harmanlar.</p>
-
-                    <h4>💆 Öne Çıkan Ritüeller</h4>
-                    <ul>
-                        <li><strong>Bahor Terapisi:</strong> Bölgesel dağ otları ve baharatlar kullanılarak yapılan detoks sarmalamaları.</li>
-                        <li><strong>Yüksek Rakım Terapisi:</strong> Amirsoy bölgesinin temiz havası sayesinde yapılan nefes egzersizleri, kan oksijen seviyesini stabilize eder.</li>
-                    </ul>
-                </div>`
-            }
+    thermal: {
+        img: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=800",
+        phone: "+994 22 352 10 10", 
+        tr: {
+            hospName: "Naftalan Sağlık Merkezi & Nahçıvan Duzdağ Fizyoterapi Merkezi",
+            shortDesc: "🛢️ Dünyanın tek petrol şifası (Naftalan) ve devasa tuz mağaraları (Speleoterapi) ile doğal medikal fenomenler.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#8e44ad;">🧪 Naftenik Petrol ve Kristal Tuzların Biyolojik Etkisi</h4>
+                <p>Azerbaycan, doğanın tıbba sunduğu en nadir iki maddeye sahiptir: Naftalan Petrolü ve Nahçıvan Kaya Tuzu. Bunlar projenin 'Ekstrem Şifa' modülünün temel taşlarıdır.</p>
+                <ul>
+                    <li>🛢️ <strong>Naftalan Petrolü (Sıvı Altın):</strong> Yanmayan petrol banyoları ile sedef, egzama ve iltihaplı romatizmalarda %90'ın üzerinde klinik iyileşme; hücre yenileyici ve doğal analjezik etki.</li>
+                    <li>🧂 <strong>Speleoterapi (Tuz Mağarası):</strong> Nahçıvan Duzdağ'da 300 metre yer altında konaklayarak astım, bronşit ve KOAH rehabilitasyonu; alerjensiz ve negatif iyon yüklü hava ile akciğer resetleme.</li>
+                    <li>🌡️ <strong>Mineralli İstisu (Gence/Kelbecer):</strong> Yüksek sodyum-bikarbonatlı sularla sindirim sistemi, safra yolları ve metabolik hastalıkların termal kürlerle tedavisi.</li>
+                    <li>🧖‍♂️ <strong>Mud Volcano (Çamur Volkanı) Terapisi:</strong> Absheron çamur volkanlarından elde edilen organik peloidler ile cilt bariyeri onarımı ve kronik kas ağrılarında mineral emilimi.</li>
+                </ul>
+                
+                <h4>➡️ Teknik Dürüst Analiz</h4>
+                <p><strong>Dürüst Analiz:</strong> Naftalan petrolü dünyada tektir ve benzeri yoktur. <strong>Güçlü Yönü:</strong> Kimyasal ilaçlara dirençli olan kronik deri ve eklem hastalıklarında 'Doğal İlaç' etkisi yaratmasıdır.</p>
+            </div>`
         }
     },
-    "Türkmenistan": {
-        surgery: {
-            img: "https://via.placeholder.com/300x200?text=Ashgabat+International+Medical+Center", 
-            phone: "+993 12 40 03 00",
-            tr: {
-                hospName: "Aşkabat Uluslararası Kardiyoloji Merkezi",
-                analysis: `
-                <div class="analysis-content">
-                    <p>Türkmenistan, başkent Aşkabat'ı bir "Sağlık Şehri"ne dönüştürerek Orta Asya'nın en teknolojik tıbbi cihaz parkurlarından birini kurmuştur. Alman ve Avusturyalı uzmanlarla ortak yürütülen cerrahi programlar, yüksek standartlarda güvenlik sunar.</p>
-                    
-                    <h4>💎 Cerrahi Standartlar ve Branşlar</h4>
-                    <ul>
-                        <li><strong>Uluslararası Tanı Merkezi:</strong> Siemens ve Philips'in en son model görüntüleme cihazlarıyla donatılmış, hata payı sıfıra yakın teşhis altyapısı mevcuttur.</li>
-                        <li><strong>Kardiyovasküler Cerrahi:</strong> Akut miyokard infarktüsü ve kapak hastalıkları, minimal invaziv (kapalı) yöntemlerle, bölgedeki en modern ameliyathanelerde tedavi edilir.</li>
-                        <li><strong>Göz ve Diş Cerrahisi:</strong> Ülke, bölgedeki en büyük ağız ve diş sağlığı komplekslerinden birine sahiptir; dental implant ve estetik cerrahide uzmanlaşmıştır.</li>
-                    </ul>
-                </div>`
-            }
-        },
-        thermal: {
-            img: "https://via.placeholder.com/300x200?text=Mollakara+Mud+Therapy", 
-            phone: "+993 243 5 01 01",
-            tr: {
-                hospName: "Mollakara Sağlık ve Rehabilitasyon Merkezi",
-                analysis: `
-                <div class="analysis-content">
-                    <p>Mollakara, Türkmenistan'ın batısında yer alan ve "Ölü Deniz" (Lut Gölü) ile benzer özelliklere sahip olan dünyaca ünlü bir çamur terapi merkezidir. Buradaki göl suyu ve çamur, yüksek yoğunlukta klorür, sodyum ve magnezyum içerir.</p>
+    elderly: {
+        img: "https://images.unsplash.com/photo-1581578731522-a2047864146e?q=80&w=800",
+        phone: "+994 12 400 00 00", 
+        tr: {
+            hospName: "Bakü Premium Geriatri Merkezleri ve Absheron Uzun Ömürlü Konutları",
+            shortDesc: "👴 Hazar'ın iyotlu havasında saygın ve uzun ömür; 'Aksakal' kültürüyle harmanlanmış 7/24 medikal bakım.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#27ae60;">🧠 Bütünsel Geriatri ve Kafkasya Uzun Yaşam Diyeti</h4>
+                <p>Azerbaycan, yaşlı nüfusun dinçliği ile bilinen bir bölgedir. Projemizdeki yaşlı bakım modülü, bu doğal genetik mirası modern tıp protokolleri ile birleştirir.</p>
+                <ul>
+                    <li>🏥 <strong>Geriatrik Check-Up ve Dijital Takip:</strong> Kronik hastalık (diyabet, kalp, tansiyon) yönetimi için hastane otomasyonuna bağlı giyilebilir sağlık teknolojileri.</li>
+                    <li>🥗 <strong>Fitoterapötik Beslenme:</strong> Bölgenin tescilli nar (antioksidan), safran ve ceviz zengini diyetleri; bilişsel fonksiyonları koruyan 'Beyin Dostu' menüler.</li>
+                    <li>🌬️ <strong>Absheron İklim Terapisi:</strong> Deniz seviyesindeki yüksek oksijen ve iyot oranı sayesinde kalp yetmezliği ve uyku apnesi olan yaşlılarda doğal stabilizasyon.</li>
+                    <li>🧠 <strong>Mental Zindelik ve Sosyalleşme:</strong> Satranç kulüpleri, Muğam müzik terapisi ve 'Kuşaklararası Aktif Yaşam' projeleri ile depresyon ve demans riskine karşı aktif savunma.</li>
+                </ul>
 
-                    <h4>🖤 Mollakara Çamurunun Tıbbi Mucizesi</h4>
-                    <ul>
-                        <li><strong>Rehabilitasyon Gücü:</strong> Çamur banyoları, ısıyı uzun süre tutarak kemik ve kas dokusuna nüfuz eder. Omurga yaralanmaları ve ameliyat sonrası skar dokularının yumuşatılmasında benzersizdir.</li>
-                        <li><strong>Hangi Hastalıklar İçin?:</strong> Özellikle Kronik Prostatit, Kısırlık (Jinekolojik iltihaplar), Siyatik ve çocuklarda görülen Polio (Çocuk Felci) sekellerinin tedavisinde %92 oranında iyileşme raporlanmıştır.</li>
-                    </ul>
-                </div>`
-            }
-        },
-        care: {
-            img: "https://via.placeholder.com/300x200?text=Yylly+Suw+Sanatorium", 
-            phone: "+993 12 39 00 00",
-            tr: {
-                hospName: "Yylly Suw (Sıcak Su) Kaplıca Merkezi",
-                analysis: `
-                <div class="analysis-content">
-                    <p>Türkmenistan'ın güneyinde yer alan Yylly Suw, yer altından çıkan doğal hidrojen sülfürlü suları ile solunum ve sinir sistemi hastalıklarında uzmanlaşmış bir bakım merkezidir.</p>
-
-                    <h4>🌬️ Neden Bu Bölge Tercih Edilmeli?</h4>
-                    <ul>
-                        <li><strong>Hangi Hastalıklar İçin?:</strong> Kronik rinit, sinüzit, kronik yorgunluk sendromu ve uyku bozuklukları.</li>
-                        <li><strong>Sinir Sistemi:</strong> Suyun içindeki mineraller ve doğal gazlar, periferik sinir sistemi üzerinde yatıştırıcı bir etki yaratarak nevralji ve stres kaynaklı kas spazmlarını çözer.</li>
-                    </ul>
-                </div>`
-            }
-        },
-        spa: {
-            img: "https://via.placeholder.com/300x200?text=Awaza+Wellness+Resort", 
-            phone: "+993 243 7 06 00",
-            tr: {
-                hospName: "Awaza Deniz Kenarı Wellness Kompleksi",
-                analysis: `
-                <div class="analysis-content">
-                    <p>Hazar Denizi kıyısındaki Awaza bölgesi, devasa yatırımlarla inşa edilmiş lüks otelleri ve SPA merkezleri ile "Deniz Terapisi" (Thalassotherapy) sunar.</p>
-
-                    <h4>🌊 Thalassotherapy (Deniz Terapisi)</h4>
-                    <ul>
-                        <li><strong>Detoks Etkisi:</strong> Isıtılmış deniz suyu havuzları ve yosun sarmalamaları ile vücuttaki toksinlerin atılması sağlanır.</li>
-                        <li><strong>Klimaterapi:</strong> Hazar Denizi'nin tuzlu ve temiz havası, bağışıklık sistemini güçlendirir ve tiroid bezi fonksiyonlarını stabilize eder.</li>
-                    </ul>
-                </div>`
-            }
+                <h4>➡️ Altyapı Notu</h4>
+                <p><strong>Dürüst Analiz:</strong> Bakü'deki özel bakım tesisleri 'Saray Konsepti'ndedir. Yaşlılar burada kendilerini bir hastada değil, bir aile ortamında, en üst düzey medikal güvenlikte hissederler.</p>
+            </div>`
         }
     },
-    "KIRGIZİSTAN": {
-        surgery: {
-            img: "https://via.placeholder.com/300x200?text=Bishkek+Cardiac+Surgery", 
-            phone: "+996 312 62 01 02",
-            tr: {
-                hospName: "Ulusal Kardiyoloji ve Dahiliye Merkezi (Bişkek)",
-                analysis: `
-                <div class="analysis-content">
-                    <p>Kırgızistan, özellikle dağlık coğrafyasının getirdiği tecrübe ile "Yüksek İrtifa Tıbbı" ve kardiyovasküler sistem üzerindeki basınç etkileri konusunda uzmanlaşmış cerrahi merkezlere sahiptir.</p>
-                    
-                    <h4>🩺 Cerrahi ve Girişimsel Alanlar</h4>
-                    <ul>
-                        <li><strong>Kardiyoloji ve Anjiyoplasti:</strong> Bişkek'teki merkezler, koroner arter hastalıklarının tedavisinde ve kalp pili implantasyonlarında uluslararası protokolleri takip etmektedir.</li>
-                        <li><strong>Genel Cerrahi:</strong> Safra kesesi, fıtık ve mide-bağırsak sistemine yönelik laparoskopik (kapalı) ameliyatlar, Türkiye ve Rusya'da eğitim almış uzman cerrahlar tarafından gerçekleştirilir.</li>
-                        <li><strong>Göz Mikrocerrahisi:</strong> Katarakt ve refraktif cerrahi operasyonlarında uygun maliyetli ve güvenilir çözümler sunulmaktadır.</li>
-                    </ul>
-                </div>`
-            }
-        },
-        thermal: {
-            img: "https://via.placeholder.com/300x200?text=Issyk+Kul+Thermal", 
-            phone: "+996 3943 4 33 33",
-            tr: {
-                hospName: "Aurora Sanatorium (Issık Göl)",
-                analysis: `
-                <div class="analysis-content">
-                    <p>Kırgızistan denince akla gelen ilk sağlık destinasyonu Issık Göl'dür. Gölün suyu hafif tuzlu ve minerallidir; kışın bile donmaz, bu da onu eşsiz bir "Thalassoterapi" merkezi yapar.</p>
+    disabled: {
+        img: "https://images.unsplash.com/photo-1576091160550-2173dad99901?q=80&w=800",
+        phone: "+994 12 599 08 00",
+        tr: {
+            hospName: "Devlet Rehabilitasyon Merkezi ve Modern FTR Üniteleri",
+            shortDesc: "♿ Dış iskelet (Exoskeleton) ve VR destekli nöro-rehabilitasyon; fonksiyonel geri kazanımda Kafkasya'nın lideri.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#e67e22;">💪 Robotik Fizyoterapi ve Fonksiyonel Bağımsızlık</h4>
+                <p>Azerbaycan'daki rehabilitasyon merkezleri, özellikle travmatik yaralanmalar ve inme sonrası iyileşme süreçlerinde dünyanın en gelişmiş 'Giyilebilir Teknolojilerini' kullanır.</p>
+                <ul>
+                    <li>♿ <strong>Robotik Yürüme (Lokomat):</strong> Nörolojik hasarlı hastalarda beyne yürüme komutunu yeniden öğreten, geri bildirimli robotik sistemler.</li>
+                    <li>⚙️ <strong>Exoskeleton (Dış İskelet) Terapisi:</strong> Paraplejik hastaların ayağa kalkmasını ve mobilizasyonunu sağlayan ileri teknoloji giyilebilir robotlar.</li>
+                    <li>🦵 <strong>Su İçi Rehabilitasyon (Hidroterapi):</strong> Isı ayarlı medikal havuzlarda, yerçekimsiz ortam hissi ile eklemleri yormadan yapılan kas güçlendirme seansları.</li>
+                    <li>🧒 <strong>Pediatrik Duyu Bütünleme:</strong> Özel gereksinimli çocuklar için tasarlanmış Snoezelen odaları, konuşma terapisi ve ergoterapi üniteleri.</li>
+                </ul>
 
-                    <h4>🌊 Issık Göl Termal Kürleri</h4>
-                    <ul>
-                        <li><strong>Radon ve Maden Suları:</strong> Bölgedeki sıcak su kaynakları, düşük dozlu radon ve silisik asit içerir. Bu bileşim, kronik iltihaplı eklem hastalıklarını (Artrit) ve kas ağrılarını dindirmede son derece etkilidir.</li>
-                        <li><strong>Hangi Hastalıklar İçin?:</strong> Özellikle Kronik Adneksit (kadın hastalıkları), sedef, egzama ve periferik sinir sistemi bozuklukları olan hastalar için 12-21 günlük kürler önerilir.</li>
-                    </ul>
-                </div>`
-            }
-        },
-        care: {
-            img: "https://via.placeholder.com/300x200?text=Kumtor+Rehabilitation", 
-            phone: "+996 312 66 00 11",
-            tr: {
-                hospName: "Yüksek İrtifa Rehabilitasyon Merkezi",
-                analysis: `
-                <div class="analysis-content">
-                    <p>Kırgızistan, deniz seviyesinden 1600 metre ve üzeri yükseklikteki konumuyla "Hipoksik Terapi" (Düşük oksijenle tedavi) alanında öncüdür.</p>
+                <h4>🌟 Teknik Dürüst Analiz</h4>
+                <p><strong>Dürüst Analiz:</strong> Rehabilitasyon süreci Azerbaycan'da 'Askeri Disiplin' ve 'Şefkat' dengesiyle yürütülür. <strong>Güçlü Yönü:</strong> Teknolojik parkurun yeniliği ve vaka tecrübesinin yüksekliğidir.</p>
+            </div>`
+        }
+    },
+    spa: {
+        img: "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=800",
+        phone: "+994 24 205 00 00",
+        tr: {
+            hospName: "Chenot Palace Gabala & Fairmont Baku Wellness",
+            shortDesc: "🧖‍♂️ 'Vücut Resetleme' (Body Restart) üssü; medikal detoks, anti-aging ve bütünsel ruhsal arınma.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#8e44ad;">🌿 Global Wellness ve Biyolojik Yenilenme Bilimi</h4>
+                <p>Azerbaycan (Gebele), dünyanın en prestijli detoks merkezlerinden birine (Chenot Palace) ev sahipliği yapar. Burada wellness, bir lüks değil, biyolojik bir zorunluluk (Biyohacking) olarak ele alınır.</p>
+                <ul>
+                    <li>🧬 <strong>Chenot Metodu (Detoks):</strong> Kişiye özel DNA ve metabolizma analizi sonrası uygulanan hücresel temizlik, ozon terapi ve hidromasaj kürleri.</li>
+                    <li>💆 <strong>Enerji Meridyen Terapileri:</strong> Akupunktur noktaları üzerinden yapılan özel rezonans masajları ile vücut frekansının dengelenmesi.</li>
+                    <li>🧖‍♂️ <strong>Kriyoterapi (-110°C):</strong> Tüm vücut soğuk oda terapisi ile inflamasyonun azaltılması, metabolizmanın şoklanması ve mutluluk hormonu artışı.</li>
+                    <li>🧘 <strong>Mental Detoks ve Meditasyon:</strong> Hazar Denizi veya Kafkas Dağları manzaralı sessizlik odalarında, uzmanlar eşliğinde yürütülen mindfulness programları.</li>
+                </ul>
 
-                    <h4>🌬️ Dağ Havası ve Solunum Rehabilitasyonu</h4>
-                    <ul>
-                        <li><strong>Hangi Hastalıklar İçin?:</strong> Bronşiyal Astım, KOAH ve ağır akciğer enfeksiyonları sonrası toparlanma süreci.</li>
-                        <li><strong>Biyolojik Etkisi:</strong> Yüksek irtifadaki temiz ve seyrek hava, kemik iliğini uyararak alyuvar (eritrosit) üretimini doğal olarak artırır. Bu durum, dokuların oksijenlenme kapasitesini yükseltir ve vücuda genel bir direnç kazandırır.</li>
-                        <li><strong>Çocuk Sağlığı:</strong> Sık hastalanan, bağışıklığı düşük çocuklar için bölgedeki dağ sanatoryumları doğal bir bağışıklık aşısı etkisi yaratır.</li>
-                    </ul>
-                </div>`
-            }
-        },
-        spa: {
-            img: "https://via.placeholder.com/300x200?text=Jeti+Oguz+Spa", 
-            phone: "+996 3922 5 10 20",
-            tr: {
-                hospName: "Jeti-Oguz (Yedi Öküz) Termal Tesisleri",
-                analysis: `
-                <div class="analysis-content">
-                    <p>Dünyaca ünlü "Yedi Öküz" kaya oluşumlarının hemen yanında yer alan bu merkez, geleneksel Kırgız SPA kültürü ile termal suyu birleştirir.</p>
-
-                    <h4>💆 Öne Çıkan Terapiler</h4>
-                    <ul>
-                        <li><strong>Maden Suyu Banyoları:</strong> Radyoaktif olmayan mineral banyoları ile sinirsel gerginliğin (stres ve anksiyete) giderilmesi sağlanır.</li>
-                        <li><strong>Fitoterapi:</strong> Tanrı Dağları'ndan (Tien Shan) toplanan endemik bitkilerle yapılan bitki çayı kürleri ve sarmalamalar ile vücut detoksu gerçekleştirilir.</li>
-                    </ul>
-                </div>`
-            }
+                <h4>➡️ Sektörel Durum</h4>
+                <p><strong>Dürüst Analiz:</strong> Azerbaycan, Wellness turizminde 'Elit Segment' için dünyadaki en güçlü 5 destinasyondan biridir. Tesisler sadece dinlenme değil, 'Hücresel Gençleşme' vaat eder.</p>
+            </div>`
         }
     }
+},
+    "KAZAKISTAN": {
+    meta: {
+        status: "Strategic Central Asian Hub",
+        hubs: ["Astana", "Almaty", "Shymkent", "Aktau", "Burabay"],
+        specialty: "Advanced Neurosurgery, Cardiac Care, Alpin Therapy, Mineral Detox"
+    },
+    surgery: {
+        img: "https://images.unsplash.com/photo-1551076805-e1869033e561?q=80&w=800", 
+        phone: "+7 7172 70 60 60",
+        tr: {
+            hospName: "Ulusal Bilimsel Kardiyokerrahi Merkezi (Astana) & Almatı Devlet Merkez Hastanesi",
+            shortDesc: "🏥 Orta Asya'nın en ileri cerrahi kompleksi; JCI akreditasyonlu kalp nakli merkezleri ve robotik beyin cerrahisi üniteleri.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#c0392b;">🩺 Yüksek Teknolojik Cerrahi ve Akademik Tıp Disiplini</h4>
+                <p>Kazakistan, özellikle Astana (Nur-Sultan) merkezli 'Ulusal Tıp Holding' bünyesindeki hastanelerle, cerrahi altyapısını dünya devleri (Almanya, ABD) seviyesine taşımıştır. Projenin 'Avrasya Cerrahi Kapısı' burasıdır.</p>
+                <ul>
+                    <li>🫀 <strong>Kardiyovasküler (KVC) Mükemmeliyet:</strong> Yapay kalp (LVAD) implantasyonu, kalp nakli ve pediatrik kardiyokerrahi alanında Orta Asya'nın tek yetkin merkezi; hibrit ameliyathanelerde kompleks damar onarımları.</li>
+                    <li>🧠 <strong>İleri Nöroşirürji ve Robotik Müdahale:</strong> Beyin tümörlerinin navigasyonel mikroskobik rezeksiyonu; Parkinson ve epilepsi cerrahisinde kullanılan 'Deep Brain Stimulation' (Beyin Pili) teknolojileri.</li>
+                    <li>🦴 <strong>Modern Ortopedi ve Robotik Artroplasti:</strong> Diz ve kalça protezi operasyonlarında bilgisayar destekli navigasyon; sporcu yaralanmalarında ileri düzey artroskopik yöntemler.</li>
+                    <li>🔬 <strong>Onkolojik Radyocerrahi:</strong> Gamma Knife ve CyberKnife teknolojileri ile tümörlerin cerrahi olmayan yöntemlerle imhası; nükleer tıp ve PET-CT ile erken teşhis protokolleri.</li>
+                    <li>🤱 <strong>Yüksek Riskli Perinatoloji ve IVF:</strong> Genetik tarama laboratuvarları (PGD) ile desteklenen modern tüp bebek merkezleri ve prematüre bebek cerrahisi üniteleri.</li>
+                    <li>👁️ <strong>Lazer Göz Cerrahisi:</strong> Femto-LASIK ve SMILE yöntemleri ile ileri düzey kornea tedavileri; katarakt cerrahisinde akıllı lens uygulamaları.</li>
+                    <li>🦷 <strong>Maksillofasiyal (Çene) Cerrahi:</strong> Travma sonrası yüz rekonstrüksiyonu, dijital implantoloji ve Hollywood Smile estetik uygulamaları.</li>
+                </ul>
+
+                <h4 style="color:#2c3e50;">🌍 Stratejik Lojistik ve VIP Sağlık Diplomasisi</h4>
+                <p>Kazakistan, 'Modern İpek Yolu' üzerindeki konumuyla Çin ve Rusya arasındaki en güvenli medikal koridordur. Astana ve Almatı havalimanları, hava ambulansı trafiği için 24/7 açık olup, VIP hastalar için diplomatik sağlık pasaportu ve lüks konaklama entegrasyonu sunar.</p>
+
+                <h4>➡️ Teknik Dürüst Analiz</h4>
+                <p><strong>Güçlü Yönü:</strong> Devletin tıbbi teknolojiye sağladığı devasa fonlar sayesinde cihazların sürekli güncellenmesi ve uzmanların yurt dışında (özellikle İsrail ve Almanya) eğitim almasıdır. <strong>Eksik Yönü:</strong> Bozkır bölgelerindeki nüfus dağınıklığı nedeniyle hizmetin %80'i Astana ve Almatı odaklıdır; bu da projenin hedeflediği 'Sağlık Turizmi' için bu iki şehri kritik kılar.</p>
+            </div>`
+        }
+    },
+    thermal: {
+        img: "https://images.unsplash.com/photo-1596464716127-f2a82984de30?q=80&w=800",
+        phone: "+7 71636 411 05", 
+        tr: {
+            hospName: "Burabay (Borovoe) Sağlık Kompleksleri & Sariagaş Termal Tesisleri",
+            shortDesc: "🌡️ 'Kazakistan'ın İsviçre'si' Burabay'da çam havası ve mineralli göl şifası; Sariagaş'ta derin yer altı kaynakları.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#2980b9;">🧪 Mineralizasyon ve Klimaterapi (Hava Şifası)</h4>
+                <p>Kazakistan'ın termal gücü, yer altı sularının zenginliği ile bozkırın ve dağların temiz havasının sentezinden oluşur. Özellikle mide ve deri hastalıklarında 'Kür Tıbbı' lideridir.</p>
+                <ul>
+                    <li>🧪 <strong>Sariagaş Mineralli Suları:</strong> Sodyum-bikarbonat zengini sular; gastrit, ülser ve safra yolları hastalıklarında içme kürleri ile sindirim sistemini resetleme etkisi.</li>
+                    <li>🧖‍♂️ <strong>Peloid (Çamur) Terapisi:</strong> Tuzlu göllerden (Alakol, Balkaş) elde edilen yüksek mineralli çamurlar; sedef, egzama ve kronik cilt lezyonlarında hücre yenileyici güç.</li>
+                    <li>🦴 <strong>Romatizmal Şifa:</strong> Kalsiyum ve magnezyum yüklü termal banyolar; kireçlenme, bel fıtığı ve siyatik ağrılarında doğal inflamasyon giderici süreçler.</li>
+                    <li>🌬️ <strong>Kımız ve Şubat Terapisi:</strong> Geleneksel Kazak tıbbı ile entegre; akciğer hastalıkları ve bağışıklık sistemi için fermente at ve deve sütü kürleri.</li>
+                </ul>
+                
+                <h4>➡️ Bölgesel Değerlendirme</h4>
+                <p><strong>Dürüst Analiz:</strong> Burabay bölgesi, 'Doğal Detoks' için dünyadaki en temiz havasına sahip alanlardan biridir. <strong>Güçlü Yönü:</strong> Hem modern konaklama hem de geleneksel şifa yöntemlerinin bir arada sunulmasıdır.</p>
+            </div>`
+        }
+    },
+    elderly: {
+        img: "https://images.unsplash.com/photo-1581578731522-a2047864146e?q=80&w=800",
+        phone: "+7 727 330 00 00", 
+        tr: {
+            hospName: "Almatı Premium Geriatri ve Rehabilitasyon Merkezi & Yaşlı Yaşam Köyleri",
+            shortDesc: "👴 Tanrı Dağları'nın eteğinde, düşük nem ve yüksek oksijenle aktif yaşlanma; medikal denetimli saygın hayat.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#27ae60;">🧠 Uzun Ömür: Alpin Terapisi ve Geriatrik Takip</h4>
+                <p>Kazakistan'da yaşlı bakımı, bölgenin 'Hürmet' kültürü ile modern tıbbın 'Geriatrik Takip' sistemlerinin birleşimidir. Almatı'nın dağ havası, yaşlılar için doğal bir gençleşme etkisidir.</p>
+                <ul>
+                    <li>🏥 <strong>Kronik Hastalık İzleme Sistemi:</strong> Kalp yetmezliği, hipertansiyon ve Alzheimer vakaları için 7/24 merkezden izlenen medikal altyapı.</li>
+                    <li>🥗 <strong>Doğal ve Güçlü Beslenme:</strong> Bozkırın doğal et, süt ve tahıl ürünleri; bağışıklık sistemini destekleyen 'Altın Kök' (Rhodiola) ekstreleri.</li>
+                    <li>🌬️ <strong>Solunum Konforu:</strong> Dağ eteklerindeki yerleşimler sayesinde KOAH ve astım hastası yaşlılarda akciğer kapasitesinin %20 oranında doğal artışı.</li>
+                    <li>🧠 <strong>Bilişsel Canlılık:</strong> Geleneksel el sanatları, müzik terapisi (Dombra) ve geniş sosyal alanlar ile yaşlılarda izolasyonun ve demansın önlenmesi.</li>
+                </ul>
+
+                <h4>➡️ Altyapı Notu</h4>
+                <p><strong>Dürüst Analiz:</strong> Kazakistan, yaşlılar için "Saygın ve Güvenli" bir limandır. <strong>Güçlü Yönü:</strong> Tesislerin geniş araziler üzerinde, doğayla iç içe ve modern tıbbi donanımla çevrili olmasıdır.</p>
+            </div>`
+        }
+    },
+    disabled: {
+        img: "https://images.unsplash.com/photo-1576091160550-2173dad99901?q=80&w=800",
+        phone: "+7 7172 70 60 60",
+        tr: {
+            hospName: "Ulusal Çocuk Rehabilitasyon Merkezi (Astana) & Ortopedi Birimleri",
+            shortDesc: "♿ Robotik dış iskeletler ve VR teknolojisiyle engelsiz yaşam; nörolojik geri kazanımda Avrasya otoritesi.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#e67e22;">💪 Robotik Rehabilitasyon ve Nöroplastisite Gelişimi</h4>
+                <p>Kazakistan, özellikle çocuk ve yetişkin nöro-rehabilitasyonunda 'Lokomat' ve 'Armeo' gibi robotik cihazların kullanımında bölge lideridir.</p>
+                <ul>
+                    <li>♿ <strong>Robotik Yürüme Eğitimi:</strong> Omurilik yaralanmaları ve felç sonrası beyne yürüme yetisini yeniden hatırlatan robotik asistanlar.</li>
+                    <li>⚙️ <strong>Sanal Gerçeklik (VR) Rehabilitasyonu:</strong> Motor becerilerin geliştirilmesi için oyunlaştırılmış tedavi seansları ve bilişsel güçlendirme.</li>
+                    <li>🦵 <strong>Hidroterapi ve Uzay Terapisi:</strong> Yerçekimsiz askı sistemleri (Adeli suit) ile kasları yormadan eklem mobilizasyonu sağlayan ileri fizik tedavi.</li>
+                    <li>🧒 <strong>Serebral Palsi ve Otizm Destek:</strong> Duyu bütünleme odaları, konuşma terapisi ve aile psikolojik danışmanlık hizmetleri ile bütünsel yaklaşım.</li>
+                </ul>
+
+                <h4>🌟 Teknik Dürüst Analiz</h4>
+                <p><strong>Dürüst Analiz:</strong> Kazakistan, rehabilitasyon alanında 'Son Teknoloji'yi en hızlı uygulayan ülkelerden biridir. <strong>Güçlü Yönü:</strong> Tedavi protokollerinin akademik bir disiplinle (Üniversite hastaneleri denetiminde) yürütülmesidir.</p>
+            </div>`
+        }
+    },
+    spa: {
+        img: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=800",
+        phone: "+7 727 271 22 22",
+        tr: {
+            hospName: "Chimbulak Mountain Resort SPA & Ritz-Carlton Almaty Wellness",
+            shortDesc: "🧖‍♂️ Dağ zirvelerinde lüks arınma; Kazak hamamı (Montsha) ritüelleri ve modern Wellness terapileri.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#8e44ad;">🌿 Bozkırın Wellness Felsefesi ve Dağ Detoksu</h4>
+                <p>Kazakistan'da Wellness, geleneksel 'Montsha' (buhar odası) kültürü ile İsviçre tipi 'Alpin Detoks' yöntemlerinin elit bir karışımıdır.</p>
+                <ul>
+                    <li>🧼 <strong>Montsha (Geleneksel Hamam):</strong> Huş ağacı dalları (venik) ile yapılan, kan dolaşımını tetikleyen ve cildi tazeleyen derin arınma seansı.</li>
+                    <li>💆 <strong>Dağ Balı ve Bitki Masajları:</strong> Tanrı Dağları'nın şifalı otları ve organik balları ile yapılan, vücut direncini artıran profesyonel masajlar.</li>
+                    <li>🧖‍♂️ <strong>Sauna ve Kar Banyosu:</strong> Yüksek ısıdan soğuk şoka geçişle bağışıklık sistemini güçlendiren termal döngüler.</li>
+                    <li>😌 <strong>Mental Zen Alanları:</strong> 2200 metre rakımda, sessizlik içinde sunulan yoga, meditasyon ve ruhsal arınma kampları.</li>
+                </ul>
+
+                <h4>➡️ Sektörel Durum</h4>
+                <p><strong>Dürüst Analiz:</strong> Kazakistan'da Wellness hizmeti, özellikle Almatı çevresindeki dağ tesislerinde 'Ultra-Lüks' bir yapıdadır. Projenin 'Premium' üyeleri için eşsiz bir dinlenme durağıdır.</p>
+            </div>`
+        }
+    }
+},
+   "ÖZBEKISTAN": {
+    meta: {
+        status: "Strategic Silk Road Medical Partner",
+        hubs: ["Tashkent", "Samarkand", "Bukhara", "Namangan", "Fergana"],
+        specialty: "Avicenna Traditional Medicine, Modern Oncology, High-Altitude Rehab, Digital Health"
+    },
+    surgery: {
+        img: "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?q=80&w=800", 
+        phone: "+998 71 209 03 03",
+        tr: {
+            hospName: "Taşkent Cumhuriyet Uzmanlaşmış Cerrahi Merkezi (Vakhidov) & AKFA Medline",
+            shortDesc: "🏥 Orta Asya'nın en büyük özel hastane kompleksleri; JCI standartlarında robotik cerrahi ve ileri organ nakli merkezleri.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#c0392b;">🩺 Dijital Dönüşüm ve Kompleks Cerrahi Operasyonlar</h4>
+                <p>Özbekistan, 'Sağlık 2030' vizyonu çerçevesinde Taşkent'i bölgenin medikal teknoloji merkezine dönüştürmüştür. Özellikle Türk cerrahlarla yapılan ortak operasyonlar sayesinde, cerrahi başarı oranları Avrupa standartlarına ulaşmıştır.</p>
+                <ul>
+                    <li>🫀 <strong>İleri Kardiyoloji ve Kalp Nakli:</strong> Yapay kalp destek cihazları (LVAD), kompleks kapak tamirleri ve yenidoğan kalp cerrahisinde (Vakhidov Merkezi) %95 başarı oranı.</li>
+                    <li>☢️ <strong>Onkolojik Cerrahi ve Radyoterapi:</strong> En yeni TrueBeam ve Halcyon radyoterapi cihazları; solid tümörlerin robotik cerrahisi ve hedefe yönelik akıllı ilaç tedavileri.</li>
+                    <li>🧠 <strong>Mikro-Nöroşirürji ve Navigasyon:</strong> Beyin sapı tümörleri, anevrizma klipleme ve epilepsi cerrahisinde kullanılan dijital navigasyon sistemleri.</li>
+                    <li>🦴 <strong>Ortopedik Rekonstrüksiyon:</strong> Kalça ve diz eklemi protezlerinde 3D yazıcı destekli kişiye özel implant üretimi ve robotik kol yardımlı cerrahi.</li>
+                    <li>🔬 <strong>Organ ve Doku Nakli:</strong> Canlıdan canlıya karaciğer ve böbrek nakli operasyonlarında bölgenin en deneyimli ekipleri ve modern immünoloji laboratuvarları.</li>
+                    <li>🤱 <strong>Modern Üreme Sağlığı (IVF):</strong> Embriyo genetik taraması (PGT) ve mikro-enjeksiyon yöntemlerinde yüksek gebelik oranları sunan 'Anne ve Çocuk' merkezleri.</li>
+                    <li>🦷 <strong>Maksillofasiyal ve Estetik Cerrahi:</strong> Dijital diş hekimliği, çene eklemi rekonstrüksiyonu ve kapsamlı vücut şekillendirme operasyonları.</li>
+                </ul>
+
+                <h4 style="color:#2c3e50;">🌍 Bölgesel Kavşak ve Medikal Diplomasi</h4>
+                <p>Özbekistan, komşu ülkelerden (Tacikistan, Kırgızistan, Afganistan) gelen yoğun hasta trafiğini yöneten bir 'Sağlık Terminali'dir. Taşkent'teki serbest sağlık bölgeleri, yabancı hastalar için hızlı vize ve entegre konaklama imkanları sağlar.</p>
+
+                <h4>➡️ Teknik Dürüst Analiz</h4>
+                <p><strong>Güçlü Yönü:</strong> Özel sektörün (AKFA vb.) tıbbi cihaz parkuruna yaptığı devasa yatırımlar ve Türkiye ile olan güçlü akademik iş birliğidir. <strong>Eksik Yönü:</strong> Hızlı gelişime rağmen bazı taşra bölgelerinde modern tesislere erişim sınırlıdır; bu nedenle projemiz doğrudan Taşkent ve Semerkant merkezli 'Elit Hub'lara odaklanır.</p>
+            </div>`
+        }
+    },
+    thermal: {
+        img: "https://images.unsplash.com/photo-1507652313519-d451e12d5940?q=80&w=800",
+        phone: "+998 71 231 07 45", 
+        tr: {
+            hospName: "Humson Buloq & Chartak (Çartak) Resorlar & Şifabaxsh Suvlar",
+            shortDesc: "🌡️ Tanrı Dağları'nın eteklerinde mineral zengini kaynaklar; mide, deri ve sinir sistemi için doğal arınma.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#2980b9;">🧪 Mineral Su Analizi ve Fitoterapötik Yaklaşım</h4>
+                <p>Özbekistan termal tıbbı, sadece su ile değil, bölgenin zengin bitki örtüsü (Fitoterapi) ve geleneksel İbn-i Sina yöntemleriyle birleştirilir.</p>
+                <ul>
+                    <li>🧪 <strong>Çartak İyot-Bromlu Suları:</strong> Tiroid hastalıkları, metabolizma bozuklukları ve kronik stres yönetiminde dünya çapında tanınan mineral konsantrasyonu.</li>
+                    <li>🧖‍♂️ <strong>Humson Buloq Klimaterapisi:</strong> Yüksek oksijenli dağ havası ve mineralli su banyoları ile kalp ve akciğer hastaları için doğal stabilizasyon.</li>
+                    <li>🦴 <strong>Kas-İskelet Sistemi Şifası:</strong> Kükürtlü çamur banyoları ve termal sularla desteklenen kireçlenme, artrit ve post-operatif iyileşme kürleri.</li>
+                    <li>🌿 <strong>İbn-i Sina Ekolü Detoksu:</strong> Geleneksel bitkisel yağlar, hacamat ve özel diyetlerle desteklenen vücut arınma protokolleri.</li>
+                </ul>
+            </div>`
+        }
+    },
+    elderly: {
+        img: "https://images.unsplash.com/photo-1473186578172-c141e6798ee4?q=80&w=800",
+        phone: "+998 71 200 00 00", 
+        tr: {
+            hospName: "Taşkent Premium Yaşlı Yaşam Merkezleri & Semerkant Sosyal Rehabilitasyon",
+            shortDesc: "👴 İpek Yolu bilgeliğiyle huzurlu yaşlanma; geniş bahçeler, medikal denetim ve aile sıcaklığında bakım.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#27ae60;">🧠 Sosyal Adaptasyon ve Geleneksel Geriatri</h4>
+                <p>Özbekistan'da yaşlılık, toplumun en saygın dönemi (Aksakallık) olarak görülür. Tesisler bu kültürel mirası modern geriatrik tıp ile harmanlar.</p>
+                <ul>
+                    <li>🏥 <strong>Geriatrik İzleme ve Nörolojik Destek:</strong> Alzheimer ve Demans hastaları için özel tasarlanmış, güvenli ve bilişsel uyarıcı yaşam alanları.</li>
+                    <li>🥗 <strong>Özbek Gastronomisiyle Sağlıklı Diyet:</strong> Yerel meyveler (kavun, üzüm) ve doğal tahıllarla hazırlanan, yaşlı metabolizmasına uygun antioksidan zengini beslenme.</li>
+                    <li>🌬️ <strong>Doğa Terapisi:</strong> Çay bahçeleri (Choyhona) ve geniş yeşil alanlarda yürütülen sosyal faaliyetler ile depresyon ve yalnızlık riskine karşı savunma.</li>
+                    <li>🧠 <strong>Aktif Zihin Programları:</strong> El sanatları, geleneksel müzik seansları ve kuşaklar arası buluşmalarla mental kapasitenin korunması.</li>
+                </ul>
+            </div>`
+        }
+    },
+    disabled: {
+        img: "https://images.unsplash.com/photo-1597452485669-2c7bb5fef90d?q=80&w=800",
+        phone: "+998 71 209 03 03",
+        tr: {
+            hospName: "Milli Reabilitasiya Markazi (Ulusal Rehabilitasyon Merkezi) & AKFA FTR",
+            shortDesc: "♿ Robotik rehabilitasyon ve hidroterapi ile engelleri aşan teknoloji; bireysel gelişimde yeni nesil yaklaşımlar.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#e67e22;">💪 Fonksiyonel Hareket ve Robotik Asistanlar</h4>
+                <p>Taşkent, Orta Asya'da robotik yürüme ve uzay terapisi (Adeli suit) gibi yöntemlerin en yaygın kullanıldığı merkezlerden biridir.</p>
+                <ul>
+                    <li>♿ <strong>Robotik Yürüme (Lokomat):</strong> Nörolojik kaynaklı yürüme bozukluklarında beyne hareket komutunu yeniden öğreten cihaz destekli fizik tedavi.</li>
+                    <li>⚙️ <strong>Sanal Gerçeklik ve Biofeedback:</strong> Hastanın motivasyonunu artıran, iyileşme sürecini dijital verilerle takip eden modern egzersiz odaları.</li>
+                    <li>🦵 <strong>Kineziterapi ve Manuel Mobilizasyon:</strong> Ameliyat sonrası eklem kısıtlılıklarını gidermeye yönelik manuel terapi ve su içi direnç egzersizleri.</li>
+                    <li>🧒 <strong>Pediatrik Özel Gelişim Birimleri:</strong> Serebral Palsi ve gelişimsel gecikmeler için duyu bütünleme, oyun terapisi ve ergoterapi hizmetleri.</li>
+                </ul>
+            </div>`
+        }
+    },
+    spa: {
+        img: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=800",
+        phone: "+998 71 232 00 00",
+        tr: {
+            hospName: "Tashkent City Wellness & Amansay Mountain Resort",
+            shortDesc: "🧖‍♂️ Modern Şehir Wellness ritüelleri; geleneksel Özbek hamamı ve dağ havasıyla bütünleşen detoks seansları.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#8e44ad;">🌿 İpek Yolu Arınma Ritüelleri ve Medikal Detoks</h4>
+                <p>Özbekistan'da Wellness, vücudun dört temel elementini (Ateş, Su, Hava, Toprak) dengelemeye odaklanan bütünsel bir felsefeye dayanır.</p>
+                <ul>
+                    <li>🧼 <strong>Özbek Hamamı ve Kese:</strong> Geleneksel ipek keselerle yapılan, cildi ölü hücrelerden arındıran ve kan akışını canlandıran kadim ritüeller.</li>
+                    <li>💆 <strong>Aromaterapi ve Esansiyel Yağlar:</strong> Bölgenin bitki çeşitliliğinden (Gül, Lavanta, Ardıç) elde edilen yağlarla yapılan zihinsel rahatlama masajları.</li>
+                    <li>🧖‍♂️ <strong>Sauna ve Fitobar:</strong> Bitki çayları (Fitobarlar) ile desteklenen, toksin atılımını hızlandıran buhar seansları.</li>
+                    <li>😌 <strong>Dağ Meditasyonu:</strong> Çimgan ve Amansay bölgelerindeki tesislerde sunulan, stres seviyesini sıfırlayan huzur kampları.</li>
+                </ul>
+            </div>`
+        }
+    }
+},
+   "TÜRKMENISTAN": {
+    meta: {
+        status: "Strategic Central Asian Healthcare Fortress",
+        hubs: ["Ashgabat", "Awaza", "Mary", "Turkmenabat", "Dashoguz"],
+        specialty: "Mega-Medical Complexes, Caspian Rehabilitation, Desert Thermal Therapy, International Cardiology"
+    },
+    surgery: {
+        img: "https://images.unsplash.com/photo-1512675845127-117a24d99d8b?q=80&w=800", 
+        phone: "+993 12 48 90 01",
+        tr: {
+            hospName: "Aşkabat Uluslararası Kardiyoloji Merkezi & Uluslararası Cerrahi ve Endokrinoloji Hastanesi",
+            shortDesc: "🏥 Dünyanın en modern ve en büyük beyaz mermer tıp şehirlerinden biri; Alman teknolojisiyle donatılmış ileri cerrahi üsleri.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#c0392b;">🏛️ Mimari Görkem ve Alman Teknolojisiyle Cerrahi Mükemmeliyet</h4>
+                <p>Türkmenistan, özellikle Aşkabat'taki 'Sağlık Yolu' bölgesinde yer alan ihtisas hastaneleriyle, her branş için ayrı bir 'Saray-Hastane' konsepti geliştirmiştir. Tüm altyapı Siemens, Philips ve Dräger gibi dünya devlerinin en son model cihazlarıyla (2025-2026 revizyonlu) donatılmıştır.</p>
+                <ul>
+                    <li>🫀 <strong>Uluslararası Kalp Merkezi (KVC):</strong> Bölgenin en büyük kardiyoloji kampüsü; kalp kapakçığı değişimleri, kompleks koroner arter cerrahisi ve çocuk kalp cerrahisinde (Pediatrik KVC) sıfıra yakın komplikasyon oranı.</li>
+                    <li>🧠 <strong>İleri Nöroşirürji ve Omurga Cerrahisi:</strong> İntraoperatif MR (ameliyat anında MR) teknolojisi ile beyin tümörlerinde kusursuz temizlik; mikro-cerrahi yöntemlerle bel ve boyun fıtığı operasyonlarında 24 saatte mobilizasyon.</li>
+                    <li>🔬 <strong>Endokrinoloji ve Metabolik Cerrahi:</strong> Diyabet cerrahisi ve ileri düzey tiroid operasyonlarında Avrupa standartlarında klinik protokoller; nükleer tıp ile hedeflenmiş tedavi.</li>
+                    <li>🦴 <strong>Robotik Ortopedi ve Travmatoloji:</strong> Büyük kemik kırıkları, kompleks eklem protezleri ve spor hekimliği alanında robotik kol destekli (Mako/NAVIO) hassas müdahaleler.</li>
+                    <li>☢️ <strong>Onkoloji ve Radyoterapi Şehri:</strong> Lineer hızlandırıcılar (Varian Edge), Braterapi ve PET-CT birimleriyle kanser tedavisinde Orta Asya'nın en güncel radyoterapi parkuru.</li>
+                    <li>🤱 <strong>Modern Doğum ve Genetik Tanı:</strong> Pre-implantasyon genetik tanı (PGD) destekli tüp bebek (IVF) merkezleri ve 4. basamak yenidoğan yoğun bakım üniteleri.</li>
+                    <li>🦷 <strong>Uluslararası Diş Hastanesi:</strong> Çene cerrahisi, implantoloji ve zirkonyum-porselen estetik uygulamalarında dijital laboratuvar entegrasyonu.</li>
+                </ul>
+
+                <h4 style="color:#2c3e50;">🌍 VIP Sağlık Turizmi ve "Avaza" Medikal Serbest Bölgesi</h4>
+                <p>Hazar Denizi kıyısındaki Avaza bölgesi, yabancı hastalar için vize muafiyeti sağlayan özel bir 'Sağlık ve Turizm Bölgesi'dir. Buradaki klinikler, hastaya ameliyat sonrası 7 yıldızlı tatil konforunda iyileşme imkanı sunar. Aşkabat Havalimanı, medikal jetler için özel terminallere sahiptir.</p>
+
+                <h4>➡️ Teknik Dürüst Analiz</h4>
+                <p><strong>Güçlü Yönü:</strong> Hastanelerin her birinin belirli bir branşta (Göz, Kalp, Onkoloji vb.) dünyadaki en iyi teknolojiye ve en geniş fiziksel alana sahip olmasıdır. <strong>Eksik Yönü:</strong> Bu teknoloji devasa olmasına rağmen, uzman kadro genellikle yurt dışında (Türkiye ve Almanya) eğitim almış elit bir gruptan oluştuğu için randevu sistemleri bu profesyoneller üzerinden planlanır.</p>
+            </div>`
+        }
+    },
+    thermal: {
+        img: "https://images.unsplash.com/photo-1572451479139-6a308211d8be?q=80&w=800",
+        phone: "+993 12 39 00 33", 
+        tr: {
+            hospName: "Mollakara (Mollagara) Sanatoryumu & Yılı Suv (Yılısuv) Kaplıcaları",
+            shortDesc: "🌡️ Karakum Çölü'nün kalbinden ve Karaboğaz Gölü'nden gelen mucizevi çamur ve termal su kürleri.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#2980b9;">🧪 Mineral Kompozisyonu ve "Siyah Altın" Çamur Terapisi</h4>
+                <p>Türkmenistan'ın termal gücü, dünyaca ünlü Mollakara Çamuru'ndan gelir. Bu çamur, minerolojik yapısı bakımından Ölü Deniz (Lut Gölü) çamuruyla yarışacak düzeyde yüksek magnezyum ve kalsiyum içerir.</p>
+                <ul>
+                    <li>🧪 <strong>Mollakara Peloid (Çamur) Kürü:</strong> Eklem iltihapları, kireçlenme ve özellikle kadın-erkek kısırlığında (pelvik inflamatuar hastalıklar) hormon regülasyonu sağlayan doğal ısı-mineral terapisi.</li>
+                    <li>🚿 <strong>Yılısuv Sülfürlü Kaynakları:</strong> Cilt hastalıkları (sedef, egzama), metabolik bozukluklar ve toksin atımı için sülfür ve iyot zengini doğal yer altı suları.</li>
+                    <li>🦴 <strong>Romatizmal Rehabilitasyon:</strong> Kas spazmlarını çözen, kronik ağrıları dindiren ve kemik yoğunluğunu destekleyen termal banyo döngüleri.</li>
+                    <li>🌬️ <strong>Çöl Klimaterapisi:</strong> Karakum Çölü'nün kuru ve temiz havası ile birleşen tuz odası terapileri; akciğer ve üst solunum yolu rahatsızlıkları için doğal rehabilitasyon.</li>
+                </ul>
+                
+                <h4>➡️ Bölgesel Değerlendirme</h4>
+                <p><strong>Dürüst Analiz:</strong> Mollakara, Orta Asya'da 'Doğal Şifa' denilince akla gelen ilk referans noktasıdır. Projenin 'Dermatolojik Arınma' modülü için en güçlü adaydır.</p>
+            </div>`
+        }
+    },
+    elderly: {
+        img: "https://images.unsplash.com/photo-1541829070764-84a7d30dee7d?q=80&w=800",
+        phone: "+993 12 40 00 00", 
+        tr: {
+            hospName: "Aşkabat Sosyal Yaşam ve Emekli Bakım Kompleksleri & Gökdere Dinlenme Merkezleri",
+            shortDesc: "👴 Gökdere dağlarının serinliğinde lüks yaşlanma; aktif hayat felsefesi ve yüksek standartlı medikal otelcilik.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#27ae60;">🧠 Uzun Yaşam (Long-Life) ve Dağ Havası Destekli Geriatri</h4>
+                <p>Türkmenistan'da yaşlılık, devlet güvencesi ve kültürel saygınlıkla birleşir. Gökdere mevkii, yüksek oksijen oranıyla yaşlıların fiziksel ve ruhsal sağlığını korumak için doğal bir kliniktir.</p>
+                <ul>
+                    <li>🏥 <strong>Geriatrik İzleme ve Rehabilitasyon:</strong> Kalp, şeker ve tansiyon hastası yaşlılar için hastane otomasyonuna bağlı, her oda için özel medikal asistan desteği.</li>
+                    <li>🥗 <strong>Organik Türkmen Gastronomisi:</strong> Çölde yetişen meyveler, kavunlar (vitamin deposu) ve doğal et ürünleriyle desteklenen, bağışıklık sistemini tazeleyen beslenme planları.</li>
+                    <li>🌬️ <strong>Klimatik Stabilizasyon:</strong> Dağ eteklerindeki yerleşimlerde, düşük nem oranı sayesinde kronik solunum yolu hastası yaşlılarda konforlu nefes alışverişi.</li>
+                    <li>🧠 <strong>Aktif Sosyalleşme:</strong> Türkmen halı dokuma atölyeleri, müzik sınıfları ve doğa yürüyüşleri ile Alzheimer ve izolasyon riskine karşı koruyucu sosyal çevre.</li>
+                </ul>
+            </div>`
+        }
+    },
+    disabled: {
+        img: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=800",
+        phone: "+993 12 48 90 01",
+        tr: {
+            hospName: "Uluslararası Rehabilitasyon Merkezi (Aşkabat) & Avaza Fizik Tedavi Üniteleri",
+            shortDesc: "♿ Robotik dış iskeletler, sanal gerçeklik (VR) terapileri ve su içi rehabilitasyonda dünya standartları.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#e67e22;">💪 Teknolojiyle Engelleri Aşmak: Robotik Nöro-Rehabilitasyon</h4>
+                <p>Aşkabat'taki merkezler, fizik tedavi alanında Avrupa'nın en büyük cihaz parkurlarından birine sahiptir. Özellikle 'Robotik Yürüme' (Lokomat) ve 'Kol Robotları' (Armeo) konusunda uzmanlaşmış akademik ekipler bulunur.</p>
+                <ul>
+                    <li>♿ <strong>Nörolojik Geri Kazanım:</strong> Felç (inme), MS ve omurilik yaralanmaları sonrası beyin-kas koordinasyonunu yeniden kuran akıllı robotik sistemler.</li>
+                    <li>⚙️ <strong>Sanal Gerçeklik ve Biofeedback:</strong> Hastanın iyileşme sürecini görselleştiren, motivasyonunu artıran ve gelişimi saniyelik kaydeden dijital odalar.</li>
+                    <li>🦵 <strong>Kineziterapi ve Hidroterapi:</strong> Isı ayarlı medikal havuzlarda, suyun kaldırma kuvveti kullanılarak yapılan post-operatif güçlendirme çalışmaları.</li>
+                    <li>🧒 <strong>Pediatrik Rehabilitasyon:</strong> Çocuklara özel tasarlanmış, oyunlaştırılmış terapi üniteleri ve ergoterapi parkurları.</li>
+                </ul>
+            </div>`
+        }
+    },
+    spa: {
+        img: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=800",
+        phone: "+993 243 7 00 00",
+        tr: {
+            hospName: "Avaza Yelken Yacht Club Wellness & Berzengi Şifa Noktaları",
+            shortDesc: "🧖‍♂️ Hazar Denizi kıyısında Thalasso (Deniz) terapisi ve modern SPA ritüelleriyle lüks arınma.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#8e44ad;">🌿 Thalasso Terapi ve Hazar Wellness Dokunuşu</h4>
+                <p>Avaza bölgesindeki lüks tesisler, Hazar Denizi'nin mineralli suyunun ısıtılarak tedavi amaçlı kullanıldığı (Thalassotherapy) Orta Asya'daki tek lüks destinasyondur.</p>
+                <ul>
+                    <li>🧼 <strong>Türkmen Hamamı ve Arınma:</strong> Geleneksel buhar seansları, bitkisel kese ritüelleri ve mineralli su şokları.</li>
+                    <li>💆 <strong>Medikal SPA ve Detoks:</strong> Uzman terapistler eşliğinde lenf drenaj masajları, sıcak taş terapileri ve vücut sarmalama kürleri.</li>
+                    <li>🧖‍♂️ <strong>Sauna ve Kriyoterapi:</strong> Toksinlerden arınmayı sağlayan yüksek ısılı saunalar ve ardından uygulanan metabolizma hızlandırıcı soğuk terapiler.</li>
+                    <li>😌 <strong>Deniz Kenarı Yoga ve Meditasyon:</strong> Hazar'ın huzurlu atmosferinde, profesyonel eğitmenler eşliğinde zihinsel sessizlik ve arınma kampları.</li>
+                </ul>
+            </div>`
+        }
+    }
+},
+   "KIRGIZISTAN": {
+    meta: {
+        status: "Strategic High-Altitude Medical Partner",
+        hubs: ["Bishkek", "Osh", "Cholpon-Ata (Issyk-Kul)", "Karakol", "Jalal-Abad"],
+        specialty: "High-Altitude Rehabilitation, Genetic Diagnostics, Natural Thermal Springs, Mountain Detox"
+    },
+    surgery: {
+        img: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=800", 
+        phone: "+996 312 62 10 12",
+        tr: {
+            hospName: "Kırgız-Türk Dostluk Devlet Hastanesi & Ulusal Kardiyoloji ve Dahiliye Merkezi",
+            shortDesc: "🏥 Tanrı Dağları'nın eteklerinde modern cerrahi kale; Türk-Kırgız ortaklığıyla yönetilen ileri teknoloji ameliyathaneler ve genetik laboratuvarlar.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#c0392b;">🔬 İleri Segment Cerrahi ve Uluslararası Akademik İş Birliği</h4>
+                <p>Kırgızistan, özellikle başkent Bişkek'te kurulan 'Kırgız-Türk Dostluk Hastanesi' ile cerrahi standartlarını dijital çağa taşımıştır. Bölge, genetik araştırmalar ve kompleks iç hastalıkları cerrahisinde Orta Asya'nın yükselen yıldızıdır.</p>
+                <ul>
+                    <li>🫀 <strong>Kardiyoloji ve Girişimsel KVC:</strong> Koroner anjiyografi, stent uygulamaları, kalp pili implantasyonu ve kompleks bypass operasyonlarında %96 başarı oranı; 24 saat kesintisiz anjiyo hizmeti.</li>
+                    <li>🧬 <strong>Moleküler Genetik ve Tanı:</strong> Nadir hastalıkların teşhisi, kanser genetiği ve kişiye özel tedavi protokollerinde bölgenin en gelişmiş laboratuvar altyapısı.</li>
+                    <li>🧠 <strong>Nöroşirürji ve Omurga Sağlığı:</strong> Mikro-cerrahi yöntemlerle beyin tümörü operasyonları, skolyoz cerrahisi ve fıtık tedavilerinde yüksek hassasiyetli mikroskopik müdahaleler.</li>
+                    <li>🦴 <strong>Modern Ortopedi ve Artroplasti:</strong> Diz ve kalça protezi uygulamalarında Avrupa menşeli implant teknolojileri ve sporcu yaralanmalarında ileri düzey artroskopi.</li>
+                    <li>🤱 <strong>Üreme Sağlığı ve Perinatoloji:</strong> Modern IVF (Tüp Bebek) teknikleri ve yüksek riskli gebeliklerin takibi için 3. basamak yoğun bakım destekli doğum üniteleri.</li>
+                    <li>🦷 <strong>Dijital Diş Hekimliği ve İmplantoloji:</strong> Panoramik röntgen destekli implant planlama, estetik gülüş tasarımı ve kompleks çene cerrahisi uygulamaları.</li>
+                    <li>☢️ <strong>Onkolojik Takip ve Kemoterapi:</strong> Kişiye özel kemoterapi protokolleri ve solid tümörlerin cerrahi rezeksiyonunda multidisipliner konsey yaklaşımı.</li>
+                </ul>
+
+                <h4 style="color:#2c3e50;">🌍 Medikal Lojistik ve Yüksek Rakım Avantajı</h4>
+                <p>Bişkek, Manas Havalimanı üzerinden tüm Orta Asya'ya medikal köprü kurar. Şehirdeki klinikler, yüksek rakımın getirdiği doğal alyuvar artışını (doğal doping etkisi) ameliyat sonrası iyileşme süreçlerine entegre eden özel protokoller uygular.</p>
+
+                <h4>➡️ Teknik Dürüst Analiz</h4>
+                <p><strong>Güçlü Yönü:</strong> Türkiye ile yapılan stratejik sağlık anlaşmaları sayesinde en zorlu vakaların (Karaciğer/Böbrek nakli hazırlığı vb.) Türk hekimlerin gözetiminde Bişkek'te çözülmesidir. <strong>Eksik Yönü:</strong> Ülkenin dağlık yapısı nedeniyle kırsaldaki hastaların Bişkek merkezli 'Mega Klinikleri'ne nakli için hava ambulansı ihtiyacı yüksektir.</p>
+            </div>`
+        }
+    },
+    thermal: {
+        img: "https://images.unsplash.com/photo-1507652313519-d451e12d5940?q=80&w=800",
+        phone: "+996 3943 4 25 10", 
+        tr: {
+            hospName: "Issık Göl (Isyk-Kul) Sanatoryumları & Celal-Abad Termal Suları",
+            shortDesc: "🌡️ Dünyanın en büyük ikinci yüksek rakımlı gölünde 'Thalasso-Alpin' şifası; radon ve sülfür banyolarıyla hücresel yenilenme.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#2980b9;">🧪 Tuz, Mineral ve Oksijen Sentezi: Issık Göl Mucizesi</h4>
+                <p>Issık Göl, kışın bile donmayan hafif tuzlu yapısı ve 1600 metre rakımıyla dünyada benzeri olmayan bir rehabilitasyon ekosistemidir. Buradaki su ve çamur, 'Gençlik İksiri' olarak adlandırılır.</p>
+                <ul>
+                    <li>🧪 <strong>Radon ve Sülfür Banyoları:</strong> Özellikle kronik iltihaplı romatizma, sinir sistemi bozuklukları ve kadın hastalıklarında (infertilite destek) yüksek mineralli su kürleri.</li>
+                    <li>🧖‍♂️ <strong>Issık Göl Peloid (Çamur) Terapisi:</strong> Göl tabanından çıkarılan mavi ve siyah çamurlar; sedef, egzama ve akne tedavilerinde deri bariyerini %60 oranında onaran doğal mineral takviyesi.</li>
+                    <li>🦴 <strong>Kas-İskelet Sistemi Rehabilitasyonu:</strong> Suyun kaldırma kuvveti ve sıcaklığının birleşimiyle bel fıtığı, siyatik ve kireçlenme ağrılarında 10 seansta belirgin rahatlama.</li>
+                    <li>🌬️ <strong>Haloterapi (Tuz Odası) ve Çam Havası:</strong> Bölgedeki iğne yapraklı ormanların oksijeni ile tuz terapilerinin birleşimi; astım ve bronşit hastaları için doğal solunum desteği.</li>
+                </ul>
+                
+                <h4>➡️ Bölgesel Değerlendirme</h4>
+                <p><strong>Dürüst Analiz:</strong> Issık Göl kıyısındaki Çolpon-Ata ve Karakol bölgeleri, projenin 'Doğal İyileşme' modülündeki en prestijli destinasyondur. Yaz aylarında hem tatil hem de medikal kür imkanı sunar.</p>
+            </div>`
+        }
+    },
+    elderly: {
+        img: "https://images.unsplash.com/photo-1473186578172-c141e6798ee4?q=80&w=800",
+        phone: "+996 312 40 00 00", 
+        tr: {
+            hospName: "Bişkek Elit Geriatri Bakım Evleri & Issık Göl Yaşlı Dinlenme Kompleksleri",
+            shortDesc: "👴 Tanrı Dağları'nın gölgesinde asırlık çınarlara özel bakım; düşük stres, organik beslenme ve sürekli tıbbi denetim.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#27ae60;">🧠 Uzun Yaşamın Sırrı: Kımız, Bal ve Alpin Havası</h4>
+                <p>Kırgızistan, yaşlıların mental olarak en zinde kaldığı bölgelerden biridir. Projemizdeki yaşlı bakım sistemi, bu doğal zindeliği medikal otelcilikle birleştirir.</p>
+                <ul>
+                    <li>🏥 <strong>Mobil Sağlık ve Uzaktan İzleme:</strong> Dağ köylerindeki yaşlılardan lüks merkezlere kadar geniş bir ağda tansiyon, şeker ve ritim takibi.</li>
+                    <li>🥗 <strong>Fitoterapötik Beslenme:</strong> Arslanbob cevizleri, beyaz bal ve taze kımız (fermente at sütü) ile desteklenen, bağışıklığı zirvede tutan geriatrik diyetler.</li>
+                    <li>🌬️ <strong>Klimaterapi:</strong> Şehrin gürültüsünden uzak, yüksek oksijenli alanlarda kalp ve solunum hastası yaşlılar için ideal yaşam standartları.</li>
+                    <li>🧠 <strong>Aktif Zihin ve Kültürel Bağ:</strong> Geleneksel keçe sanatı (Şirdak), Manas destanı okumaları ve kuşaklar arası etkileşimle Alzheimer riskine karşı savunma.</li>
+                </ul>
+            </div>`
+        }
+    },
+    disabled: {
+        img: "https://images.unsplash.com/photo-1597452485669-2c7bb5fef90d?q=80&w=800",
+        phone: "+996 312 62 10 12",
+        tr: {
+            hospName: "Ulusal Çocuk Rehabilitasyon Merkezi & Özel FTR Birimleri",
+            shortDesc: "♿ Hareket özgürlüğü için teknolojik ve doğal yöntemlerin sentezi; uzay terapisi ve yüksek irtifa fizik tedavi.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#e67e22;">💪 Fizyoterapi ve Fonksiyonel Bağımsızlık Protokolleri</h4>
+                <p>Kırgızistan'da rehabilitasyon, hastanın dayanıklılığını artıran yüksek irtifa koşullarıyla birleştirilir. Bu durum, kas gelişimini normal rakımlara göre %25 daha fazla tetikler.</p>
+                <ul>
+                    <li>♿ <strong>Nöro-Rehabilitasyon ve Robotik Destek:</strong> İnme ve travma sonrası uzman fizyoterapistler eşliğinde denge, koordinasyon ve yürüme eğitimleri.</li>
+                    <li>⚙️ <strong>Uzay Terapisi (Adeli Suit):</strong> Yerçekimi etkisini düzenleyen özel giysilerle kas atrofilerinin ve duruş bozukluklarının giderilmesi.</li>
+                    <li>🦵 <strong>Kineziterapi ve Manuel Terapi:</strong> Eklem kısıtlılıklarını gidermek için uygulanan ileri manuel teknikler ve su içi egzersizler.</li>
+                    <li>🧒 <strong>Pediatrik Özel Gelişim Birimleri:</strong> Serebral Palsi (CP) ve gelişimsel bozukluklar için duyu bütünleme, oyun terapisi ve konuşma terapisi hizmetleri.</li>
+                </ul>
+            </div>`
+        }
+    },
+    spa: {
+        img: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=800",
+        phone: "+996 3943 4 00 00",
+        tr: {
+            hospName: "Jannat Resort & Karven Four Seasons Wellness",
+            shortDesc: "🧖‍♂️ Dağ zirvelerinde Zen ruhu; geleneksel Kırgız hamamı ve Issık Göl mineralli SPA deneyimi.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#8e44ad;">🌿 Alpin Wellness ve Ruhsal Arınma Ritüelleri</h4>
+                <p>Kırgızistan'da Wellness, doğanın en saf haliyle buluşmak demektir. Dağ esintisi ve mineralli suyun birleşimi, modern hayatın stresini saniyeler içinde yok eder.</p>
+                <ul>
+                    <li>🧼 <strong>Geleneksel Kırgız Hamamı:</strong> Bitkisel buhar seansları, dağ otlarıyla yapılan kese ritüelleri ve mineralli su şokları.</li>
+                    <li>💆 <strong>Dağ Balı ve Volkanik Taş Masajları:</strong> Kas gerginliğini azaltan, kan dolaşımını hızlandıran ve ruhsal ferahlık sağlayan profesyonel dokunuşlar.</li>
+                    <li>🧖‍♂️ <strong>Detoks ve Fitobar:</strong> Tanrı Dağları'ndan toplanan tıbbi bitki çayları ile içsel arınma ve metabolizma hızı artışı.</li>
+                    <li>😌 <strong>Göl Kenarı Meditasyon:</strong> Issık Göl'ün uçsuz bucaksız maviliğinde, sessizlik içinde sunulan zihinsel dinginlik ve yoga kampları.</li>
+                </ul>
+            </div>`
+             }
+        }
+    },
 };
 const cityDetailedData = {
   
@@ -10386,9 +10621,3 @@ function toggleHighContrast() {
     // Konsola bilgi verelim (Çalışıp çalışmadığını anlamak için F12'den bakabilirsin)
     console.log("Erişilebilirlik Modu: " + (document.body.classList.contains('high-contrast') ? "AÇIK" : "KAPALI"));
 }
-
-document.addEventListener('click', function(e) {
-    if (e.target.closest('.review-btn')) {
-        window.location.href = 'reviews.html';
-    }
-});
