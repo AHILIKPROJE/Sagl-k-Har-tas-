@@ -1,6 +1,6 @@
 /**
  * 🛰️ SOSYALFEST VERİ VE ŞEHİR YÖNETİM SİSTEMİ
- * Bu modül 81 ili dinamik olarak yükler ve Firestore filtrelemesini yönetir.
+ * Bu modül 81 ili dinamik olarak yükler, yıldız sistemini yönetir ve Firestore filtrelemesini sağlar.
  */
 
 // 1. TÜRKİYE 81 İL LİSTESİ (Tam Liste & Alfabetik)
@@ -9,7 +9,6 @@ const turkiyeIlleri = [
 ];
 
 // 2. SAYFA YÜKLENDİĞİNDE ÇALIŞACAK ANA FONKSİYON
-// window.onload yerine DOMContentLoaded kullanmak daha profesyonel ve hızlıdır.
 document.addEventListener('DOMContentLoaded', () => {
     console.log("🚀 Manager: Sistem başlatılıyor...");
     
@@ -20,30 +19,24 @@ document.addEventListener('DOMContentLoaded', () => {
     loadReviews();
 });
 
-// 3. ŞEHİR LİSTELERİNİ HTML'E ENJEKTE ETME (İşte sorunu çözen kısım)
+// 3. ŞEHİR LİSTELERİNİ HTML'E ENJEKTE ETME
 function populateCityDropdowns() {
-    // HTML'deki select elementlerini yakala
     const postCitySelect = document.getElementById('post-city');
     const filterCitySelect = document.getElementById('filter-city');
 
-    // Elementler sayfada var mı kontrol et (Hata koruması)
     if (!postCitySelect || !filterCitySelect) {
-        console.error("❌ HATA: Şehir seçim kutuları HTML içinde bulunamadı! ID'leri kontrol et.");
+        console.error("❌ HATA: Şehir seçim kutuları HTML içinde bulunamadı!");
         return;
     }
 
-    // Listeyi alfabetik olarak sırala (Türkçe karakter duyarlı)
     turkiyeIlleri.sort((a, b) => a.localeCompare(b, 'tr'));
 
-    // Her bir şehri döngüyle ekle
     turkiyeIlleri.forEach(sehir => {
-        // Yorum Yazma Formu İçin
         let optionPost = document.createElement('option');
         optionPost.value = sehir;
         optionPost.textContent = sehir;
         postCitySelect.appendChild(optionPost);
 
-        // Filtreleme Çubuğu İçin
         let optionFilter = document.createElement('option');
         optionFilter.value = sehir;
         optionFilter.textContent = sehir;
@@ -60,8 +53,11 @@ async function sendReview() {
     const text = document.getElementById('review-text').value;
     const user = auth.currentUser;
     const btn = document.getElementById('submit-review-btn');
-    const rating = document.querySelector('input[name="rating"]:checked')?.value || 0;
-    // Form Kontrolleri
+    
+    // Yıldız değerini al
+    const ratingInput = document.querySelector('input[name="rating"]:checked');
+    const rating = ratingInput ? ratingInput.value : 0;
+
     if (!user) {
         alert("⚠️ Yorum yapmak için giriş yapmalısınız!");
         return;
@@ -72,7 +68,6 @@ async function sendReview() {
     }
 
     try {
-        // Butonu geçici olarak kilitle (Çift tıklamayı önler)
         btn.disabled = true;
         btn.innerHTML = '<span>Yükleniyor...</span>';
 
@@ -88,6 +83,7 @@ async function sendReview() {
 
         // Temizlik
         document.getElementById('review-text').value = "";
+        if (ratingInput) ratingInput.checked = false; // Yıldız seçimini temizle
         alert("🎉 Deneyiminiz başarıyla paylaşıldı!");
         
     } catch (error) {
@@ -104,15 +100,13 @@ function loadReviews() {
     const fCity = document.getElementById('filter-city').value;
     const fCat = document.getElementById('filter-category').value;
     const list = document.getElementById('reviews-list');
-    const starsHtml = "⭐".repeat(d.rating || 0);
 
-    // Yükleniyor animasyonu
+    if (!list) return;
+
     list.innerHTML = '<div class="loading-spinner">Veriler senkronize ediliyor...</div>';
 
-    // Temel Sorgu
     let query = db.collection("reviews").orderBy("createdAt", "desc");
 
-    // Filtreler 'all' değilse sorguyu daralt
     if (fCity !== "all") {
         query = query.where("city", "==", fCity);
     }
@@ -120,9 +114,8 @@ function loadReviews() {
         query = query.where("category", "==", fCat);
     }
 
-    // Gerçek Zamanlı Dinleyici (Anlık Güncelleme)
     query.onSnapshot((snapshot) => {
-        list.innerHTML = ""; // Listeyi temizle
+        list.innerHTML = ""; 
 
         if (snapshot.empty) {
             list.innerHTML = '<p class="no-data">🔍 Bu kriterlere uygun yorum bulunamadı.</p>';
@@ -133,6 +126,10 @@ function loadReviews() {
             const d = doc.data();
             const date = d.createdAt ? new Date(d.createdAt.seconds * 1000).toLocaleDateString('tr-TR') : "Yeni";
             
+            // ⭐ Yıldızları döngü içinde, her yorum için ayrı oluşturuyoruz (Hata buradaydı)
+            const ratingValue = d.rating || 0;
+            const starsHtml = "⭐".repeat(ratingValue);
+
             list.innerHTML += `
                 <div class="review-card">
                     <div class="review-meta">
@@ -141,14 +138,16 @@ function loadReviews() {
                         <span class="meta-date">📅 ${date}</span>
                     </div>
 
-                    <div class="review-stars">${starsHtml}</div>
+                    <div class="review-stars" style="margin: 10px 0; font-size: 14px;">${starsHtml}</div>
 
                     <p class="review-body">${d.comment}</p>
                     <div class="review-footer">
-                        <span class="user-id">👤 ${d.userEmail.split('@')[0]}</span>
+                        <span class="user-id">👤 ${d.userEmail ? d.userEmail.split('@')[0] : 'Anonim'}</span>
                     </div>
                 </div>
             `;
         });
+    }, (error) => {
+        console.error("Firestore SnapShot Error:", error);
     });
 }
