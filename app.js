@@ -10386,3 +10386,9 @@ function toggleHighContrast() {
     // Konsola bilgi verelim (Çalışıp çalışmadığını anlamak için F12'den bakabilirsin)
     console.log("Erişilebilirlik Modu: " + (document.body.classList.contains('high-contrast') ? "AÇIK" : "KAPALI"));
 }
+
+document.addEventListener('click', function(e) {
+    if (e.target.closest('.review-btn')) {
+        window.location.href = 'reviews.html';
+    }
+});
