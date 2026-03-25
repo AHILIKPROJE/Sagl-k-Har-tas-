@@ -1191,114 +1191,120 @@ const cityDetailedData = {
         }
     }
 },
-    "ANTALYA": {
+   "ARTVIN": {
     surgery: {
         img: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=400", 
-        phone: "0242 249 60 00",
+        phone: "0466 212 10 40",
         tr: {
-            hospName: "Akdeniz Üniversitesi Hastanesi & Antalya Şehir Hastanesi",
-            shortDesc: "🏥 Dünya çapında organ nakli (yüz ve kol nakli) başarılarıyla tanınan, Türkiye'nin 'Sağlık Turizmi Başkenti' ve teknoloji üssü.",
+            hospName: "Artvin Devlet Hastanesi & Hopa Devlet Hastanesi",
+            shortDesc: "🏥 Dik yamaçların ve stratejik sınırın cerrahi kalesi; yenilenmiş ameliyathane kompleksleri ve uzman travma yönetimi.",
             analysis: `
             <div class="analysis-content">
-                <h4 style="color:#c0392b;">🩺 Küresel Ölçekte Cerrahi ve Akademik Üstünlük</h4>
+                <h4 style="color:#c0392b;">🩺 Coğrafi Zorluklara Adaptif Cerrahi ve Travma Müdahalesi</h4>
+                <p>Artvin, sarp arazi yapısı ve baraj inşaatları gibi yüksek riskli çalışma alanları nedeniyle 'Ortopedik Travma' ve 'Acil Cerrahi Stabilizasyon' konularında spesifik bir klinik refleks geliştirmiştir. Hastane altyapısı, zorlu hava koşullarında bile kesintisiz cerrahi hizmet verebilecek teknik donanıma sahiptir.</p>
                 <ul>
-                    <li>🧬 <strong>Kompleks Organ Nakli:</strong> Akdeniz Üniversitesi, dünyanın ilk kadavradan rahim nakli ve tam yüz nakli gibi operasyonlarıyla global bir referans noktasıdır.</li>
-                    <li>✂️ <strong>Plastik ve Rekonstrüktif Cerrahi:</strong> Antalya, rinoplasti, liposuction ve meme estetiğinde Avrupa'nın en popüler destinasyonudur; cerrah vaka tecrübesi 'endüstriyel' seviyededir.</li>
-                    <li>🦷 <strong>Dental Mimari:</strong> 'Diş Turizmi'nde Türkiye'nin lideridir. Dijital gülüş tasarımı (CAD-CAM) ve implant uygulamalarında 48 saatte sonuç veren klinikler mevcuttur.</li>
-                    <li>💇‍♂️ <strong>Saç Ekimi:</strong> Safir FUE ve DHI tekniklerinde uzmanlaşmış, tatil ile tedaviyi birleştiren paketlerde uzmanlaşmış devasa bir ekosistem.</li>
-                    <li>⚖️ <strong>Metabolik Cerrahi:</strong> Tip 2 Diyabet ve obezite cerrahisinde uluslararası akreditasyona sahip cerrah kadrosu.</li>
+                    <li>⚕️ <strong>Genel ve Laparoskopik Cerrahi:</strong> Safra kesesi, fıtık ve apandis gibi akut vakalarda %85'in üzerinde kapalı (laparoskopik) müdahale oranı; gastrointestinal sistem operasyonlarında deneyimli kadro.</li>
+                    <li>🦴 <strong>İleri Ortopedi ve Travmatoloji:</strong> Yüksekten düşme ve iş kazaları kaynaklı kompleks kırıkların cerrahi fiksasyonu, artroskopi ve eklem içi enjeksiyon tedavileri.</li>
+                    <li>🫀 <strong>Kardiyoloji ve Koroner Takip:</strong> Akut kalp krizlerinde (MI) ilk müdahale, trombolitik tedavi kapasitesi ve gelişmiş yoğun bakım ünitelerinde vital fonksiyon stabilizasyonu.</li>
+                    <li>🧠 <strong>Nöroloji ve İnme Yönetimi:</strong> Nörolojik vakaların hızlı teşhisi (MR, BT) ve cerrahi öncesi kritik ilaç tedavilerinin optimizasyonu; beyin cerrahisi ile koordineli takip.</li>
+                    <li>🤱 <strong>Modern Doğum ve Pediatri:</strong> Isı regülasyonlu üniteler ve 'Anne Dostu Hastane' standartlarında güvenli doğum süreçleri; pediatrik cerrahi öncesi hazırlık birimleri.</li>
+                    <li>🩸 <strong>Üroloji ve Endoskopik Müdahaleler:</strong> Böbrek ve idrar yolları taşlarında kapalı sistem (URS) müdahaleler ve prostat hastalıklarında modern cerrahi yaklaşımlar.</li>
+                    <li>🦷 <strong>Artvin Ağız ve Diş Sağlığı Merkezi:</strong> Protez ünitesi, cerrahi çekimler ve çocuk diş hekimliği alanında modern medikal ekipmanlar ile kesintisiz hizmet.</li>
                 </ul>
 
-                <h4 style="color:#2c3e50;">💎 Sağlık Turizmi Stratejik Analizi</h4>
-                <ul>
-                    <li>✈️ <strong>Lojistik ve Konfor:</strong> Havalimanı transferinden lüks konaklamaya kadar hastanın tüm süreci 'beş yıldızlı otel' konforunda yönetilmektedir.</li>
-                </ul>
+                <h4 style="color:#2c3e50;">🌍 Stratejik Sınır Lojistiği ve Hava Ambulansı</h4>
+                <p>Artvin, Sarp Sınır Kapısı ile Gürcistan'a açılan bir kapıdır. Bu durum, hastaneyi uluslararası bir 'Acil Geçiş İstasyonu' haline getirir. Şehirdeki helikopter pistleri, ağır kış şartlarında hastaların Rize veya Erzurum'daki tıp merkezlerine vaka transferi için hayati önem taşır.</p>
 
-                <h4>➡️ Dürüst Analiz</h4>
-                <p>Antalya, hız ve estetik sonuç odaklı hastalar için dünyadaki en iyi 5 destinasyondan biridir. <strong>Dürüst Analiz:</strong> Sektörün çok büyük olması sebebiyle 'merdiven altı' diye tabir edilen ruhsatsız klinikler konusunda dikkatli olunmalıdır. Akademik güvence isteyen hastalar için üniversite ve şehir hastanesi kanadı, ticari kliniklere göre çok daha güvenli ve bilimsel bir limandır.</p>
+                <h4>➡️ Teknik Dürüst Analiz</h4>
+                <p><strong>Güçlü Yönü:</strong> Hastanenin yeni olması, dijital görüntüleme cihazlarının hızı ve butik yapısı sayesinde hastaya ayrılan vaktin kalitesidir. <strong>Eksik Yönü:</strong> Çok ileri düzey onkolojik cerrahi (radyoterapi gibi) için hastalar komşu illere (Rize/Erzurum) sevk edilse de, temel ve spesifik cerrahi branşlarda bölgeye tam kapasite hizmet verir.</p>
             </div>`
         }
     },
     thermal: {
         img: "https://images.unsplash.com/photo-1596464716127-f2a82984de30?q=80&w=400",
-        phone: "0242 419 22 22", 
+        phone: "0466 212 10 10", 
         tr: {
-            hospName: "Demre (Burguç) Şifalı Suları & Akseki Termal Kaynakları",
-            shortDesc: "🌡️ Kükürtlü ve klorürlü yapısıyla cilt hastalıkları ve kronik ağrılarda kullanılan doğal mineralli sular.",
+            hospName: "Artvin Şifalı Su Kaynakları & Otingo Orman Kaplıcaları",
+            shortDesc: "🌡️ Ladin ve köknar ormanlarının kalbinden gelen mineralli şifa; romatizma ve eklem ağrıları için doğal detoks.",
             analysis: `
             <div class="analysis-content">
-                <h4 style="color:#2980b9;">🧪 Bilimsel Mineral Analizi ve Endikasyonlar</h4>
+                <h4 style="color:#2980b9;">🧪 Oksijen ve Mineral Sentezi (Klimaterapi)</h4>
+                <p>Artvin'in su kaynakları, özellikle Borçka ve Şavşat bölgelerinde, yüksek irtifa temiz havası (Alpin Terapisi) ile birleşen mineral yoğunluğuyla karakterizedir.</p>
                 <ul>
-                    <li>🧪 <strong>Kükürt Yoğunluğu:</strong> Demre'deki 'soğuk' kükürtlü sular, özellikle kronik dermatolojik lezyonların kurutulmasında ve deri rejenerasyonunda benzersizdir.</li>
-                    <li>🧼 <strong>Tuzlu ve Klorürlü Sular:</strong> Kas spazmları ve spor yaralanmaları sonrası ödem atıcı, ağrı dindirici etki gösterir.</li>
-                    <li>🦴 <strong>Osteoartrit Desteği:</strong> Hafif mineralli banyo kürleri, eklem hareket açıklığını artırmada yardımcıdır.</li>
+                    <li>🧪 <strong>Mineralli Su Karakteristiği:</strong> Hafif kükürtlü ve bikarbonatlı yapı; mide-bağırsak sistemini düzenleyici ve metabolizmayı hızlandırıcı etki.</li>
+                    <li>🦴 <strong>Romatizmal Rahatlama:</strong> Suyun doğal sıcaklığı ve mineral yapısı; kireçlenme, siyatik ve kronik eklem ağrılarında doğal analjezik rolü.</li>
+                    <li>🧖‍♂️ <strong>Dermatolojik Saflık:</strong> Patojensiz ve yüksek oksijenli su yapısı sayesinde alerjik cilt problemlerinde yatıştırıcı ve arındırıcı sonuçlar.</li>
+                    <li>🌬️ <strong>Yüksek İrtifa Wellness:</strong> Suyun şifasını, bölgenin 1500+ rakımlı temiz havasıyla birleştiren bütünsel bir 'Doğal İyileşme' süreci.</li>
                 </ul>
                 
                 <h4>➡️ Bölgesel Değerlendirme</h4>
-                <p>Antalya'da termal sağlık, 'Deniz-Güneş' turizminin gölgesinde kalmıştır. <strong>Dürüst Analiz:</strong> Afyon veya Bursa gibi büyük termal oteller ve tıbbi kür merkezleri Antalya'da sınırlıdır. Termal potansiyel daha çok 'çamur banyosu' ve lokal şifa odaklıdır; profesyonel bir termal rehabilitasyon için altyapı geliştirilmeye muhtaçtır.</p>
+                <p><strong>Dürüst Analiz:</strong> Artvin'de termal imkanlar butik ve doğayla iç içedir. Gerçek bir 'Kaçış ve Arınma' arayan sağlık turistleri için bakir bir hazinedir.</p>
             </div>`
         }
     },
     elderly: {
-        img: "https://images.unsplash.com/photo-1571772996211-2f02c97da70d?q=80&w=400",
-        phone: "0242 320 60 00", 
+        img: "https://images.unsplash.com/photo-1581578731522-a2047864146e?q=80&w=400",
+        phone: "0466 212 11 05", 
         tr: {
-            hospName: "Antalya Büyükşehir Belediyesi Halil Akyüz Huzurevi & Özel Geriatri Merkezleri",
-            shortDesc: "👴 Kış mevsiminin olmadığı 'mikroklima' özelliğiyle Avrupa'nın yaşlı bakım ve emeklilik cenneti.",
+            hospName: "Artvin Huzurevi Yaşlı Bakım Merkezi & Borçka Rehabilitasyon Birimleri",
+            shortDesc: "👴 Bulutların üzerinde, Karadeniz kültürüyle saygın yaşlanma; organik beslenme ve düşük stresli yaşam.",
             analysis: `
             <div class="analysis-content">
-                <h4 style="color:#27ae60;">🧠 İleri Bakım Standartları ve İklim Avantajı</h4>
+                <h4 style="color:#27ae60;">🧠 Uzun Yaşamın Sırrı: Doğa ve Organik Gastronomi</h4>
+                <p>Artvin, Türkiye'de yaşlı nüfusun en dinç olduğu illerden biridir. Bölgedeki dik yamaçlar, yaşlılarda 'Doğal Kondisyon' oluştururken; beslenme alışkanlıkları kronik hastalıkları minimize eder.</p>
                 <ul>
-                    <li>☀️ <strong>Kronik Hastalık Yönetimi:</strong> Yıl boyu güneşlenme süresi, D vitamini sentezi ve eklem ağrıları yaşayan yaşlılar için doğal bir iyileştiricidir.</li>
-                    <li>🧠 <strong>Alzheimer ve Demans:</strong> Şehirdeki özel bakım merkezleri, 'Respite Care' (Mola Bakımı) gibi kısa süreli profesyonel destek hizmetlerinde Avrupa standartlarındadır.</li>
-                    <li>💊 <strong>Multidisipliner Takip:</strong> Geriatristler, fizyoterapistler ve beslenme uzmanları eşliğinde 'aktif yaşlanma' programları.</li>
-                    <li>🦽 <strong>Sosyal Entegrasyon:</strong> Yaşlı dostu kentsel alanlar ve lüks bakım evlerindeki sosyal hobi kulüpleri.</li>
+                    <li>🏥 <strong>Evde Sağlık ve Mobil Takip:</strong> Coğrafi uzaklık nedeniyle köylere ulaşan mobil ekiplerle yaşlıların rutin kontrollerinin (tansiyon, şeker) yapılması.</li>
+                    <li>🍯 <strong>Artvin Balı ve Doğal Süper-Gıdalar:</strong> Bağışıklığı zirvede tutan, yaşlılarda mevsimsel enfeksiyon riskini azaltan doğal polen ve bal desteği.</li>
+                    <li>🥗 <strong>Doğal Süt ve Yayla Ürünleri:</strong> Mera hayvancılığından gelen yüksek proteinli beslenme ile kas kütlesinin ve kemik sağlığının korunması.</li>
+                    <li>🧠 <strong>Mental Zindelik:</strong> Geniş aile yapısı, yayla göçleri ve 'İmece' kültürü sayesinde yaşlıların sosyal olarak aktif tutulması ve moral seviyelerinin korunması.</li>
                 </ul>
 
                 <h4>➡️ Altyapı Notu</h4>
-                <p><strong>Dürüst Analiz:</strong> Antalya, yaşlı bakımı için Türkiye'nin en pahalı ama en kaliteli hizmet sunan şehridir. Yaz aylarındaki aşırı sıcaklar kalp hastası yaşlılar için risk teşkil eder; bu nedenle tesislerin iklimlendirme kalitesi hayati önem taşır.</p>
+                <p><strong>Dürüst Analiz:</strong> Artvin, yaşlılar için "Sessiz, Güvenli ve Huzurlu" bir şehirdir. <strong>Güçlü Yönü:</strong> Şehirdeki hava kalitesinin yaşlı solunum sağlığı üzerindeki tartışmasız pozitif etkisidir.</p>
             </div>`
         }
     },
     disabled: {
         img: "https://images.unsplash.com/photo-1576091160550-2173dad99901?q=80&w=400",
-        phone: "0242 249 61 74",
+        phone: "0466 212 10 40",
         tr: {
-            hospName: "Akdeniz Üniversitesi FTR Merkezi & Özel Robotik Rehabilitasyon Klinikler",
-            shortDesc: "♿ Robotik rehabilitasyon ve hidroterapi birleşimiyle felç ve ortopedik engellerde ileri düzey tedavi.",
+            hospName: "Artvin Devlet Hastanesi FTR Birimi & Özel Rehabilitasyon Merkezleri",
+            shortDesc: "♿ Ortopedik ve nörolojik vakalarda fonksiyonel geri kazanım; uzman fizyoterapistler eşliğinde birebir gelişim seansları.",
             analysis: `
             <div class="analysis-content">
-                <h4 style="color:#e67e22;">⚙️ Teknolojik Rehabilitasyon ve Sporcu Sağlığı</h4>
+                <h4 style="color:#e67e22;">💪 Fonksiyonel Hareket ve Bireysel Terapi Protokolleri</h4>
+                <p>Artvin'de rehabilitasyon, hastanın zorlu coğrafyada bağımsız hareket kabiliyetini geri kazanmasını hedefleyen spesifik programlardan oluşur.</p>
                 <ul>
-                    <li>🤖 <strong>Robotik Yürüme:</strong> Lokomat ve el-kol robotları ile nörolojik hastalıklarda (İnme, MS) beyin plastisitesini uyaran sistemler.</li>
-                    <li>🌊 <strong>Su İçi Rehabilitasyon:</strong> Deniz suyunun kaldırma kuvveti ve sıcak su havuzları ile ortopedik engelli bireylere yönelik özel egzersizler.</li>
-                    <li>🦵 <strong>Ampute Rehabilitasyonu:</strong> İleri teknoloji protez uygulamaları sonrası adaptasyon ve yürüme eğitimleri.</li>
-                    <li>🏃 <strong>Sporcu Rehabilitasyonu:</strong> Profesyonel futbol ve tenis kamp merkezi olması nedeniyle spor yaralanmalarında dünyanın en deneyimli FTR ekiplerine sahiptir.</li>
+                    <li>♿ <strong>Nöro-Rehabilitasyon:</strong> İnme ve travma sonrası uzman fizyoterapistler eşliğinde yürütülen denge, yürüme ve koordinasyon eğitimleri.</li>
+                    <li>⚙️ <strong>Modern Elektroterapi Ünitesi:</strong> Ağrı kontrolü, kas stimülasyonu ve doku iyileşmesini hızlandıran teknolojik cihaz seansları.</li>
+                    <li>🦵 <strong>Kineziterapi ve Mobilizasyon:</strong> Ameliyat sonrası eklem kısıtlılıklarını gidermeye yönelik manuel terapi ve fonksiyonel egzersiz reçeteleri.</li>
+                    <li>🧒 <strong>Pediatrik Rehabilitasyon:</strong> Çocuklarda gelişimsel gerilikler ve Serebral Palsi için özel duyu bütünleme çalışmaları ve aile destek eğitimleri.</li>
                 </ul>
 
-                <h4>🌟 Dürüst Analiz</h4>
-                <p>Antalya, rehabilitasyon teknolojisinde İstanbul ile yarışmaktadır. <strong>Dürüst Analiz:</strong> Kamu hastanelerindeki yoğunluk nedeniyle 'robotik sistemlere' erişim vakit alabilir; ancak özel rehabilitasyon klinikleri global standartlarda ama yüksek maliyetli bir hizmet sunar.</p>
+                <h4>🌟 Teknik Dürüst Analiz</h4>
+                <p><strong>Dürüst Analiz:</strong> Artvin, rehabilitasyon hizmetlerinde 'Birebir İlgi' avantajına sahiptir. <strong>Güçlü Yönü:</strong> Fizik tedavi personelinin hastalarla kurduğu uzun süreli ve güven odaklı tedavi ilişkisidir.</p>
             </div>`
         }
     },
     spa: {
         img: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=400",
-        phone: "0242 710 10 00",
+        phone: "0466 212 10 00",
         tr: {
-            hospName: "Belek & Kundu Wellness Destinasyonları (Maxx Royal, Rixos vb.)",
-            shortDesc: "🧖‍♂️ Dünyanın en lüks SPA merkezlerine ev sahipliği yapan, 'Medical SPA' ve detoks lideri.",
+            hospName: "Artvin Wellness Noktaları & Geleneksel Şehir Hamamları",
+            shortDesc: "🧖‍♂️ Doğanın kalbinde, ladin kokulu arınma; geleneksel Türk hamamı ve kış wellness deneyimi.",
             analysis: `
             <div class="analysis-content">
-                <h4 style="color:#8e44ad;">🌿 Ultra Lüks Wellness ve Holistik Tedaviler</h4>
+                <h4 style="color:#8e44ad;">🌿 Wellness ve Ruhsal Arınma Ritüelleri</h4>
+                <p>Artvin'de Wellness deneyimi, özellikle yüksek yaylalardaki temiz hava ve orman dokusuyla birleşen 'Zihinsel Detoks' niteliğindedir.</p>
                 <ul>
-                    <li>💆 <strong>Dünya Masaj Literatürü:</strong> Bali, Thai, Lomi Lomi ve Ayurveda masajlarının yerinden gelen sertifikalı uzmanlarca uygulanması.</li>
-                    <li>🛁 <strong>Thalassoterapi:</strong> Isıtılmış deniz suyu ve deniz yosunu kürleri ile vücut detoksu ve mineralizasyonu.</li>
-                    <li>🌿 <strong>Tıbbi Aromaterapi:</strong> Toros Dağları'ndan elde edilen kekik, adaçayı ve lavanta yağları ile kişiye özel terapi protokolleri.</li>
-                    <li>😌 <strong>Anti-Aging Kürleri:</strong> Mezoterapi ve ozon tedavisi ile birleşen medikal spa programları.</li>
+                    <li>🧼 <strong>Hamam Ritüelleri:</strong> Hijyenik mermer sıcaklığında sunulan kese-köpük masajları ile cildi yenileyen klasik arınma seansları.</li>
+                    <li>💆 <strong>Rahatlama Masajları:</strong> Kas gerginliğini azaltan, dolaşımı hızlandıran ve ruhsal ferahlık sağlayan profesyonel dokunuşlar.</li>
+                    <li>🧖‍♂️ <strong>Sauna ve Buhar Banyosu:</strong> Toksin atılımını hızlandıran ve bağışıklığı destekleyen ısıl dinlenme alanları.</li>
+                    <li>😌 <strong>Stress-Free Alanlar:</strong> Orman manzaralı, huzurlu atmosferlerde sunulan zihinsel dinginlik odaklı Wellness paketleri.</li>
                 </ul>
 
                 <h4>➡️ Sektörel Durum</h4>
-                <p>Antalya, SPA & Wellness konusunda tartışmasız dünya lideridir. <strong>Dürüst Analiz:</strong> Şehirde 'Wellness' sadece dinlenmek değil, ciddi bir lüks tüketim kalemidir. Kalite kusursuzdur ancak bu hizmetlerin büyük çoğunluğu sadece otel misafirlerine özeldir; şehir içinde bağımsız tıbbi wellness merkezi sayısı daha sınırlıdır.</p>
+                <p><strong>Dürüst Analiz:</strong> Artvin'de SPA hizmeti butik bir yapıdadır. Şehirdeki modern konaklama tesisleri bünyesinde sunulan wellness hizmetleri, doğa tatiliyle sağlığı birleştirmek isteyenler için idealdir.</p>
             </div>`
         }
     }
@@ -1412,7 +1418,7 @@ const cityDetailedData = {
         }
     }
 },
-    "BALIKESİR": {
+    "BALIKESIR": {
     surgery: {
         img: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=400", 
         phone: "0266 460 40 00",
@@ -1521,7 +1527,7 @@ const cityDetailedData = {
         }
     }
 },
-    "BİLECİK": {
+    "BILECIK": {
     surgery: {
         img: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=400", 
         phone: "0228 212 10 33",
@@ -1629,7 +1635,7 @@ const cityDetailedData = {
         }
     }
 },
-"BİNGÖL": {
+"BINGÖL": {
     surgery: {
         img: "https://images.unsplash.com/photo-1512678080530-7760d81faba6?q=80&w=400", 
         phone: "0426 213 10 43",
@@ -1737,7 +1743,7 @@ const cityDetailedData = {
         }
     }
 },
-"BİTLİS": {
+"BITLIS": {
     surgery: {
         img: "https://images.unsplash.com/photo-1512678080530-7760d81faba6?q=80&w=400", 
         phone: "0432 215 04 71",
@@ -2284,7 +2290,7 @@ const cityDetailedData = {
         }
     }
 },
-   "CANKIRI": {
+   "ÇANKIRI": {
         surgery: {
             img: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=400", // Çankırı Devlet Hastanesi Modern Blok
             phone: "0376 213 27 27",
@@ -2510,7 +2516,7 @@ const cityDetailedData = {
         }
     }
 },
- "DENİZLİ": {
+ "DENIZLI": {
     surgery: {
         img: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=400", 
         phone: "0258 296 20 00",
@@ -2623,7 +2629,7 @@ const cityDetailedData = {
         }
     }
 },
- "DİYARBAKIR": {
+ "DIYARBAKIR": {
     surgery: {
         img: "https://images.unsplash.com/photo-1516549655169-df83a0774514?q=80&w=400", 
         phone: "0412 248 80 01",
@@ -2733,7 +2739,7 @@ const cityDetailedData = {
         }
     }
 },
-   "EDİRNE": {
+   "EDIRNE": {
     surgery: {
         img: "https://images.unsplash.com/photo-1551076805-e1869033e561?q=80&w=400", 
         phone: "0284 235 76 41",
@@ -2845,7 +2851,7 @@ const cityDetailedData = {
         }
     }
 },
- "ELAZIĞ": {
+ "ELAZIG": {
     surgery: {
         img: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=400", 
         phone: "0424 233 33 33",
@@ -2957,7 +2963,7 @@ const cityDetailedData = {
         }
     }
 },
- "ERZİNCAN": {
+ "ERZINCAN": {
     surgery: {
         img: "https://images.unsplash.com/photo-1516549655169-df83a0774514?q=80&w=400", 
         phone: "0446 212 22 22",
@@ -3295,7 +3301,7 @@ const cityDetailedData = {
             }
         }
     },
-    "GAZİANTEP": {
+    "GAZIANTEP": {
     surgery: {
         img: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=400", 
         phone: "0342 211 50 00",
@@ -3409,117 +3415,8 @@ const cityDetailedData = {
         }
     }
 },
-    "GİRESUN": {
-    surgery: {
-        img: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=400", 
-        phone: "0454 310 20 00",
-        tr: {
-            hospName: "Giresun Üniversitesi Eğitim ve Araştırma Hastanesi (Prof. Dr. A. İlhan Özdemir) & Giresun Kadın Doğum ve Çocuk Hastalıkları Hastanesi",
-            shortDesc: "🏥 Doğu Karadeniz'in yükselen cerrahi gücü; onkolojik operasyonlar ve ileri düzey travma cerrahisinde bölgeye hizmet veren modern tıp merkezi.",
-            analysis: `
-            <div class="analysis-content">
-                <h4 style="color:#c0392b;">🩺 Cerrahi Müdahale Kapasitesi ve Akademik Gelişim</h4>
-                <ul>
-                    <li>⚕️ <strong>Onkolojik Cerrahi:</strong> Meme, tiroid ve kolorektal kanserlerde multidisipliner tümör konseyleri ile yönetilen, güncel kılavuzlara uygun cerrahi yaklaşımlar.</li>
-                    <li>🫀 <strong>Kardiyoloji ve Anjiyografi:</strong> 7/24 hizmet veren anjiyo üniteleri ile kalp krizi müdahalelerinde ve stent uygulamalarında yüksek başarı yüzdesi.</li>
-                    <li>🦴 <strong>Ortopedi ve Artroskopi:</strong> Kapalı (artroskopik) omuz ve diz cerrahisi, protez operasyonları ve travma sonrası rekonstrüksiyon uzmanlığı.</li>
-                    <li>🧠 <strong>Nöroşirürji:</strong> Mikrocerrahi yöntemlerle fıtık operasyonları ve kafa travmalarında hızlı müdahale kapasitesi.</li>
-                    <li>🦷 <strong>Dental Cerrahi:</strong> Giresun Üniversitesi Diş Hekimliği Fakültesi bünyesinde modern implant uygulamaları ve periodontal cerrahi.</li>
-                </ul>
-
-                <h4 style="color:#2c3e50;">💎 Sağlık Hizmeti Stratejisi</h4>
-                <ul>
-                    <li>🌱 <strong>Ekolojik İyileşme:</strong> Ameliyat sonrası nekahat dönemini şehrin düşük nemli ve yüksek oksijenli havasında geçiren hastalar için doğal bir rehabilitasyon avantajı.</li>
-                </ul>
-
-                <h4>➡️ Dürüst Analiz</h4>
-                <p>Giresun, yeni Eğitim ve Araştırma Hastanesi kompleksi ile fiziksel altyapısını tamamen modernize etmiştir. <strong>Güçlü Yönü:</strong> Hekim kadrosu genç ve dinamiktir; akademik motivasyon yüksektir. <strong>Eksik Yönü:</strong> Organ nakli gibi çok ileri spesifik branşlarda halen komşu il Trabzon'a sevk yapılabilmektedir; ancak temel cerrahide kusursuzdur.</p>
-            </div>`
-        }
-    },
-    thermal: {
-        img: "https://images.unsplash.com/photo-1596464716127-f2a82984de30?q=80&w=400",
-        phone: "0454 591 23 23", 
-        tr: {
-            hospName: "Dereli (Yavuzkemal) Tamdere Kaplıcaları & Çaldağ Maden Suyu Kaynakları",
-            shortDesc: "🌡️ Karadeniz'in kalbinde, demir ve kükürt zengini yapısıyla mide ve deri hastalıklarında 'doğal maden suyu' şifası.",
-            analysis: `
-            <div class="analysis-content">
-                <h4 style="color:#2980b9;">🧪 Mineral Analizi ve Balneolojik Etki</h4>
-                <ul>
-                    <li>🧪 <strong>Demir ve Alüminyum İçeriği:</strong> Tamdere suları, özellikle kansızlık (anemi) ve nekahat dönemindeki güçsüzlük durumlarında destekleyici bir mineral deposudur.</li>
-                    <li>🫁 <strong>Solunum ve Mide Şifası:</strong> Doğal maden suyu kaynaklarının (İnişdibi) mide asiditesini dengeleyici ve sindirim sistemini rahatlatıcı etkisi.</li>
-                    <li>🦴 <strong>Romatizmal Banyo Kürleri:</strong> Sıcak su kaynaklarının kireçlenme ve kronik bel ağrılarında kas gevşetici ve ağrı dindirici tesiri.</li>
-                    <li>🧼 <strong>Deri Terapisi:</strong> Kükürtlü yapının akne ve deri irritasyonları üzerindeki temizleyici ve yatıştırıcı etkisi.</li>
-                </ul>
-                
-                <h4>➡️ Bölgesel Değerlendirme</h4>
-                <p>Giresun, "Maden Suyu" kalitesiyle Türkiye'nin en değerli kaynaklarına sahiptir. <strong>Dürüst Analiz:</strong> Tesisleşme yayla turizmi ile iç içe geçmiş butik bir yapıdadır. Büyük bir termal otel zinciri beklemek yerine, doğanın içindeki şifalı suların otantik deneyimine odaklanılmalıdır.</p>
-            </div>`
-        }
-    },
-    elderly: {
-        img: "https://images.unsplash.com/photo-1571772996211-2f02c97da70d?q=80&w=400",
-        phone: "0454 215 00 28", 
-        tr: {
-            hospName: "Giresun Huzurevi Yaşlı Bakım ve Rehabilitasyon Merkezi",
-            shortDesc: "👴 Deniz manzaralı, bol oksijenli ve Karadeniz'in huzurlu atmosferinde profesyonel geriatrik bakım.",
-            analysis: `
-            <div class="analysis-content">
-                <h4 style="color:#27ae60;">🧠 Profesyonel Bakım ve Esenlik</h4>
-                <ul>
-                    <li>🌬️ <strong>Yayla ve Deniz Karışımı Hava:</strong> Solunum sıkıntısı yaşayan yaşlılar için ideal nem dengesi ve temiz hava kalitesi.</li>
-                    <li>🧑‍⚕️ <strong>Düzenli Tıbbi Takip:</strong> Üniversite hastanesiyle koordineli, kronik hastalık yönetimi ve periyodik sağlık taramaları.</li>
-                    <li>🧠 <strong>Bilişsel Koruma:</strong> Sosyal aktiviteler, hobi bahçeleri ve Karadeniz kültürüne uygun etkinliklerle desteklenen mental zindelik programları.</li>
-                </ul>
-
-                <h4>➡️ Altyapı Notu</h4>
-                <p><strong>Dürüst Analiz:</strong> Giresun, yaşlılar için "sessiz ve huzurlu" bir limandır. Şehrin kompakt yapısı ulaşımı kolaylaştırır. Kamu tesislerindeki bakım kalitesi aile sıcaklığındadır ancak özel lüks bakım evi sektörü henüz gelişme aşamasındadır.</p>
-            </div>`
-        }
-    },
-    disabled: {
-        img: "https://images.unsplash.com/photo-1576091160550-2173dad99901?q=80&w=400",
-        phone: "0454 310 20 00",
-        tr: {
-            hospName: "Giresun Üniversitesi FTR Ünitesi & Özel Engelsiz Yaşam Merkezleri",
-            shortDesc: "♿ Nörolojik ve ortopedik rehabilitasyonda manuel terapi odaklı profesyonel fizik tedavi.",
-            analysis: `
-            <div class="analysis-content">
-                <h4 style="color:#e67e22;">💪 Fizik Tedavi Uygulamaları</h4>
-                <ul>
-                    <li>♿ <strong>İnme (Felç) Rehabilitasyonu:</strong> Nöro-kas stimülasyonu ve denge-koordinasyon egzersizleriyle hareket kabiliyetini artırma protokolleri.</li>
-                    <li>⚙️ <strong>Elektroterapi Uygulamaları:</strong> Ultrason, lazer ve TENS cihazları ile kronik ağrı yönetimi.</li>
-                    <li>🦵 <strong>Post-Op FTR:</strong> Diz ve kalça ameliyatları sonrası hastanın mobilizasyonunu hızlandıran kişiye özel egzersiz seansları.</li>
-                </ul>
-
-                <h4>🌟 Dürüst Analiz</h4>
-                <p><strong>Dürüst Analiz:</strong> Akademik temelli bir yaklaşım mevcuttur. Robotik sistemlerin (Lokomat vb.) yaygınlığı kısıtlı olsa da, manuel terapi ve fizyoterapist odaklı birebir ilgide Giresun oldukça başarılı sonuçlar vermektedir.</p>
-            </div>`
-        }
-    },
-    spa: {
-        img: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=400",
-        phone: "0454 214 12 12",
-        tr: {
-            hospName: "Giresun Şehir Otelleri (Newjasmin, La Quinta) Wellness Birimleri",
-            shortDesc: "🧖‍♂️ Deniz kenarında sunulan modern wellness hizmetleri; hamam, sauna ve rahatlatıcı masaj terapileri.",
-            analysis: `
-            <div class="analysis-content">
-                <h4 style="color:#8e44ad;">🌿 Wellness ve Rahatlama Protokolleri</h4>
-                <ul>
-                    <li>🧼 <strong>Türk Hamamı:</strong> Hijyenik standartlarda kese-köpük ritüeli ile fiziksel detoks.</li>
-                    <li>💆 <strong>Aromaterapi ve Klasik Masajlar:</strong> Bitkisel yağlarla sunulan, günlük stresi ve kas yorgunluğunu gideren masaj seansları.</li>
-                    <li>🧖‍♂️ <strong>Buhar ve Sauna:</strong> Vücut direncini artıran ve toksin atımını hızlandıran ısıl alanlar.</li>
-                </ul>
-
-                <h4>➡️ Sektörel Durum</h4>
-                <p><strong>Dürüst Analiz:</strong> Giresun'da SPA sektörü lüks şehir otelleri bünyesinde yoğunlaşmıştır. Hizmet kalitesi standart beklentileri karşılar düzeyde olup, profesyonel bir dinlenme imkanı sunar.</p>
-            </div>`
-        }
-    }
-},
-    "GİRESUN": {
+    
+    "GIRESUN": {
     surgery: {
         img: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=400", 
         phone: "0454 310 20 00",
@@ -3632,7 +3529,7 @@ const cityDetailedData = {
         }
     }
 },
-    "HAKKARİ": {
+    "HAKKARI": {
     surgery: {
         img: "https://images.unsplash.com/photo-1586773860418-d37222d8fce2?q=80&w=400", 
         phone: "0438 211 44 70",
@@ -3969,7 +3866,7 @@ const cityDetailedData = {
         }
     }
 },
-    "MERSİN": {
+    "MERSIN": {
     surgery: {
         img: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=400", 
         phone: "0324 225 10 00",
@@ -4083,7 +3980,7 @@ const cityDetailedData = {
         }
     }
 },
-    "İSTANBUL": {
+    "ISTANBUL": {
     surgery: {
         img: "https://images.unsplash.com/photo-1512678080530-7760d81faba6?q=80&w=400", 
         phone: "0212 314 44 44",
@@ -4197,7 +4094,7 @@ const cityDetailedData = {
         }
     }
 },
-    "İZMİR": {
+    "IZMIR": {
     surgery: {
         img: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=400", 
         phone: "0232 244 44 44",
@@ -4639,7 +4536,7 @@ const cityDetailedData = {
             }
         }
     },
-    "KIRKLARELİ": {
+    "KIRKLARELI": {
     surgery: {
         img: "https://images.unsplash.com/photo-1551076805-e1869033e561?q=80&w=400", 
         phone: "0288 214 10 71",
@@ -4867,7 +4764,7 @@ const cityDetailedData = {
             }
         }
     },
-    "KOCAELİ": {
+    "KOCAELI": {
     surgery: {
         img: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=400", 
         phone: "0262 317 10 00",
@@ -5094,7 +4991,7 @@ const cityDetailedData = {
             }
         }
     },
-   "KUTAHYA": {
+   "KÜTAHYA": {
         surgery: {
             img: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=400", // Kütahya Sağlık Bilimleri Üniversitesi Evliya Çelebi EAH
             phone: "0274 231 66 60",
@@ -5323,7 +5220,7 @@ const cityDetailedData = {
         }
     }
 },
-    "MANİSA": {
+    "MANISA": {
     surgery: {
         img: "https://images.unsplash.com/photo-1551076805-e1869033e561?q=80&w=400", 
         phone: "0236 233 80 00",
@@ -5437,7 +5334,7 @@ const cityDetailedData = {
         }
     }
 },
-    "K. Maras": {
+    "K. MARAS": {
     surgery: {
         img: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=400", 
         phone: "0344 228 28 00",
@@ -5549,7 +5446,7 @@ const cityDetailedData = {
         }
     }
 },
-  "MARDİN": {
+  "MARDIN": {
     surgery: {
         img: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=400", 
         phone: "0482 212 10 48",
@@ -5662,7 +5559,7 @@ const cityDetailedData = {
         }
     }
 },
-   "MUĞLA": {
+   "MUGLA": {
     surgery: {
         img: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=400", 
         phone: "0252 214 13 26",
@@ -5775,7 +5672,7 @@ const cityDetailedData = {
         }
     }
 },
-   "MUŞ": {
+   "MUS": {
     surgery: {
         img: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=400", 
         phone: "0436 212 06 68",
@@ -6231,7 +6128,7 @@ const cityDetailedData = {
         }
     }
 },
-   "RİZE": {
+   "RIZE": {
     surgery: {
         img: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=400", 
         phone: "0464 213 04 91",
@@ -6569,7 +6466,7 @@ const cityDetailedData = {
         }
     }
 },
-  "SİİRT": {
+  "SIIRT": {
     surgery: {
         img: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=400", 
         phone: "0484 224 82 22",
@@ -6681,7 +6578,7 @@ const cityDetailedData = {
         }
     }
 },
-    "SİNOP": {
+    "SINOP": {
     surgery: {
         img: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=400", 
         phone: "0368 271 44 00",
@@ -6908,7 +6805,7 @@ const cityDetailedData = {
             }
         }
     },
-  "TEKİRDAĞ": {
+  "TEKIRDAG": {
     surgery: {
         img: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=400", 
         phone: "0282 204 09 00",
@@ -7259,7 +7156,7 @@ const cityDetailedData = {
         }
     }
 },
-"TUNCELİ": {
+"TUNCELI": {
     surgery: {
         img: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=400", 
         phone: "0428 212 10 39",
@@ -7378,7 +7275,7 @@ const cityDetailedData = {
         }
     }
 },
-  "ŞANLIURFA": {
+  "SANLIURFA": {
     surgery: {
         img: "https://images.unsplash.com/photo-1586773860418-d319a39855df?q=80&w=400", 
         phone: "0414 317 00 00",
@@ -8661,415 +8558,950 @@ const cityDetailedData = {
         }
     }
 },
-    "BARTIN": {
-        surgery: {
-            img: "https://via.placeholder.com/400x250?text=Bartin+Devlet+Hastanesi",
-            phone: "+90 378 227 15 51",
-            tr: {
-                hospName: "Bartın Devlet Hastanesi",
-                analysis: `
-                <div class="analysis-content">
-                    <p><strong>BARTIN</strong>, Batı Karadeniz'de temel ve orta ölçekli cerrahi operasyonların dürüstçe yapıldığı modern bir altyapıya sahiptir.</p>
-                    
-                    <h4>🔍 Cerrahi Mevcut Durum</h4>
-                    <ul>
-                        <li><strong>Genel Cerrahi:</strong> Laparoskopik fıtık ve safra kesesi operasyonlarında güvenilir bir hizmet sunulur.</li>
-                        <li><strong>Göz Sağlığı:</strong> Katarakt ve temel göz cerrahisinde şehirdeki üniteler oldukça aktiftir.</li>
-                    </ul>
+  "BARTIN": {
+    surgery: {
+        img: "https://images.unsplash.com/photo-1512678080530-7760d81faba6?q=80&w=400", 
+        phone: "0378 227 15 51",
+        tr: {
+            hospName: "Bartın Devlet Hastanesi & Bartın Üniversitesi Sağlık Hizmetleri Yüksekokulu",
+            shortDesc: "🏥 Batı Karadeniz'in modern cerrahi durağı; teknolojik ameliyathaneler, ileri görüntüleme ve butik hasta bakım hizmetleri.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#c0392b;">🩺 Modern Cerrahi Envanter ve Klinik Yetkinlik</h4>
+                <p>Bartın, son yıllarda sağlık altyapısına yapılan yatırımlarla kendi kendine yetebilen bir cerrahi ekosistem oluşturmuştur. Hastane bünyesindeki dijital entegrasyon, cerrahi başarı oranlarını artırmaktadır.</p>
+                <ul>
+                    <li>⚕️ <strong>Laparoskopik ve Endoskopik Cerrahi:</strong> Safra kesesi, fıtık ve gastrointestinal sistem operasyonlarında %90'ın üzerinde kapalı cerrahi başarısı; minimal invaziv yaklaşımla hızlı iyileşme süreleri.</li>
+                    <li>🦴 <strong>Ortopedi ve Artroskopik Müdahaleler:</strong> Spor yaralanmaları, menisküs ve ön çapraz bağ cerrahisinde modern artroskopi üniteleri; yaşlı nüfusa yönelik başarılı kalça ve diz protezi uygulamaları.</li>
+                    <li>🫀 <strong>Kardiyoloji ve Koroner İzlem:</strong> Akut miyokard enfarktüsü (kalp krizi) vakalarında hızlı stabilizasyon ve yoğun bakım desteği; dijital ekokardiyografi ve efor laboratuvarları.</li>
+                    <li>🧠 <strong>Nöroloji ve İnme Yönetimi:</strong> Akut inme vakalarında trombolitik tedavi kapasitesi ve nörolojik rehabilitasyonun cerrahi süreçle entegrasyonu.</li>
+                    <li>🤱 <strong>Modern Kadın Doğum Ünitesi:</strong> SDL (Sancı-Doğum-Lohusa) odalarıyla desteklenen konforlu doğum süreci ve pediatrik takip birimleri.</li>
+                    <li>🩸 <strong>Üroloji ve Taş Kırma:</strong> Lazerli taş müdahaleleri ve endo-ürolojik operasyonlarda geniş vaka deneyimi.</li>
+                    <li>🦷 <strong>Bartın Ağız ve Diş Sağlığı Merkezi:</strong> Restoratif tedaviler, periodontoloji ve protez alanında uzmanlaşmış klinik kadro ve modern sterilizasyon üniteleri.</li>
+                </ul>
 
-                    <h4>⚠️ Dürüst Analiz</h4>
-                    <p>Bartın; <strong>saç ekimi</strong>, <strong>diş estetiği</strong> veya ileri <strong>kardiyovasküler cerrahi</strong> için bir ana merkez değildir. Kompleks ameliyatlar genellikle 1 saat mesafedeki Zonguldak Bülent Ecevit Üniversitesi Hastanesi'ne yönlendirilir.</p>
-                </div>`
-            }
-        },
-        thermal: {
-            tr: {
-                hospName: "Bartın Tuzlu Su ve Mineral Kaynakları",
-                analysis: `<div class="analysis-content"><p>Bartın'da profesyonel bir termal tesis bulunmasa da, deniz suyunun mineral yoğunluğu ve yerel kaynaklar cilt yüzeyindeki tahrişleri dürüstçe rahatlatır.</p></div>`
-            }
-        },
-        care: {
-            img: "https://via.placeholder.com/400x250?text=Amasra+Hava+Rehabilitasyon",
-            tr: {
-                hospName: "Amasra ve İnkumu Solunum Terapisi",
-                analysis: `
-                <div class="analysis-content">
-                    <h3 style="color:#27ae60;">🌟 AKCİĞERLERİN DOĞAL İLACI: AMASRA</h3>
-                    <p>Bartın, özellikle Amasra'nın sahip olduğu yüksek iyotlu deniz havası ve orman oksijeniyle <strong>Astım, KOAH ve Bronşit</strong> rehabilitasyonu için Türkiye'nin en dürüst yıldızıdır.</p>
-                    
-                    <h4>🌬️ Hava Terapisi (Klimaterapi)</h4>
-                    <p>Ameliyat sonrası akciğer kapasitesini artırmak isteyenler için bu bölge, nem ve oksijen dengesiyle dürüst bir iyileşme laboratuvarıdır.</p>
-                </div>`
-            }
-        },
-        spa: {
-            tr: {
-                hospName: "Doğa Wellness & Deniz Spa",
-                analysis: `<div class="analysis-content"><p>Bartın'da SPA deneyimi, butik otellerde sunulan ve Karadeniz'in temiz havasıyla birleşen doğal bitki terapileri ve deniz tuzu masajlarından oluşur.</p></div>`
-            }
+                <h4 style="color:#2c3e50;">🌍 Coğrafi Konum ve Şifa Havzası</h4>
+                <p>Bartın, çevresindeki Kastamonu, Zonguldak ve Karabük üçgeninde 'Huzurlu ve Erişilebilir' bir sağlık durağıdır. Deniz kıyısındaki Amasra ve İnkumu gibi lokasyonlar, cerrahi sonrası iyileşme dönemi (konvalesans) için doğal bir terapi alanı sunar.</p>
+
+                <h4>➡️ Teknik Dürüst Analiz</h4>
+                <p><strong>Güçlü Yönü:</strong> Hastanenin fiziksel yeniliği ve hasta başına düşen hemşire oranının yüksekliğidir. Butik hizmet anlayışı, hastaların kendini özel hissetmesini sağlar. <strong>Eksik Yönü:</strong> Çok ileri düzey transplantasyon (organ nakli) gibi işlemler için Ankara veya Zonguldak Bülent Ecevit Üniversitesi'ne sevk yapılsa da genel cerrahi branşlarda tam yetkindir.</p>
+            </div>`
         }
     },
-    "ARDAHAN": {
-        surgery: {
-            img: "https://via.placeholder.com/400x250?text=Ardahan+Devlet+Hastanesi",
-            phone: "+90 478 211 30 48",
-            tr: {
-                hospName: "Ardahan Devlet Hastanesi",
-                analysis: `
-                <div class="analysis-content">
-                    <p><strong>ARDAHAN</strong>, Türkiye'nin en yüksek rakımlı şehirlerinden biri olarak temel sağlık hizmetlerini dürüst ve butik bir yapıda sunar.</p>
-                    
-                    <h4>🔍 Cerrahi Yetkinlikler</h4>
-                    <ul>
-                        <li><strong>Acil ve Travma Müdahalesi:</strong> Sert iklim ve coğrafi şartlar nedeniyle acil cerrahi müdahalelerde pratik bir deneyime sahiptir.</li>
-                        <li><strong>Diyaliz ve İç Hastalıkları:</strong> Şehirdeki yeni hastane binasıyla bu alanlarda dürüst bir bakım sunulmaktadır.</li>
-                    </ul>
-
-                    <h4>⚠️ Dürüst Analiz</h4>
-                    <p>Ardahan; <strong>estetik cerrahi</strong>, <strong>saç ekimi</strong> veya <strong>onkolojik operasyonlar</strong> için uygun bir altyapıya sahip değildir. Bu tür vakalar genellikle 1.5 saat mesafedeki Erzurum ve Kars'taki üniversite hastanelerine koordine edilir.</p>
-                </div>`
-            }
-        },
-        thermal: {
-            tr: {
-                hospName: "Ardahan Yerel Şifa Kaynakları",
-                analysis: `<div class="analysis-content"><p>Ardahan'da profesyonel termal tesis yoktur; ancak bölgedeki yüksek mineralli toprak yapısı ve su kaynakları yerel halk tarafından dürüst birer destekçi olarak kullanılır.</p></div>`
-            }
-        },
-        care: {
-            img: "https://via.placeholder.com/400x250?text=Ardahan+Yayla+Hava",
-            tr: {
-                hospName: "Yüksek Rakım ve Arı Ürünleri Terapisi",
-                analysis: `
-                <div class="analysis-content">
-                    <h4 style="color:#27ae60;">🏔️ METABOLİZMA HIZLANDIRAN RAKIM</h4>
-                    <p>Ardahan'ın 1800+ rakımı, vücuttaki alyuvar üretimini dürüstçe artırır. Bu durum, ameliyat sonrası <strong>kan değerlerini toplamak</strong> isteyenler için doğal bir dopingdir.</p>
-                    
-                    <h4>🐝 Kafkas Arısı Şifası</h4>
-                    <p>Bölgeye has Kafkas arılarından elde edilen dürüst propolis ve ballar, bağışıklık sistemini cerrahi sonrası en dürüst şekilde güçlendirir.</p>
-                </div>`
-            }
-        },
-        spa: {
-            tr: {
-                hospName: "Geleneksel Yayla Banyosu",
-                analysis: `<div class="analysis-content"><p>Ardahan'da wellness, yüksek rakımlı yaylalarda yapılan uzun yürüyüşler ve ardından geleneksel hamam ritüelleriyle sağlanan doğal bir zindelik sürecidir.</p></div>`
-            }
+    thermal: {
+        img: "https://images.unsplash.com/photo-1590733440260-032049079374?q=80&w=400",
+        phone: "0378 227 10 10", 
+        tr: {
+            hospName: "Bartın Şifalı Su Kaynakları & Bölgesel Jeotermal Etüd Alanları",
+            shortDesc: "🌡️ Karadeniz'in yeşil örtüsü altında mineralli sular; deri sağlığı ve eklem rahatlaması için butik kaynaklar.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#2980b9;">🧪 Hidro-Minerolojik Yapı ve Doğal Destek</h4>
+                <p>Bartın ve çevresindeki su kaynakları, bölgenin yoğun yağış ve orman yapısıyla süzülen, mineral dengesi korunmuş saf kaynaklardır.</p>
+                <ul>
+                    <li>🧪 <strong>Mineralli Su Karakteristiği:</strong> Hafif kükürtlü ve bikarbonatlı yapı; cilt bariyerini güçlendirici ve yüzeysel dolaşımı hızlandırıcı etki.</li>
+                    <li>🦴 <strong>Romatizmal Destek:</strong> Termal banyoların kas spazmlarını çözücü, kronik eklem ağrılarını hafifletici ve hareket kabiliyetini artırıcı rolü.</li>
+                    <li>🧖‍♂️ <strong>Dermatolojik Rahatlama:</strong> Suyun pH dengesi sayesinde atopik dermatit ve kuru cilt sorunlarında yatıştırıcı sonuçlar.</li>
+                    <li>🌬️ <strong>Doğa ve Su Sentezi:</strong> Suyun şifasını, bölgenin yüksek oksijenli orman havasıyla birleştiren 'Klimaterapi' avantajı.</li>
+                </ul>
+                
+                <h4>➡️ Bölgesel Değerlendirme</h4>
+                <p><strong>Dürüst Analiz:</strong> Bartın'da termal imkanlar büyük tesislerden ziyade butik ve doğal formdadır. Doğallık arayan ve kalabalıktan kaçan 'Sağlık Turistleri' için gizli bir hazinedir.</p>
+            </div>`
         }
     },
-    "IĞDIR": {
-        surgery: {
-            img: "https://via.placeholder.com/400x250?text=Igdir+Devlet+Hastanesi",
-            phone: "+90 476 226 03 01",
-            tr: {
-                hospName: "Iğdır Devlet Hastanesi",
-                analysis: `
-                <div class="analysis-content">
-                    <p><strong>IGDIR</strong>, üç ülkeye sınırı olan stratejik konumuyla temel cerrahi branşlarda dürüst ve hızlı bir hizmet kapasitesine sahiptir.</p>
-                    
-                    <h4>🔍 Cerrahi Yetkinlikler</h4>
-                    <ul>
-                        <li><strong>Genel Cerrahi:</strong> Şehirdeki modern hastane bünyesinde rutin operasyonlar ve acil cerrahi müdahaleler başarıyla yapılmaktadır.</li>
-                        <li><strong>Kadın Doğum:</strong> Bölgesel yoğunluk nedeniyle bu branşta tecrübeli bir cerrahi ekip mevcuttur.</li>
-                    </ul>
+    elderly: {
+        img: "https://images.unsplash.com/photo-1581578731522-a2047864146e?q=80&w=400",
+        phone: "0378 228 11 05", 
+        tr: {
+            hospName: "Bartın Huzurevi Yaşlı Bakım Merkezi & 75. Yıl Yaşlı Bakım Evi",
+            shortDesc: "👴 Denizin ve ormanın buluştuğu noktada sakin bir emeklilik; Karadeniz havasında uzun ve sağlıklı yaşam.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#27ae60;">🧠 İyot ve Oksijen Destekli Yaşlı Bakımı</h4>
+                <p>Bartın, yaşlılar için Türkiye'nin en ideal yaşam alanlarından biridir. Nem dengesi ve bitki örtüsü, özellikle solunum sorunu yaşayan yaşlılar için doğal bir ilaç gibidir.</p>
+                <ul>
+                    <li>🏥 <strong>Kronik Hastalık Takibi:</strong> Diyabet ve tansiyon hastaları için aile sağlığı merkezleri ve hastane koordinasyonunda yürütülen düzenli izlem programları.</li>
+                    <li>🥗 <strong>Doğal Karadeniz Gastronomisi:</strong> Bölgenin taze balığı, mısır ekmeği ve orman meyveleriyle (böğürtlen, kuşburnu) desteklenen antioksidan zengini beslenme düzeni.</li>
+                    <li>🌊 <strong>Mavi ve Yeşil Terapi:</strong> Amasra sahil şeridinde yapılan yürüyüşlerin yaşlılarda kardiyovasküler dayanıklılığı ve ruhsal sağlığı pozitif etkilemesi.</li>
+                    <li>🧠 <strong>Sosyal Etkileşim:</strong> Geleneksel el sanatları (Tel kırma), ahşap oymacılığı ve yerel pazarlar aracılığıyla sağlanan mental aktivite ve aidiyet hissi.</li>
+                </ul>
 
-                    <h4>⚠️ Dürüst Analiz</h4>
-                    <p>Iğdır; <strong>saç ekimi</strong>, <strong>ileri kalp cerrahisi</strong> veya <strong>organ nakli</strong> gibi uzmanlıklar için bir merkez değildir. Bu tür vakalar genellikle Erzurum veya Van'daki bölge hastanelerine sevk edilir.</p>
-                </div>`
-            }
-        },
-        thermal: {
-            tr: {
-                hospName: "Iğdır Tuzluca Tuz Mağaraları",
-                analysis: `<div class="analysis-content"><p>Iğdır'da termal tesis yoktur ancak Tuzluca'daki tuz mağaraları, medikal anlamda solunum yolları için Türkiye'nin en dürüst doğal tedavi alanlarından biridir.</p></div>`
-            }
-        },
-        care: {
-            img: "https://via.placeholder.com/400x250?text=Igdir+Mikroklima+Hava",
-            tr: {
-                hospName: "Doğu'nun Çukurova'sı: Klimaterapi",
-                analysis: `
-                <div class="analysis-content">
-                    <h4 style="color:#27ae60;">🍎 MİKRO-KLİMA ŞİFASI</h4>
-                    <p>Iğdır'ın çevresindeki yüksek dağlara rağmen sahip olduğu alçak rakım ve yumuşak iklim, <strong>KOAH ve kalp hastaları</strong> için kış aylarında dürüst bir sığınaktır.</p>
-                </div>`
-            }
-        },
-        spa: {
-            tr: {
-                hospName: "Geleneksel Hamam Hizmetleri",
-                analysis: `<div class="analysis-content"><p>Şehir merkezinde sunulan klasik hamam ve kese hizmetleri, yerel halkın ve gezginlerin tercih ettiği temel wellness imkanlarıdır.</p></div>`
-            }
+                <h4>➡️ Altyapı Notu</h4>
+                <p><strong>Dürüst Analiz:</strong> Bartın, yaşlılar için "Huzur ve Güven" demektir. <strong>Güçlü Yönü:</strong> Şehirdeki yaşam temposunun yavaşlığı ve hava kalitesinin yaşlı sağlığı üzerindeki tartışmasız pozitif etkisidir.</p>
+            </div>`
         }
     },
-    "YALOVA": {
-        surgery: {
-            img: "https://via.placeholder.com/400x250?text=Yalova+Egitim+Arastirma",
-            phone: "+90 226 811 00 20",
-            tr: {
-                hospName: "Yalova Eğitim ve Araştırma Hastanesi ve Özel Uzmanlık Klinikleri",
-                analysis: `
-                <div class="analysis-content">
-                    <h3 style="color:#e67e22;">🌟 MEDİKAL TERMAL VE FİZİK TEDAVİ BAŞKENTİ</h3>
-                    <p><strong>YALOVA</strong>, cerrahi başarıyı termal rehabilitasyonla birleştiren, dünyaca ünlü bir "Sağlık Yıldızı"dır.</p>
-                    
-                    <h4>💎 Öne Çıkan Uzmanlık Alanları</h4>
-                    <ul>
-                        <li><strong>🦴 Robotik Fizik Tedavi:</strong> Ameliyat sonrası <strong>felçli hasta rehabilitasyonu</strong> ve eklem hareket kısıtlılıklarında Türkiye'nin en dürüst ve ileri merkezlerine sahiptir.</li>
-                        <li><strong>🦷 Diş Turizmi:</strong> Yalova, özellikle Ortadoğu ve Avrupa'dan gelen hastalar için <strong>implant</strong> ve estetik gülüş tasarımında dürüst bir üstür.</li>
-                        <li><strong>👃 VIP Estetik Cerrahi:</strong> İstanbul'a yakınlığı sayesinde, ameliyat sonrası sessiz bir iyileşme arayanlar için lüks estetik cerrahi hizmeti sunulur.</li>
-                        <li><strong>💇‍♂️ Saç Ekimi:</strong> Termal otellerle entegre çalışan profesyonel saç ekim merkezleri çok gelişmiştir.</li>
-                    </ul>
+    disabled: {
+        img: "https://images.unsplash.com/photo-1576091160550-2173dad99901?q=80&w=400",
+        phone: "0378 227 15 51",
+        tr: {
+            hospName: "Bartın Devlet Hastanesi FTR Ünitesi & Özel Özel Eğitim ve Rehabilitasyon",
+            shortDesc: "♿ Nörolojik ve ortopedik rehabilitasyonda uzmanlaşmış birimler; su ve doğa destekli iyileşme protokolleri.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#e67e22;">💪 Bütünsel Fonksiyonel Rehabilitasyon</h4>
+                <p>Bartın'da rehabilitasyon, sadece fiziksel hareket değil, hastanın sosyal yaşama adaptasyonunu sağlayan kapsamlı bir süreçtir.</p>
+                <ul>
+                    <li>♿ <strong>Nörolojik Geri Kazanım:</strong> İnme ve spinal yaralanmalar sonrası uzman fizyoterapistler eşliğinde denge, koordinasyon ve yürüme eğitimleri.</li>
+                    <li>⚙️ <strong>Modern Fizik Tedavi Cihazları:</strong> Elektroterapi, vakum ve tens üniteleri ile ağrı yönetimi ve fonksiyonel kas stimülasyonu.</li>
+                    <li>🦵 <strong>Kineziterapi ve Egzersiz:</strong> Ameliyat sonrası eklem kısıtlılıklarını gidermeye yönelik manuel terapi teknikleri ve kişiye özel egzersiz reçeteleri.</li>
+                    <li>🧒 <strong>Pediatrik Rehabilitasyon:</strong> Çocuklarda gelişimsel gerilikler ve Serebral Palsi için özel duyu bütünleme çalışmaları ve aile eğitimleri.</li>
+                </ul>
 
-                    <h4>⚠️ Dürüst Analiz</h4>
-                    <p>Yalova rehabilitasyonda dünya devidir. Ancak çok karmaşık <strong>beyin tümörü cerrahisi</strong> gibi vakalarda, üniversite hastanesi desteği için hastalar genellikle 45 dakika mesafedeki İstanbul veya Kocaeli'ne yönlendirilebilir.</p>
-                </div>`
-            }
-        },
-        thermal: {
-            img: "https://via.placeholder.com/400x250?text=Yalova+Termal+Kaplicalari",
-            phone: "+90 226 675 74 00",
-            tr: {
-                hospName: "Yalova Termal Tesisleri ve Armutlu Kaplıcaları",
-                analysis: `
-                <div class="analysis-content">
-                    <h3 style="color:#2980b9;">🌟 DÜNYA SAĞLIK ÖRGÜTÜ ÖDÜLLÜ SULAR</h3>
-                    <p>Yalova Termal, sodyum, kalsiyum ve florür dengesiyle "mükemmel şifa suyu" olarak tescillenmiş dürüst bir hazinedir.</p>
-                    
-                    <h4>🧪 Şifa Alanları</h4>
-                    <ul>
-                        <li><strong>Ürolojik Şifa:</strong> Armutlu suları, <strong>böbrek taşları</strong> ve idrar yolu rahatsızlıklarında içme kürleri ile dürüst sonuçlar verir.</li>
-                        <li><strong>Romatizma ve Nevralji:</strong> Kas ve sinir sıkışmalarında Yalova suları dünyadaki en etkili 3 kaynaktan biri olarak gösterilir.</li>
-                    </ul>
-                </div>`
-            }
-        },
-        care: {
-            tr: {
-                hospName: "Geriatrik ve Post-Operatif Bakım",
-                analysis: `
-                <div class="analysis-content">
-                    <h4 style="color:#27ae60;">🌿 ORMAN VE DENİZ BİRLEŞİMİNDE NEKAHET</h4>
-                    <p>Yalova, hem denizden gelen iyotu hem de orman oksijenini aynı anda sunarak, ameliyat sonrası <strong>iyileşme hızını dürüstçe iki katına çıkaran</strong> bir iklime sahiptir.</p>
-                </div>`
-            }
-        },
-        spa: {
-            tr: {
-                hospName: "Medikal Spa & Thalasso",
-                analysis: `<div class="analysis-content"><p>Yalova'da SPA, sadece rahatlama değil tedavi odaklıdır. Sülfatlı sularla yapılan banyolar ve profesyonel medikal masajlar dürüst bir yenilenme sağlar.</p></div>`
-            }
+                <h4>🌟 Teknik Dürüst Analiz</h4>
+                <p><strong>Dürüst Analiz:</strong> Bartın, rehabilitasyon hizmetlerinde 'Birebir İlgi' avantajına sahiptir. <strong>Güçlü Yönü:</strong> Terapistlerin hastalarla kurduğu uzun süreli ve güven odaklı tedavi ilişkisidir.</p>
+            </div>`
         }
     },
-    "KARABÜK": {
-        surgery: {
-            img: "https://via.placeholder.com/400x250?text=Karabuk+Uni+EAH",
-            phone: "+90 370 415 80 00",
-            tr: {
-                hospName: "Karabük Üniversitesi Eğitim ve Araştırma Hastanesi",
-                analysis: `
-                <div class="analysis-content">
-                    <p><strong>KARABUK</strong>, ağır sanayi kenti olmasının getirdiği disiplinle, son yıllarda tıp fakültesi üzerinden cerrahi kapasitesini dürüstçe artırmıştır.</p>
-                    
-                    <h4>🔍 Cerrahi Yetkinlikler</h4>
-                    <ul>
-                        <li><strong>❤️ Kardiyoloji:</strong> Sanayi çalışanlarının yoğunluğu nedeniyle kalp sağlığı ve anjiyo üniteleri oldukça gelişmiş ve tecrübelidir.</li>
-                        <li><strong>🦴 Ortopedi:</strong> İş kazaları ve travma cerrahisinde dürüst bir müdahale kapasitesine sahiptir.</li>
-                        <li><strong>🦷 Diş Sağlığı:</strong> Üniversite bünyesindeki modern ünitelerde rutin ve estetik diş tedavileri başarıyla uygulanmaktadır.</li>
-                    </ul>
+    spa: {
+        img: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=400",
+        phone: "0378 315 10 10",
+        tr: {
+            hospName: "Amasra Otel Spa, Northdoor Wellness & Şehir Hamamları",
+            shortDesc: "🧖‍♂️ Tarihi Amasra manzarasında arınma; deniz havası eşliğinde modern SPA ve hamam deneyimi.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#8e44ad;">🌿 Wellness, Arınma ve Ruhsal Yenilenme</h4>
+                <p>Bartın'da Wellness deneyimi, özellikle Amasra'nın eşsiz gün batımı ve deniz manzarasıyla birleşen 'Mavi Terapi' niteliğindedir.</p>
+                <ul>
+                    <li>🧼 <strong>Hamam Kültürü:</strong> Hijyenik ve estetik ortamlarda sunulan kese-köpük ritüelleri ile cildi yenileyen geleneksel arınma.</li>
+                    <li>💆 <strong>Aromaterapi ve Deniz Tuzu Masajları:</strong> Yerel deniz mineralleriyle desteklenen, kas gerginliğini azaltan ve ruhu dinlendiren masaj seansları.</li>
+                    <li>🧖‍♂️ <strong>Sauna ve Buhar Odaları:</strong> Toksin atılımını hızlandıran, bağışıklığı güçlendiren ve vücudu rahatlatan ısıl alanlar.</li>
+                    <li>😌 <strong>Stress-Free Alanlar:</strong> Doğanın içinde sessizlik ve huzur odaklı dinlenme köşeleri.</li>
+                </ul>
 
-                    <h4>⚠️ Dürüst Analiz</h4>
-                    <p>Karabük; <strong>saç ekimi</strong> veya <strong>ileri onkolojik robotik cerrahi</strong> için bir ana destinasyon değildir. Bu tip vakalar genellikle Ankara veya Bolu'daki merkezlere sevk edilir.</p>
-                </div>`
-            }
-        },
-        thermal: {
-            tr: {
-                hospName: "Eskipazar ve Yerel Şifa Kaynakları",
-                analysis: `<div class="analysis-content"><p>Karabük'te profesyonel büyük bir termal tesis bulunmasa da, Eskipazar bölgesindeki yerel sular mineral yapısıyla eklem ağrıları için dürüst bir yardımcıdır.</p></div>`
-            }
-        },
-        care: {
-            img: "https://via.placeholder.com/400x250?text=Safranbolu+Huzur+Rehabilitasyon",
-            tr: {
-                hospName: "Safranbolu Zihinsel ve Kültürel Rehabilitasyon",
-                analysis: `
-                <div class="analysis-content">
-                    <h3 style="color:#27ae60;">🌟 TARİHİN İÇİNDE İYİLEŞME: SAFRANBOLU</h3>
-                    <p>Safranbolu, sahip olduğu tarihi doku ve sessiz yaşamıyla, ameliyat sonrası <strong>psikolojik toparlanma</strong> ve zihinsel dinlenme için dürüst bir "yıldızdır".</p>
-                    
-                    <h4>🌬️ Hava Kalitesi</h4>
-                    <p>Bölgedeki çam ormanları ve temiz hava, özellikle kalp ve akciğer hastalarının nekahet dönemini dürüstçe hızlandırır.</p>
-                </div>`
-            }
-        },
-        spa: {
-            tr: {
-                hospName: "Geleneksel Safranbolu Hamamları",
-                analysis: `<div class="analysis-content"><p>Karabük'te wellness, Safranbolu'nun tarihi Cinci Hamamı gibi mekanlarda sunulan geleneksel kese-köpük ve aromaterapi hizmetleriyle eşsiz bir deneyime dönüşür.</p></div>`
-            }
+                <h4>➡️ Sektörel Durum</h4>
+                <p><strong>Dürüst Analiz:</strong> Bartın'da SPA hizmeti, özellikle Amasra'daki butik ve lüks oteller bünyesinde 'Yüksek Estetik ve Konfor' standartlarında sunulmaktadır. Bölgeye gelen turistler için vazgeçilmez bir rahatlama noktasıdır.</p>
+            </div>`
+        }
+    }
+},
+  "ARDAHAN": {
+    surgery: {
+        img: "https://images.unsplash.com/photo-1516549655169-df83a0774514?q=80&w=400", 
+        phone: "0478 211 30 10",
+        tr: {
+            hospName: "Ardahan Devlet Hastanesi & Göle Devlet Hastanesi",
+            shortDesc: "🏥 Kafkasya sınır hattının butik cerrahi merkezi; kış şartlarına dayanıklı acil tıp altyapısı ve yenilenmiş ameliyathaneler.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#c0392b;">🩺 Ekstrem İklim Tıbbı ve Cerrahi Dayanıklılık</h4>
+                <p>Ardahan, rakımı ve sert kış koşulları nedeniyle 'Hipotermi Yönetimi' ve 'Donma Vakaları' konusunda spesifik bir tıbbi tecrübeye sahiptir. Hastane altyapısı, dış ortam -40 dereceye düşse dahi cerrahi süreçlerin kesintisiz sürmesini sağlayacak iklimlendirme ve jeneratör sistemleriyle donatılmıştır.</p>
+                <ul>
+                    <li>⚕️ <strong>Genel ve Laparoskopik Müdahaleler:</strong> Batın içi operasyonlarda kapalı (laparoskopik) tekniklerin %85 oranında kullanımı; safra kesesi, apandis ve herni (fıtık) onarımlarında başarılı klinik sonuçlar.</li>
+                    <li>🦴 <strong>Ortopedik Travma ve Stabilizasyon:</strong> Buzlanmaya bağlı düşmeler ve trafik kazaları kaynaklı ekstremite kırıklarında hızlı fiksasyon; eklem içi enjeksiyonlar ve artroskopik yaklaşımlar.</li>
+                    <li>🫀 <strong>Kardiyovasküler Destek Birimi:</strong> Soğuk havanın tetiklediği akut koroner sendromlarda ilk müdahale ve trombolitik tedavi kapasitesi; gelişmiş yoğun bakım ünitelerinde vital fonksiyon takibi.</li>
+                    <li>🧠 <strong>Nörolojik Gözlem ve İnme Yönetimi:</strong> Beyin damar tıkanıklıklarında kritik ilk saat müdahalesi; kronik nörolojik hastalıkların takibi ve medikal tedavi optimizasyonu.</li>
+                    <li>🤱 <strong>Modern Doğum ve Pediatri:</strong> Isı regülasyonlu yenidoğan üniteleri ve anne dostu hastane standartlarında yürütülen pediatrik cerrahi öncesi hazırlıklar.</li>
+                    <li>🩸 <strong>Üroloji ve Nefroloji:</strong> Taş cerrahisinde endoskopik yöntemler ve bölgedeki böbrek hastalıkları prevalansına (yaygınlığına) yönelik nefrolojik takip birimleri.</li>
+                    <li>🦷 <strong>Ardahan Ağız ve Diş Sağlığı:</strong> Protez ünitesi, cerrahi çekimler ve çocuk diş hekimliği alanında modern medikal ekipmanlar ile kesintisiz hizmet.</li>
+                </ul>
+
+                <h4 style="color:#2c3e50;">🌍 Stratejik Sınır Lojistiği</h4>
+                <p>Ardahan, Çıldır-Aktaş ve Posof-Türkgözü sınır kapılarıyla Gürcistan'a açılan bir kapıdır. Bu durum, hastaneyi uluslararası bir 'Acil Transfer İstasyonu' haline getirir. Helikopter pisti, ağır kış şartlarında Erzurum tıp merkezlerine vaka transferi için hayati önem taşır.</p>
+
+                <h4>➡️ Teknik Dürüst Analiz</h4>
+                <p><strong>Güçlü Yönü:</strong> Hastanenin yeni olması, cihazların güncelliği ve butik yapısı sayesinde hastaya ayrılan vaktin uzunluğudur. <strong>Eksik Yönü:</strong> Çok ileri düzey onkolojik cerrahi (radyoterapi gibi) için hastalar Erzurum Atatürk Üniversitesi'ne sevk edilse de, temel cerrahi branşlarda bölge halkına tam kapasite hizmet verir.</p>
+            </div>`
         }
     },
-    "KILIS": {
-        surgery: {
-            img: "https://via.placeholder.com/400x250?text=Kilis+Devlet+Hastanesi",
-            phone: "+90 348 813 10 10",
-            tr: {
-                hospName: "Kilis Prof. Dr. Alaeddin Yavaşca Devlet Hastanesi",
-                analysis: `
-                <div class="analysis-content">
-                    <h3 style="color:#e67e22;">🌟 TRAVMA VE SAHA CERRAHİSİ TECRÜBESİ</h3>
-                    <p><strong>KILIS</strong>, coğrafi konumu gereği acil cerrahi ve travma yönetiminde dürüstçe "savaş cerrahisi" düzeyinde bir hıza ve tecrübeye ulaşmıştır.</p>
-                    
-                    <h4>🔍 Öne Çıkan Branşlar</h4>
-                    <ul>
-                        <li><strong>🦾 Ortopedik Travma:</strong> Çoklu yaralanmalar ve kompleks kırıklarda hızlı ve dürüst müdahale kapasitesi çok yüksektir.</li>
-                        <li><strong>🩸 Genel Cerrahi:</strong> Acil karın içi operasyonlarda şehirdeki ekipler bölge standartlarının üzerinde bir pratikliğe sahiptir.</li>
-                    </ul>
-
-                    <h4>⚠️ Dürüst Analiz</h4>
-                    <p>Kilis; <strong>diş estetiği</strong>, <strong>saç ekimi</strong> veya <strong>lüks estetik operasyonlar</strong> için tasarlanmış bir şehir değildir. İleri onkoloji ve planlı büyük ameliyatlar için hastalar genellikle 45 dakika mesafedeki Gaziantep'e yönlendirilir.</p>
-                </div>`
-            }
-        },
-        thermal: {
-            tr: {
-                hospName: "Kilis Yerel Kaynakları",
-                analysis: `<div class="analysis-content"><p>Kilis'te profesyonel bir medikal termal altyapı bulunmamaktadır.</p></div>`
-            }
-        },
-        care: {
-            tr: {
-                hospName: "Zeytin ve Güneş Terapisi",
-                analysis: `
-                <div class="analysis-content">
-                    <h4 style="color:#27ae60;">🌿 DOĞAL BAĞIŞIKLIK DESTEĞİ</h4>
-                    <p>Kilis'in meşhur zeytinyağı ve nemsiz kuru sıcağı, ameliyat sonrası yara iyileşmesi ve romatizmal rahatlama için dürüst bir doğal destek sunar.</p>
-                </div>`
-            }
-        },
-        spa: {
-            tr: {
-                hospName: "Geleneksel Kilis Hamamları",
-                analysis: `<div class="analysis-content"><p>Kilis'te wellness hizmeti, bölge kültürünün parçası olan tarihi hamamlarda sunulan geleneksel banyo ve masaj ritüellerinden ibarettir.</p></div>`
-            }
+    thermal: {
+        img: "https://images.unsplash.com/photo-1596464716127-f2a82984de30?q=80&w=400",
+        phone: "0478 211 32 32", 
+        tr: {
+            hospName: "Ardahan Şifalı Maden Suları & Yerel Jeotermal Kaynaklar",
+            shortDesc: "🌡️ Yüksek platolardan süzülen mineralli şifa; saf su yapısı ve kükürt dengesiyle doğal arınma.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#2980b9;">🧪 Kristalize Su Yapısı ve Minerolojik Analiz</h4>
+                <p>Ardahan'ın su kaynakları, endüstriyel kirlilikten tamamen uzak, volkanik toprak yapısından süzülen yüksek mineralli sularla karakterizedir.</p>
+                <ul>
+                    <li>🧪 <strong>Zengin Bikarbonatlı Yapı:</strong> Sindirim sistemi fonksiyonlarını destekleyen, mide asidini dengeleyen doğal maden suyu kaynakları (içme kürleri).</li>
+                    <li>🦴 <strong>Romatizmal Rahatlama:</strong> Suyun doğal sıcaklığı ve mineral kompozisyonu; kireçlenme ve kronik eklem ağrılarında inflamasyon azaltıcı etki sağlar.</li>
+                    <li>🧖‍♂️ <strong>Dermatolojik Saflık:</strong> Patojensiz su yapısı sayesinde alerjik reaksiyon gösteren ciltlerde yatıştırıcı ve temizleyici etki.</li>
+                    <li>🌬️ <strong>Klimaterapi Avantajı:</strong> Suyun şifasını, bölgenin 2000+ rakımlı temiz havasıyla birleştiren bütünsel bir 'Doğal İyileşme' süreci.</li>
+                </ul>
+                
+                <h4>➡️ Bölgesel Değerlendirme</h4>
+                <p><strong>Dürüst Analiz:</strong> Ardahan'da termal tesisleşme henüz butik seviyededir. Ancak suyun saflığı ve bölgenin bakir doğası, gerçek bir 'Detoks' arayanlar için rakipsizdir.</p>
+            </div>`
         }
     },
-    "OSMANIYE": {
-        surgery: {
-            img: "https://via.placeholder.com/400x250?text=Osmaniye+Devlet+Hastanesi",
-            phone: "+90 328 826 12 00",
-            tr: {
-                hospName: "Osmaniye Devlet Hastanesi ve Özel Sevgi Hastanesi",
-                analysis: `
-                <div class="analysis-content">
-                    <p><strong>OSMANIYE</strong>, Çukurova bölgesinde sağlık altyapısını hızla geliştiren, dürüst ve erişilebilir cerrahi hizmet sunan bir şehrimizdir.</p>
-                    
-                    <h4>🔍 Cerrahi Yetkinlikler</h4>
-                    <ul>
-                        <li><strong>Genel Cerrahi:</strong> Laparoskopik ameliyatlar ve temel onkolojik girişimler başarıyla yapılmaktadır.</li>
-                        <li><strong>Kadın Doğum ve Çocuk:</strong> Bölgedeki yüksek nüfus yoğunluğu nedeniyle bu alanda tecrübeli cerrahi ekipler mevcuttur.</li>
-                    </ul>
+    elderly: {
+        img: "https://images.unsplash.com/photo-1581578731522-a2047864146e?q=80&w=400",
+        phone: "0478 211 11 05", 
+        tr: {
+            hospName: "Ardahan Huzurevi Yaşlı Bakım Merkezi & Evde Sağlık Birimleri",
+            shortDesc: "👴 Doğu'nun zirvesinde, Kafkas kültürüyle saygın yaşlanma; organik beslenme ve sıkı medikal takip.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#27ae60;">🧠 Uzun Yaşam ve Organik Geriatri Modeli</h4>
+                <p>Ardahan, Türkiye'de 'Asırlık Çınarların' (100 yaş üzeri nüfus) en yoğun olduğu bölgelerden biridir. Bu durum, bölgenin beslenme ve hava kalitesinin bir sonucudur.</p>
+                <ul>
+                    <li>🏥 <strong>Evde Sağlık ve Mobil İzlem:</strong> Coğrafi uzaklık nedeniyle köylere kadar ulaşan mobil ekiplerle yaşlıların tansiyon, şeker ve ilaç takiplerinin yapılması.</li>
+                    <li>🐝 <strong>Kafkas Balı ve Propolis Desteği:</strong> Bağışıklık sistemini en üst düzeyde tutan, yaşlılarda mevsimsel enfeksiyon riskini azaltan doğal süper-gıdalarla beslenme.</li>
+                    <li>🥗 <strong>Doğal Hayvancılık ve Süt Ürünleri:</strong> Mera hayvancılığından gelen yüksek proteinli ve kalsiyum zengini gıdalarla kemik sağlığının (osteoporoz) korunması.</li>
+                    <li>🧠 <strong>Mental Zindelik ve Aidiyet:</strong> Geleneksel hikaye anlatıcılığı ve geniş aile yapısı içinde yaşlıların sosyal olarak aktif tutulması.</li>
+                </ul>
 
-                    <h4>⚠️ Dürüst Analiz</h4>
-                    <p>Osmaniye; <strong>saç ekimi</strong>, <strong>diş estetiği</strong> veya ileri <strong>organ nakli</strong> için bir ana üs değildir. Kompleks vakalar genellikle 1 saat mesafedeki Adana veya Gaziantep'e yönlendirilir.</p>
-                </div>`
-            }
-        },
-        thermal: {
-            img: "https://via.placeholder.com/400x250?text=Osmaniye+Haruniye+Kaplicasi",
-            phone: "+90 328 718 10 11",
-            tr: {
-                hospName: "Haruniye Kaplıcaları (Düziçi)",
-                analysis: `
-                <div class="analysis-content">
-                    <h4 style="color:#2980b9;">♨️ AMANOSLARIN ŞİFASI: HARUNİYE</h4>
-                    <p>Berke Barajı kıyısında, Amanos Dağları'nın eteğinde yer alan Haruniye, dürüst bir mineral zenginliğine sahiptir.</p>
-                    
-                    <h4>🧪 Şifa Alanları</h4>
-                    <ul>
-                        <li><strong>Deri Hastalıkları:</strong> Suyun sülfürlü yapısı, <strong>sedef ve mantar</strong> gibi cilt sorunlarında dürüst bir kurutucu ve iyileştirici etki yapar.</li>
-                        <li><strong>Romatizmal Ağrılar:</strong> Kireçlenme ve bel ağrıları için bölge halkının yüzyıllardır kullandığı dürüst bir kaynaktır.</li>
-                    </ul>
-                </div>`
-            }
-        },
-        care: {
-            tr: {
-                hospName: "Amanos Yayla Terapisi",
-                analysis: `
-                <div class="analysis-content">
-                    <h4 style="color:#27ae60;">🌲 YAYLA HAVASI VE REHABİLİTASYON</h4>
-                    <p>Osmaniye'nin yüksek rakımlı yaylaları, özellikle yaz sıcaklarında kalp hastaları ve ameliyat sonrası dinlenme ihtiyacı olanlar için dürüst bir kaçış noktasıdır.</p>
-                </div>`
-            }
-        },
-        spa: {
-            tr: {
-                hospName: "Doğal Termal Spa",
-                analysis: `<div class="analysis-content"><p>Haruniye bölgesindeki tesislerde, doğa ile iç içe sunulan geleneksel banyo ve çamur maskesi hizmetleri mevcuttur.</p></div>`
-            }
+                <h4>➡️ Altyapı Notu</h4>
+                <p><strong>Dürüst Analiz:</strong> Ardahan, yaşlılar için "Sağlıklı ve Uzun Ömür" vaat eden bir şehirdir. <strong>Güçlü Yönü:</strong> Geleneksel saygı kültürü ile devletin sağladığı hızlı medikal erişimin harmanlanmasıdır.</p>
+            </div>`
         }
     },
-    "DÜZCE": {
-        surgery: {
-            img: "https://via.placeholder.com/400x250?text=Duzce+Uni+Tip",
-            phone: "+90 380 542 13 90",
-            tr: {
-                hospName: "Düzce Üniversitesi Tıp Fakültesi ve Atatürk Devlet Hastanesi",
-                analysis: `
-                <div class="analysis-content">
-                    <h3 style="color:#e67e22;">🌟 İKİ METROPOL ARASINDAKİ CERRAHİ KÖPRÜ</h3>
-                    <p><strong>DUZCE</strong>, hem akademik kadrosu hem de modern hastane imkanlarıyla cerrahide dürüst bir bölge lideridir.</p>
-                    
-                    <h4>💎 Öne Çıkan Uzmanlık Alanları</h4>
-                    <ul>
-                        <li><strong>🦴 Mikro Cerrahi ve Ortopedi:</strong> El cerrahisi ve kompleks kemik ameliyatlarında bölgenin en tecrübeli akademik ekiplerinden birine sahiptir.</li>
-                        <li><strong>🧠 Nöroşirürji:</strong> Bel ve boyun fıtığı operasyonlarında dürüstçe İstanbul standartlarında başarı oranları sunulur.</li>
-                        <li><strong>🦷 Diş Hekimliği:</strong> Fakülte bünyesindeki <strong>Ağız ve Çene Cerrahisi</strong> üniteleri en son teknoloji ile donatılmıştır.</li>
-                    </ul>
+    disabled: {
+        img: "https://images.unsplash.com/photo-1576091160550-2173dad99901?q=80&w=400",
+        phone: "0478 211 30 10",
+        tr: {
+            hospName: "Ardahan Devlet Hastanesi FTR Birimi & Engelsiz Yaşam Merkezleri",
+            shortDesc: "♿ Ortopedik ve nörolojik rehabilitasyonda uzmanlaşmış birimler; birebir fizyoterapi seansları.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#e67e22;">💪 Fonksiyonel Geri Kazanım ve Motivasyonel Terapi</h4>
+                <p>Ardahan'da rehabilitasyon, zorlu dış şartlara rağmen hastanın hareket özgürlüğünü geri kazanması için büyük bir özveriyle yürütülür.</p>
+                <ul>
+                    <li>♿ <strong>Nöro-Rehabilitasyon:</strong> İnme ve travma sonrası uzman fizyoterapistler eşliğinde denge, koordinasyon ve motor beceri geliştirme çalışmaları.</li>
+                    <li>⚙️ <strong>Elektroterapi ve Ağrı Yönetimi:</strong> Modern ünitelerle kas spazmlarının giderilmesi ve iyileşme sürecinin hızlandırılması.</li>
+                    <li>🦵 <strong>Kineziterapi ve Manuel Terapi:</strong> Ameliyat sonrası eklem kısıtlılıklarını gidermeye yönelik manuel mobilizasyon teknikleri.</li>
+                    <li>🧒 <strong>Pediatrik Özel Eğitim:</strong> Gelişimsel geriliği olan çocuklar için duyu bütünleme çalışmaları ve uzman desteği.</li>
+                </ul>
 
-                    <h4>⚠️ Dürüst Analiz</h4>
-                    <p>Düzce cerrahide çok güçlüdür. Ancak <strong>saç ekimi</strong> gibi kozmetik alanlarda, hemen yanındaki İstanbul veya Kocaeli kadar yoğun bir klinik çeşitliliğine henüz sahip değildir.</p>
-                </div>`
-            }
-        },
-        thermal: {
-            img: "https://via.placeholder.com/400x250?text=Efteni+Kaplicalari",
-            phone: "+90 380 541 41 41",
-            tr: {
-                hospName: "Efteni ve Derdin Kaplıcaları",
-                analysis: `
-                <div class="analysis-content">
-                    <h3 style="color:#2980b9;">🌟 TÜRKİYE'NİN "DERDİN"E DEVA SUYU</h3>
-                    <p>Düzce'nin termal suları, özellikle Efteni Gölü çevresindeki tesislerle medikal bir şifa merkezidir.</p>
-                    
-                    <h4>🧪 Şifa Alanları</h4>
-                    <ul>
-                        <li><strong>Fizik Tedavi ve Felç:</strong> Efteni suları, <strong>nörolojik rehabilitasyon</strong> ve felç sonrası iyileşmede dürüst bir tıbbi yardımcıdır.</li>
-                        <li><strong>Mide ve Bağırsak:</strong> Derdin kaplıcası, içme kürü olarak kullanıldığında <strong>gastrit ve ülser</strong> şikayetlerini dürüstçe minimize eder.</li>
-                    </ul>
-                </div>`
-            }
-        },
-        care: {
-            img: "https://via.placeholder.com/400x250?text=Duzce+Yayla+Rehabilitasyon",
-            tr: {
-                hospName: "Nörolojik ve Fiziksel Rehabilitasyon Üssü",
-                analysis: `
-                <div class="analysis-content">
-                    <h4 style="color:#27ae60;">🌲 DOĞANIN KALBİNDE ŞİFA</h4>
-                    <p>Düzce yaylaları (Güzeldere, Samandere), ameliyat sonrası <strong>psikolojik rehabilitasyon</strong> ve akciğer temizliği için dürüst bir "yıldızdır".</p>
-                </div>`
-            }
-        },
-        spa: {
-            tr: {
-                hospName: "Orman ve Termal Wellness",
-                analysis: `<div class="analysis-content"><p>Düzce'de SPA, termal suyun mineral gücünü, orman havasıyla birleştiren lüks wellness otellerinde sunulan profesyonel masaj terapileridir.</p></div>`
-            }
+                <h4>🌟 Teknik Dürüst Analiz</h4>
+                <p><strong>Dürüst Analiz:</strong> Ardahan'da rehabilitasyon, sabır ve kişiye özel ilgi üzerine kuruludur. <strong>Güçlü Yönü:</strong> Sağlık personeli ve hastalar arasındaki ailevi bağın tedavi motivasyonunu artırmasıdır.</p>
+            </div>`
         }
     },
+    spa: {
+        img: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=400",
+        phone: "0478 211 10 10",
+        tr: {
+            hospName: "Ardahan Şehir Hamamları & Butik Wellness Noktaları",
+            shortDesc: "🧖‍♂️ Soğuk iklimde sıcak bir arınma; geleneksel Türk hamamı ritüelleri ve kış wellness deneyimi.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#8e44ad;">🌿 Wellness ve Termal Isınma Ritüelleri</h4>
+                <p>Ardahan'da Wellness, özellikle dondurucu kış günlerinde vücut ısısını dengeleyen ve kasları gevşeten bir 'Sığınak' niteliğindedir.</p>
+                <ul>
+                    <li>🧼 <strong>Klasik Hamam Deneyimi:</strong> Hijyenik mermer sıcaklığında yapılan kese-köpük ritüelleri ile tam vücut detoksu.</li>
+                    <li>💆 <strong>Medikal Masajlar:</strong> Soğuktan kasılan kasları gevşeten, kan dolaşımını hızlandıran profesyonel masaj seansları.</li>
+                    <li>🧖‍♂️ <strong>Sauna ve Buhar Banyosu:</strong> Solunum yollarını temizleyen ve vücut direncini artıran ısıl alanlar.</li>
+                    <li>😌 <strong>Sessizlik ve Arınma:</strong> Şehrin sessizliğinde zihinsel dinginlik sağlayan dinlenme köşeleri.</li>
+                </ul>
+
+                <h4>➡️ Sektörel Durum</h4>
+                <p><strong>Dürüst Analiz:</strong> Ardahan'da SPA hizmeti butik ve yerel bir formdadır. Özellikle Yalnızçam Kayak Merkezi ve şehir merkezindeki oteller bünyesinde kış turizmine entegre bir Wellness hizmeti gelişmektedir.</p>
+            </div>`
+        }
+    }
+},
+ "IĞDIR": {
+    surgery: {
+        img: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=400", 
+        phone: "0476 226 03 01",
+        tr: {
+            hospName: "Iğdır Devlet Hastanesi & Iğdır Üniversitesi Sağlık Bilimleri Uygulama Birimi",
+            shortDesc: "🏥 Üç ülkenin kesişim noktasında stratejik cerrahi üs; ileri travma yönetimi, dijital tanı üniteleri ve uluslararası standartta acil servis.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#c0392b;">🩺 Stratejik Sınır Tıbbı ve Cerrahi Müdahale Kapasitesi</h4>
+                <p>Iğdır, lojistik bir koridor üzerinde olması ve komşu ülkelerden gelen medikal talepler nedeniyle 'Uluslararası Hasta Yönetimi' ve 'Akut Travma' konularında özelleşmiş bir cerrahi disipline sahiptir. Modern hastane binası, bölgenin en yüksek teknolojik cihaz parkurlarından birini barındırır.</p>
+                <ul>
+                    <li>⚕️ <strong>Genel ve Laparoskopik Cerrahi:</strong> Safra kesesi, mide ve bağırsak operasyonlarında yüksek başarı oranına sahip kapalı (kapalı) cerrahi uygulamaları; obezite cerrahisi ve metabolik cerrahi takiplerinde uzmanlaşmış kadro.</li>
+                    <li>🦴 <strong>Ortopedi ve Travmatoloji:</strong> Uluslararası karayolu taşımacılığına bağlı gelişen trafik kazaları ve iş kazaları sonrası kompleks kırık cerrahisi, artroskopi ve ekstremite protez uygulamaları.</li>
+                    <li>🫀 <strong>Kardiyoloji ve Girişimsel İşlemler:</strong> 7/24 aktif anjiyo laboratuvarı; koroner stentleme, balon anjiyoplasti ve geçici/kalıcı kalp pili uygulamalarında bölgenin güvenli limanı.</li>
+                    <li>🧠 <strong>Nöroşirürji ve Beyin Cerrahisi:</strong> Bel ve boyun fıtığı mikro-cerrahisi, kafa travmaları sonrası dekompresyon ve spinal cerrahi müdahalelerinde modern donanım desteği.</li>
+                    <li>🤱 <strong>Yenidoğan ve Perinatoloji:</strong> Bölgedeki genç nüfus yapısı nedeniyle güçlendirilmiş yenidoğan yoğun bakım üniteleri ve riskli gebeliklerin uzman takibi.</li>
+                    <li>🩸 <strong>Üroloji ve Endoskopik Tedaviler:</strong> Kapalı böbrek taşı ameliyatları (PNL ve RIRS) ve üro-onkolojik takiplerde modern klinik yaklaşımlar.</li>
+                    <li>🦷 <strong>Iğdır Üniversitesi Diş Hekimliği:</strong> Akademik denetimde cerrahi çekimler, implantoloji ve restoratif diş tedavilerinde ileri düzey teknolojik altyapı.</li>
+                </ul>
+
+                <h4 style="color:#2c3e50;">🌍 Mikro-Klima Avantajı ve Sağlık Lojistiği</h4>
+                <p>Iğdır, çevresindeki yüksek rakımlı illerin aksine 800 metre rakımı ve yumuşak iklimiyle hastaların cerrahi sonrası iyileşme (post-op) dönemlerini daha konforlu geçirmelerini sağlar. Nahçıvan ve İran sınırına yakınlığı, şehri bir 'Sağlık Turizmi' hub'ı haline getirmektedir.</p>
+
+                <h4>➡️ Teknik Dürüst Analiz</h4>
+                <p><strong>Güçlü Yönü:</strong> Hastane altyapısının çok yeni olması ve bölgenin lojistik avantajıdır. Tanı ve teşhis süreçleri (MR, Tomografi, Dijital Röntgen) oldukça hızlı işler. <strong>Eksik Yönü:</strong> Çok spesifik organ nakilleri için hastalar Erzurum’a sevk edilebilse de, genel ve spesifik cerrahi branşların %95'i şehir içinde başarıyla çözülür.</p>
+            </div>`
+        }
+    },
+    thermal: {
+        img: "https://images.unsplash.com/photo-1590733440260-032049079374?q=80&w=400",
+        phone: "0476 226 10 10", 
+        tr: {
+            hospName: "Iğdır Tuzluca Tuz Mağaraları & Şifalı Kaynak Suları",
+            shortDesc: "🌡️ Doğal speleoterapi (mağara terapisi) merkezi; astım ve solunum yolları için kristalize tuz şifası.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#2980b9;">🧪 Tuz Kristalleri ve Solunum Yolu Terapisi</h4>
+                <p>Iğdır, klasik termal kaynakların yanı sıra dünyaca ünlü Tuzluca Tuz Mağaraları ile 'Tuz Terapisi' (Haloterapi) alanında eşsiz bir şifa merkezidir.</p>
+                <ul>
+                    <li>🌬️ <strong>Speleoterapi (Mağara Terapisi):</strong> Tuz mağaralarındaki negatif iyon yoğunluğu ve sabit sıcaklık/nem dengesi; astım, bronşit ve KOAH hastalarında solunum kapasitesini artırıcı etki sağlar.</li>
+                    <li>🧪 <strong>Mineralli Su Kaynakları:</strong> Bölgedeki yer altı sularının bikarbonatlı yapısı, içme kürleri olarak sindirim sistemi sağlığını destekler.</li>
+                    <li>🧖‍♂️ <strong>Dermatolojik Etki:</strong> Tuzun antibakteriyel özelliği sayesinde deri lezyonları ve alerjik cilt yapılarında yatıştırıcı, arındırıcı etki.</li>
+                    <li>🧘 <strong>Mental Arınma:</strong> Mağara içindeki sessiz ve steril ortamın yarattığı meditatif etki ile stres yönetimi desteği.</li>
+                </ul>
+                
+                <h4>➡️ Bölgesel Değerlendirme</h4>
+                <p><strong>Dürüst Analiz:</strong> Iğdır, klasik 'sıcak su' termalinden ziyade 'Tuz Şifası' ile öne çıkar. Tuzluca mağaraları, turizme ve sağlığa kazandırılmış modern tesisleşme süreciyle bölgenin en özgün şifa noktasıdır.</p>
+            </div>`
+        }
+    },
+    elderly: {
+        img: "https://images.unsplash.com/photo-1581578731522-a2047864146e?q=80&w=400",
+        phone: "0476 210 11 05", 
+        tr: {
+            hospName: "Iğdır Huzurevi Yaşlı Bakım Merkezi & EAH Geriatri Birimi",
+            shortDesc: "👴 Doğu'nun sıcak ikliminde huzurlu yaşlanma; taze meyve ve sebze odaklı beslenme ve sürekli tıbbi takip.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#27ae60;">🧠 Mikro-Klima Konforu ve Bütünsel Yaşlı Sağlığı</h4>
+                <p>Iğdır, kış aylarının Doğu Anadolu'ya göre çok daha yumuşak geçmesi nedeniyle yaşlıların eklem ve solunum sağlığı için iklimsel bir avantaj sunar.</p>
+                <ul>
+                    <li>🏥 <strong>Kronik Hastalık İzlem Kartları:</strong> Şeker, tansiyon ve Alzheimer gibi yaşlılık dönemi hastalıkları için hastane ile entegre çalışan evde bakım ve poliklinik ağları.</li>
+                    <li>🍑 <strong>Antioksidan Zengin Beslenme:</strong> Iğdır'ın meşhur kayısısı, elması ve organik sebzeleriyle hazırlanan; vitamin ve mineral dengesi yaşlı metabolizmasına uygun diyetler.</li>
+                    <li>☀️ <strong>Düşük Nem ve Güneş:</strong> Kemik erimesini (osteoporoz) önleyen doğal güneş ışığı avantajı ve nefes darlığını tetiklemeyen hava kalitesi.</li>
+                    <li>🧠 <strong>Sosyal Etkileşim:</strong> Şehir merkezindeki düz ayak parklar ve sosyal alanlar sayesinde yaşlıların hareketliliğinin ve sosyal bağlarının korunması.</li>
+                </ul>
+
+                <h4>➡️ Altyapı Notu</h4>
+                <p><strong>Dürüst Analiz:</strong> Iğdır, yaşlılar için "Kolay Yaşam" şehridir. <strong>Güçlü Yönü:</strong> Şehrin coğrafi olarak düz olması yaşlıların mobilite (hareket) kapasitesini artırır ve sağlık kuruluşlarına erişimi hızlandırır.</p>
+            </div>`
+        }
+    },
+    disabled: {
+        img: "https://images.unsplash.com/photo-1576091160550-2173dad99901?q=80&w=400",
+        phone: "0476 226 03 01",
+        tr: {
+            hospName: "Iğdır EAH FTR Merkezi & Özel Özel Eğitim ve Rehabilitasyon Birimleri",
+            shortDesc: "♿ Ortopedik ve nörolojik vakalarda fonksiyonel rehabilitasyon; modern cihaz parkuru ve uzman fizyoterapistler.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#e67e22;">💪 Fonksiyonel Hareket ve Bireysel Terapi</h4>
+                <p>Iğdır'da rehabilitasyon süreci, hastanın sosyal hayata katılımını hedefleyen, teknolojik destekli egzersiz protokollerinden oluşur.</p>
+                <ul>
+                    <li>♿ <strong>Nöro-Rehabilitasyon:</strong> İnme ve spinal yaralanmalar sonrası uzman fizyoterapistler eşliğinde yürütülen denge, yürüme ve koordinasyon eğitimleri.</li>
+                    <li>⚙️ <strong>Elektroterapi Uygulamaları:</strong> Ağrı kontrolü, kas stimülasyonu ve doku iyileşmesini hızlandıran modern cihaz seansları.</li>
+                    <li>🦵 <strong>Kineziterapi:</strong> Ameliyat sonrası eklem kısıtlılıklarını gidermeye yönelik manuel terapi ve fonksiyonel egzersiz reçeteleri.</li>
+                    <li>🧒 <strong>Pediatrik Rehabilitasyon:</strong> Çocuklarda gelişimsel gerilikler ve Serebral Palsi için özel duyu bütünleme çalışmaları ve aile destek eğitimleri.</li>
+                </ul>
+
+                <h4>🌟 Teknik Dürüst Analiz</h4>
+                <p><strong>Dürüst Analiz:</strong> Iğdır, rehabilitasyon hizmetlerinde 'Hızlı Reaksiyon' avantajına sahiptir. <strong>Güçlü Yönü:</strong> Fizik tedavi ünitelerinin yeni olması ve personelin hasta üzerindeki titiz takibidir.</p>
+            </div>`
+        }
+    },
+    spa: {
+        img: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=400",
+        phone: "0476 210 10 10",
+        tr: {
+            hospName: "Iğdır Konaklama Tesisleri Spa & Geleneksel Şehir Hamamları",
+            shortDesc: "🧖‍♂️ Sınırın ötesindeki yorgunluğu atan arınma; geleneksel Türk hamamı ritüelleri ve modern SPA konforu.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#8e44ad;">🌿 Wellness ve Yerel Arınma Deneyimi</h4>
+                <p>Iğdır'da Wellness, özellikle uzun seyahatler ve sınır geçişleri sonrası bedensel ve zihinsel yenilenme sağlayan bir duraktır.</p>
+                <ul>
+                    <li>🧼 <strong>Hamam Ritüelleri:</strong> Hijyenik mermer sıcaklığında sunulan kese-köpük masajları ile cildi yenileyen klasik arınma seansları.</li>
+                    <li>💆 <strong>Rahatlama Masajları:</strong> Kas gerginliğini azaltan, dolaşımı hızlandıran ve ruhsal ferahlık sağlayan profesyonel dokunuşlar.</li>
+                    <li>🧖‍♂️ <strong>Sauna ve Buhar Banyosu:</strong> Toksin atılımını hızlandıran ve bağışıklığı destekleyen ısıl dinlenme alanları.</li>
+                    <li>😌 <strong>Stress-Free Alanlar:</strong> Huzurlu atmosferlerde sunulan zihinsel dinginlik odaklı Wellness paketleri.</li>
+                </ul>
+
+                <h4>➡️ Sektörel Durum</h4>
+                <p><strong>Dürüst Analiz:</strong> Iğdır'da SPA hizmeti, şehrin lüks otelleri bünyesinde 'Kaliteli ve Güvenilir' bir şekilde sunulmaktadır. Özellikle Nahçıvan-Iğdır hattındaki yolcular için popüler bir dinlenme noktasıdır.</p>
+            </div>`
+        }
+    }
+},
+   "YALOVA": {
+    surgery: {
+        img: "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?q=80&w=400", 
+        phone: "0226 811 52 00",
+        tr: {
+            hospName: "Yalova Eğitim ve Araştırma Hastanesi & Atakent Hastanesi",
+            shortDesc: "🏥 Marmara'nın yeni nesil dijital hastane kompleksi; hibrit ameliyathaneler, ileri düzey onkolojik cerrahi ve 400+ yatak kapasitesi.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#c0392b;">🩺 İleri Teknoloji Cerrahi ve Multidisipliner Yaklaşım</h4>
+                <p>Yalova, özellikle 2023 sonrası açılan yeni Eğitim ve Araştırma Hastanesi ile 'Depreme Dayanıklı İzolatörlü Bina' teknolojisini tıbbi mükemmeliyetle birleştirmiştir. İstanbul'a olan deniz ulaşımı avantajı, üst düzey cerrah kadrosunun şehirde yoğunlaşmasını sağlamıştır.</p>
+                <ul>
+                    <li>⚕️ <strong>Minimal İnvaziv ve Robotik Cerrahi Altyapısı:</strong> Kapalı yöntemle yapılan karmaşık batın cerrahileri, üro-onkolojik operasyonlar ve kadın hastalıkları cerrahisinde %95 başarı oranı.</li>
+                    <li>🫀 <strong>Kardiyovasküler Cerrahi (KVC) Merkezi:</strong> Açık kalp ameliyatları, koroner bypass ve kapak değişimlerinde Ankara-İstanbul hattındaki en güçlü alternatiflerden biri; 7/24 aktif anjiyo üniteleri.</li>
+                    <li>🦴 <strong>Ortopedik Rekonstrüksiyon:</strong> Robotik diz ve kalça protezi uygulamaları, sporcu sağlığı cerrahisi (artroskopi) ve ileri omurga stabilizasyon operasyonları.</li>
+                    <li>🧠 <strong>Nöroşirürji ve Mikroskobik Cerrahi:</strong> Beyin tümörleri, anevrizma klipleme ve kompleks sinir sıkışmalarında yüksek çözünürlüklü mikroskop desteği ile müdahale.</li>
+                    <li>🤱 <strong>Yüksek Riskli Gebelik ve Perinatoloji:</strong> Anne ve bebek sağlığı için ileri düzey izlem birimleri ve 3. basamak yenidoğan yoğun bakım desteği.</li>
+                    <li>🧬 <strong>Onkoloji ve Radyasyon Onkolojisi:</strong> Kemoterapi ve radyoterapi ünitelerinin cerrahi ile entegre çalışması; kişiye özel kanser tedavi protokolleri.</li>
+                    <li>🦷 <strong>Yalova ADSM ve Özel Klinikler:</strong> Çene cerrahisi, estetik gülüş tasarımı ve implantoloji alanında Körfez bölgesinin çekim merkezi.</li>
+                </ul>
+
+                <h4 style="color:#2c3e50;">🌍 Lojistik Avantaj ve Sağlık Turizmi</h4>
+                <p>Sabiha Gökçen Havalimanı'na olan yakınlığı ve Osmangazi Köprüsü bağlantısı, Yalova'yı özellikle Körfez ülkelerinden gelen hastalar için 'Birinci Tercih' yapmaktadır. Şehir, cerrahi operasyon sonrası dinlenme için ideal bir iklime sahiptir.</p>
+
+                <h4>➡️ Teknik Dürüst Analiz</h4>
+                <p><strong>Güçlü Yönü:</strong> Hastane binalarının 'Sıfır' olması ve medikal cihaz envanterinin Türkiye'deki en güncel setlerden oluşmasıdır. <strong>Eksik Yönü:</strong> Nüfusun mevsimlik artış gösterdiği yaz aylarında acil servis yoğunluğu artsa da cerrahi planlamalar aksamadan yürütülmektedir.</p>
+            </div>`
+        }
+    },
+    thermal: {
+        img: "https://images.unsplash.com/photo-1590733440260-032049079374?q=80&w=400",
+        phone: "0226 675 74 00", 
+        tr: {
+            hospName: "Yalova Termal Kaplıcaları (Sağlık Bakanlığı İşletmesi) & Armutlu Kaplıcaları",
+            shortDesc: "🌡️ Roma'dan günümüze 'Altın Madalyalı' şifa; 66°C sıcaklıkta, yüksek florürlü suyla radyoaktif tedavi gücü.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#2980b9;">🧪 Radyoaktif ve Florürlü Su Analizi (Uluslararası Onaylı)</h4>
+                <p>Yalova Termal suları, 1911 yılında Roma'da yapılan uluslararası yarışmada 'Dünyanın En Şifalı Suyu' ödülünü almıştır. Suyun içeriğindeki Radon gazı, doğal bir radyasyon etkisiyle hücre yenilenmesini tetikler.</p>
+                <ul>
+                    <li>🧪 <strong>Zengin Kimyasal Kompozisyon:</strong> Sodyum, kalsiyum, sülfat ve klorürün mükemmel dengesi; içme kürlerinde mide, karaciğer ve safra yolları üzerinde detoks etkisi.</li>
+                    <li>🦴 <strong>Romatizmal ve Ortopedik Rehabilitasyon:</strong> İltihaplı romatizmaların kronik dönemleri, kireçlenme ve ortopedik ameliyat sonrası sekellerde (kalıntılarda) mucizevi iyileşme hızlandırma.</li>
+                    <li>🧖‍♂️ <strong>Dermatolojik ve Estetik Etki:</strong> Suyun yüksek florür oranı, diş ve kemik yapısını desteklerken; ciltteki akne, egzama ve operasyon izlerinin iyileşmesini sağlar.</li>
+                    <li>🧘 <strong>Psikosomatik Rahatlama:</strong> Suyun doğal ısısı ve mineral yapısı, anksiyete ve kronik yorgunluk sendromunda sinir sistemini regüle eder.</li>
+                </ul>
+                
+                <h4>➡️ Bölgesel Değerlendirme</h4>
+                <p><strong>Dürüst Analiz:</strong> Yalova Termal, sadece bir kaplıca değil, tıp doktorları ve fizyoterapistlerin denetiminde bir 'Doğal Hastane'dir. Armutlu bölgesi ise daha çok solunum yolu hastalıkları ve içme kürleri için tercih edilir.</p>
+            </div>`
+        }
+    },
+    elderly: {
+        img: "https://images.unsplash.com/photo-1581578731522-a2047864146e?q=80&w=400",
+        phone: "0226 814 36 28", 
+        tr: {
+            hospName: "Yalova Huzurevi Yaşlı Bakım Merkezi & Termal Rehabilitasyon Köyleri",
+            shortDesc: "👴 Doğa ile iç içe, oksijen deposu bir yaşlılık; termal destekli geriatri hizmetleri ve İstanbul'a komşu güvenlik.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#27ae60;">🧠 Holistik Geriatri ve 'Aktif Yaşlanma' Modeli</h4>
+                <p>Yalova, Türkiye'de yaşlı nüfusun yaşam kalitesinin en yüksek olduğu illerin başındadır. Termal kaynakların varlığı, yaşlılarda eklem hareketliliğini korumada kritik rol oynar.</p>
+                <ul>
+                    <li>🏥 <strong>Geriatrik Check-Up ve İzlem:</strong> Eğitim ve Araştırma Hastanesi bünyesindeki Geriatri polikliniği ile koordineli, düzenli sağlık taramaları.</li>
+                    <li>🥗 <strong>Marmara-Ege Tipi Beslenme:</strong> Yerel zeytinyağı, taze sebze ve meyve odaklı, kalp dostu diyet programları.</li>
+                    <li>🌬️ <strong>Mikroklima ve Hava Kalitesi:</strong> Samanlı Dağları'ndan gelen temiz havanın KOAH ve kalp hastası yaşlılarda yarattığı nefes konforu.</li>
+                    <li>🧠 <strong>Mental Zindelik:</strong> Şehirdeki sosyal kulüpler, bahçecilik faaliyetleri ve termal kürler ile desteklenen yüksek moral seviyesi.</li>
+                </ul>
+
+                <h4>➡️ Altyapı Notu</h4>
+                <p><strong>Dürüst Analiz:</strong> Yalova, yaşlılar için "Sessiz ama İmkanlı" bir şehirdir. <strong>Güçlü Yönü:</strong> Sağlık imkanlarının Ankara-İstanbul standartlarında olup, yaşamın küçük bir sahil kasabası sükunetinde akmasıdır.</p>
+            </div>`
+        }
+    },
+    disabled: {
+        img: "https://images.unsplash.com/photo-1576091160550-2173dad99901?q=80&w=400",
+        phone: "0226 811 52 00",
+        tr: {
+            hospName: "Yalova FTR Merkezi & Engelsiz Yaşam ve Rehabilitasyon Merkezi",
+            shortDesc: "♿ Hidroterapi (su içi terapi) odaklı uzman rehabilitasyon; robotik yürüme ve manuel terapi entegrasyonu.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#e67e22;">💪 Hidroterapi ve Nöro-Rehabilitasyon Uzmanlığı</h4>
+                <p>Yalova, doğal termal suları rehabilitasyon teknolojisiyle birleştiren nadir illerden biridir. Suyun kaldırma kuvveti, engelli bireyler için hareket serbestliği sağlar.</p>
+                <ul>
+                    <li>♿ <strong>Hidro-Rehabilitasyon:</strong> Termal havuzlarda fizyoterapist eşliğinde yapılan egzersizlerle kas erimesinin önlenmesi ve motor beceri gelişimi.</li>
+                    <li>⚙️ <strong>Robotik Yürüme (Lokomat):</strong> Nörolojik hasarlı hastalarda beyne yürüme sinyalini yeniden hatırlatan ileri teknoloji cihaz desteği.</li>
+                    <li>🦵 <strong>Kineziterapi ve Ergoterapi:</strong> Günlük yaşam becerilerini geri kazandırmaya yönelik fonksiyonel çalışma alanları.</li>
+                    <li>🧒 <strong>Pediatrik Rehabilitasyon:</strong> CP ve Down sendromlu çocuklar için özel duyu bütünleme odaları ve atlı terapi (Hippoterapi) imkanları.</li>
+                </ul>
+
+                <h4>🌟 Teknik Dürüst Analiz</h4>
+                <p><strong>Dürüst Analiz:</strong> Yalova, fizik tedavide Türkiye'nin 'Referans Merkezi'dir. <strong>Güçlü Yönü:</strong> Doğal suyun iyileştirici gücünün modern tıbbi cihazlarla kombine edilmesidir.</p>
+            </div>`
+        }
+    },
+    spa: {
+        img: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=400",
+        phone: "0226 675 74 00",
+        tr: {
+            hospName: "Limak Termal, Terma City Wellness & Tarihi Kurşunlu Banyo",
+            shortDesc: "🧖‍♂️ Tarihi saray atmosferinde kraliyet SPA deneyimi; modern Wellness ritüelleri ve termal arınma.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#8e44ad;">🌿 Global Standartta Wellness ve Detoks</h4>
+                <p>Yalova'da Wellness, Roma ve Osmanlı'dan kalan hamam kültürünün modern SPA mimarisiyle zirveye ulaştığı bir deneyimdir.</p>
+                <ul>
+                    <li>🧼 <strong>Tarihi Hamam Ritüelleri:</strong> Atatürk'ün de kullandığı tarihi banyolarda, mineral zengini sularla yapılan geleneksel kese-köpük ve süt banyoları.</li>
+                    <li>💆 <strong>Dünya Masajları ve Balneoterapi:</strong> Thai, Shiatsu ve medikal masajların termal su banyolarıyla ardışık uygulanması.</li>
+                    <li>🧖‍♂️ <strong>Sauna ve Kar Çeşmeleri:</strong> Isı değişimleri ile bağışıklığı güçlendiren, toksin atan ve cildi sıkılaştıran modern Wellness üniteleri.</li>
+                    <li>😌 <strong>Zihinsel Detoks Programları:</strong> Orman içinde meditasyon, yoga ve özel beslenme kürleriyle bütünsel yenilenme.</li>
+                </ul>
+
+                <h4>➡️ Sektörel Durum</h4>
+                <p><strong>Dürüst Analiz:</strong> Yalova, SPA ve Wellness alanında Türkiye'nin vitrinidir. Tesisler lüks segmentte olup, hem yerli hem de yabancı turistlere 'Eksiksiz' bir hizmet sunar.</p>
+            </div>`
+        }
+    }
+},
+   "KARABÜK": {
+    surgery: {
+        img: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=400", 
+        phone: "0370 415 80 00",
+        tr: {
+            hospName: "Karabük Üniversitesi Eğitim ve Araştırma Hastanesi & Safranbolu Devlet Hastanesi",
+            shortDesc: "🏥 Batı Karadeniz'in akademik cerrahi üssü; 500+ yatak kapasitesi, ileri düzey yoğun bakım ve sanayi tipi travma uzmanlığı.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#c0392b;">🩺 Akademik Cerrahi Disiplin ve Endüstriyel Tıp Yetkinliği</h4>
+                <p>Karabük, Türkiye'nin ilk ağır sanayi kenti olmasının getirdiği birikimle, iş kazaları ve endüstriyel travmalar konusunda cerrahi bir refleks geliştirmiştir. Üniversite hastanesi statüsü, tüm operasyonların güncel bilimsel literatür eşliğinde yürütülmesini sağlar.</p>
+                <ul>
+                    <li>⚕️ <strong>Onkolojik ve Gastrointestinal Cerrahi:</strong> Mide, bağırsak ve pankreas tümörlerinde multidisipliner yaklaşımla yürütülen cerrahi süreçler; ileri düzey laparoskopi teknikleri.</li>
+                    <li>🦴 <strong>İleri Ortopedi ve Travmatoloji:</strong> Ağır sanayi kaynaklı ekstremite yaralanmaları, kompleks kırıklar ve protez cerrahisinde bölgenin referans merkezi; spor cerrahisinde artroskopik çözümler.</li>
+                    <li>🫀 <strong>Kardiyovasküler Cerrahi ve Girişimsel Kardiyoloji:</strong> Bypass ameliyatları, kapak değişimleri ve 7/24 aktif anjiyo laboratuvarı ile koroner müdahalelerde yüksek başarı oranı.</li>
+                    <li>🧠 <strong>Nöroşirürji ve Spinal Cerrahi:</strong> Mikroskobik yöntemlerle beyin tümörü operasyonları, bel/boyun fıtığı cerrahisi ve travmatik omurga stabilizasyonları.</li>
+                    <li>🤱 <strong>Yenidoğan ve Pediatri:</strong> Üçüncü basamak yenidoğan yoğun bakım ünitesi ile riskli bebeklerin hayata tutunmasını sağlayan ileri teknolojik altyapı.</li>
+                    <li>🩸 <strong>Üroloji ve Taş Tedavileri:</strong> Lazerli taş kırma (RIRS), plazmakinetik prostat cerrahisi ve üro-onkolojik takiplerde modern klinik yaklaşımlar.</li>
+                    <li>🦷 <strong>Karabük Üniversitesi Diş Hekimliği Fakültesi:</strong> Çene cerrahisi, implantoloji ve endodonti alanında akademik denetimde modern tedavi protokolleri.</li>
+                </ul>
+
+                <h4 style="color:#2c3e50;">🌍 Lojistik Konum ve Bölgesel Çekim</h4>
+                <p>Karabük, Bartın, Çankırı ve Zonguldak illerinin kesişiminde 'Akademik Bir Güvenlik Alanı' oluşturur. Ankara’ya olan 2.5 saatlik mesafe, gerektiğinde başkentteki tıp merkezleriyle hızlı koordinasyon imkanı sağlar.</p>
+
+                <h4>➡️ Teknik Dürüst Analiz</h4>
+                <p><strong>Güçlü Yönü:</strong> Tıp Fakültesi hocalarının bizzat vakalara girmesi ve hastanenin teknolojik envanterinin (MR, BT, Dijital Patoloji) çok zengin olmasıdır. <strong>Eksik Yönü:</strong> Şehir merkezindeki hava kirliliği (sanayi kaynaklı) bazen solunum hastaları için zorlayıcı olsa da Safranbolu lokasyonu bu durumu dengeleyen bir 'Hava Koridoru' sunar.</p>
+            </div>`
+        }
+    },
+    thermal: {
+        img: "https://images.unsplash.com/photo-1596464716127-f2a82984de30?q=80&w=400",
+        phone: "0370 712 12 12", 
+        tr: {
+            hospName: "Safranbolu Şifalı Suları & Eskipazar Traverten Kaynakları",
+            shortDesc: "🌡️ Tarihi dokuda mineral şifası; kükürtlü ve mineralli sularla romatizmal ağrılara doğal çözümler.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#2980b9;">🧪 Jeotermal Yapı ve Minerolojik Fayda</h4>
+                <p>Karabük ve özellikle Eskipazar bölgesi, traverten oluşumlarını destekleyen zengin mineral yapılı yer altı sularına sahiptir.</p>
+                <ul>
+                    <li>🧪 <strong>Bikarbonatlı ve Sülfatlı Su:</strong> Sindirim sistemi fonksiyonlarını düzenleyici ve mide asidini dengeleyici içme kürleri (doktor tavsiyeli).</li>
+                    <li>🦴 <strong>Romatizmal Rehabilitasyon:</strong> Suyun doğal sıcaklığı ve mineral yoğunluğu; kireçlenme, siyatik ve yumuşak doku romatizmalarında doğal analjezik etki.</li>
+                    <li>🧖‍♂️ <strong>Dermatolojik Rahatlama:</strong> Mineralli suların deri üzerindeki yatıştırıcı etkisi sayesinde kronik cilt problemlerinde destekleyici terapi.</li>
+                    <li>🌬️ <strong>Klimaterapi ve Su Sentezi:</strong> Safranbolu'nun nemsiz ve temiz havasıyla birleşen su terapileri, bütünsel bir 'Wellness' etkisi yaratır.</li>
+                </ul>
+                
+                <h4>➡️ Bölgesel Değerlendirme</h4>
+                <p><strong>Dürüst Analiz:</strong> Karabük'te termal tesisleşme daha çok 'Butik ve Geleneksel' seviyededir. Safranbolu’nun tarihi konaklarında sunulan wellness hizmetleri, suyun şifasını kültürel bir deneyimle birleştirir.</p>
+            </div>`
+        }
+    },
+    elderly: {
+        img: "https://images.unsplash.com/photo-1581578731522-a2047864146e?q=80&w=400",
+        phone: "0370 412 11 05", 
+        tr: {
+            hospName: "Karabük Huzurevi Yaşlı Bakım Merkezi & Safranbolu İzzet Baysal Huzurevi",
+            shortDesc: "👴 Tarihi konakların gölgesinde, akademik denetimde huzurlu yaşlanma; düşük nemli hava ve güvenli sosyal yaşam.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#27ae60;">🧠 Kültürel Hafıza ve Bütünsel Geriatri</h4>
+                <p>Karabük ve Safranbolu, yaşlılar için Türkiye'nin en 'Saygın' yaşam alanlarından biridir. Tarihi doku, yaşlılarda mental dinginliği ve aidiyet hissini artırır.</p>
+                <ul>
+                    <li>🏥 <strong>Akademik Takip:</strong> Üniversite hastanesi Geriatri birimi ile koordineli, kronik hastalık (diyabet, hipertansiyon) yönetim programları.</li>
+                    <li>🥗 <strong>Geleneksel Safranbolu Diyeti:</strong> Bölgenin ünlü safranı (antioksidan), çavuş üzümü ve doğal tahıllarıyla hazırlanan, bağışıklığı güçlendiren menüler.</li>
+                    <li>🌬️ <strong>İdeal İklim Koşulları:</strong> Safranbolu’nun düşük nemli havası, kalp ve solunum hastası yaşlılar için nefes konforu sağlar.</li>
+                    <li>🧠 <strong>Mental Zindelik:</strong> Tarihi çarşı yürüyüşleri, geleneksel el sanatları ve 'Konak Sohbetleri' ile desteklenen sosyal etkileşim.</li>
+                </ul>
+
+                <h4>➡️ Altyapı Notu</h4>
+                <p><strong>Dürüst Analiz:</strong> Karabük, yaşlılar için "Kültürel Bir Liman" niteliğindedir. <strong>Güçlü Yönü:</strong> Şehirdeki sosyal güvenliğin yüksekliği ve yaşlı sağlığına yönelik akademik ilginin yoğunluğudur.</p>
+            </div>`
+        }
+    },
+    disabled: {
+        img: "https://images.unsplash.com/photo-1576091160550-2173dad99901?q=80&w=400",
+        phone: "0370 415 80 00",
+        tr: {
+            hospName: "Karabük EAH FTR Merkezi & Özel Rehabilitasyon Birimleri",
+            shortDesc: "♿ Nörolojik ve ortopedik vakalarda uzmanlaşmış akademik rehabilitasyon; manuel terapi ve fonksiyonel gelişim.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#e67e22;">💪 Fonksiyonel Gelişim ve Nöro-Rehabilitasyon Uzmanlığı</h4>
+                <p>Karabük'te rehabilitasyon, hastanın bağımsız hareket kabiliyetini geri kazandırmaya yönelik 'Akademik Protokoller' çerçevesinde yürütülür.</p>
+                <ul>
+                    <li>♿ <strong>Nörolojik Rehabilitasyon:</strong> İnme (felç) ve beyin hasarları sonrası uzman fizyoterapistler eşliğinde nöroplastisite odaklı egzersiz seansları.</li>
+                    <li>⚙️ <strong>Elektroterapi Envanteri:</strong> Modern ultrason, lazer ve stimülasyon cihazları ile ağrı yönetimi ve doku iyileşmesinin hızlandırılması.</li>
+                    <li>🦵 <strong>Kineziterapi ve Manuel Terapi:</strong> Ameliyat sonrası eklem kısıtlılıklarını gidermeye yönelik spesifik mobilizasyon teknikleri.</li>
+                    <li>🧒 <strong>Pediatrik Rehabilitasyon:</strong> Çocuklarda gelişimsel gerilikler ve Serebral Palsi için özel duyu bütünleme odaları ve aile eğitim desteği.</li>
+                </ul>
+
+                <h4>🌟 Teknik Dürüst Analiz</h4>
+                <p><strong>Dürüst Analiz:</strong> Karabük, fizik tedavide 'Bilimsel Disiplin' arayanlar için doğru adrestir. <strong>Güçlü Yönü:</strong> Tedavi süreçlerinin üniversite hocaları tarafından planlanması ve titizlikle takip edilmesidir.</p>
+            </div>`
+        }
+    },
+    spa: {
+        img: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=400",
+        phone: "0370 712 10 10",
+        tr: {
+            hospName: "Safranbolu Tarihi Hamamları & Şehir Wellness Birimleri",
+            shortDesc: "🧖‍♂️ 500 yıllık tarihi dokuda arınma; Osmanlı hamam kültürü ve modern Wellness ritüelleri.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#8e44ad;">🌿 Tarihsel Wellness ve Ruhsal Arınma</h4>
+                <p>Karabük'te Wellness, Safranbolu'nun tarihi atmosferiyle birleşen, zamana yolculuk tadında bir 'Ruhsal Detoks' deneyimidir.</p>
+                <ul>
+                    <li>🧼 <strong>Tarihi Hamam Ritüelleri (Cinci Hamamı):</strong> Orijinal mimaride sunulan kese-köpük masajları ile cildi ölü deriden arındıran derin temizlik.</li>
+                    <li>💆 <strong>Aromaterapi ve Masajlar:</strong> Safranbolu'nun doğal özleriyle (safran, lavanta) desteklenen, kas gerginliğini azaltan masaj uygulamaları.</li>
+                    <li>🧖‍♂️ <strong>Sauna ve Buhar Alanları:</strong> Toksin atılımını sağlayan ve bağışıklığı güçlendiren modern ısı üniteleri.</li>
+                    <li>😌 <strong>Sessizlik Terapisi:</strong> Tarihi konakların avlularında sunulan, meditatif bir dinlenme ortamı.</li>
+                </ul>
+
+                <h4>➡️ Sektörel Durum</h4>
+                <p><strong>Dürüst Analiz:</strong> Karabük'te SPA hizmeti, özellikle Safranbolu'daki butik oteller bünyesinde 'Kültürel ve Estetik' bir formda sunulmaktadır. Tarih ve sağlığı bir arada arayanlar için idealdir.</p>
+            </div>`
+        }
+    }
+},
+ "KILIS": {
+    surgery: {
+        img: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=400", 
+        phone: "0348 229 00 00",
+        tr: {
+            hospName: "Kilis Prof. Dr. Alaeddin Yavaşca Devlet Hastanesi & Kilis Üniversitesi Tıp Fakültesi Birimleri",
+            shortDesc: "🏥 Türkiye'nin en modern sınır hastanelerinden biri; sismik izolatörlü akıllı bina, 24 ameliyathane ve uluslararası travma yönetimi.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#c0392b;">🩺 Yüksek Kapasiteli Cerrahi ve Stratejik Müdahale Altyapısı</h4>
+                <p>Kilis, özellikle 2022'de hizmete giren yeni hastane kompleksi ile teknik altyapısını Avrupa standartlarının üzerine taşımıştır. Sınır ötesinden gelen kompleks yaralanmalar ve lojistik hareketlilik, cerrahi ekibin 'Hızlı Karar Verme' ve 'Kritik Vaka Yönetimi' becerilerini zirveye taşımıştır.</p>
+                <ul>
+                    <li>⚕️ <strong>İleri Genel Cerrahi ve Travma Protokolleri:</strong> Ateşli silah yaralanmaları, patlama cerrahisi ve akut batın travmalarında 7/24 kesintisiz müdahale; laparoskopik yöntemlerle yapılan onkolojik cerrahi uygulamaları.</li>
+                    <li>🦴 <strong>Ortopedi ve Kompleks Rekonstrüksiyon:</strong> Uzuv kayıpları riski taşıyan travmalarda mikro-cerrahi destekli onarımlar, eklem protezleri ve geniş kapsamlı artroskopi (kapalı eklem cerrahisi) seansları.</li>
+                    <li>🫀 <strong>Kardiyovasküler (KVC) ve Girişimsel Kardiyoloji:</strong> Dijital anjiyo laboratuvarlarında stent, balon ve kalp pili uygulamaları; bypass ameliyatları ve vasküler (damar) cerrahide bölge referanslığı.</li>
+                    <li>🧠 <strong>Nöroşirürji ve Beyin Cerrahisi:</strong> Kafa travmaları sonrası dekompresyon cerrahisi, beyin kanaması müdahaleleri ve mikroskobik bel/boyun fıtığı operasyonları.</li>
+                    <li>☢️ <strong>Modern Tanı ve Radyoloji Kompleksi:</strong> 128 kesitli BT, yüksek çözünürlüklü MR ve dijital patoloji üniteleri ile dakikalar içinde kesin tanı ve operasyon planlaması.</li>
+                    <li>🤱 <strong>Yenidoğan Yoğun Bakım ve Pediatri:</strong> Bölgedeki demografik yoğunluğa yanıt veren 50+ yataklı 3. seviye yenidoğan ünitesi ve çocuk cerrahisi branşlarında uzmanlaşmış kadro.</li>
+                    <li>🦷 <strong>Kilis Ağız ve Diş Sağlığı Merkezi:</strong> 30+ ünite kapasitesiyle cerrahi çekimler, gömülü diş operasyonları ve ileri düzey protez uygulamaları.</li>
+                </ul>
+
+                <h4 style="color:#2c3e50;">🌍 Sağlık Lojistiği ve Sınır Ötesi Referans</h4>
+                <p>Kilis, Öncüpınar ve Çobanbey sınır kapılarına yakınlığı ile uluslararası insani yardım koridorunun 'Sağlık Filtresi' görevini görür. Hastanenin sismik izolatörlü yapısı, afet durumlarında bile cerrahi operasyonların sıfır riskle devam etmesini sağlar.</p>
+
+                <h4>➡️ Teknik Dürüst Analiz</h4>
+                <p><strong>Güçlü Yönü:</strong> Hastanenin 'Sıfır' olması ve medikal envanterin (cihazların) Türkiye'deki en güncel teknolojiyle donatılmış olmasıdır. Cerrahi ekip, vaka çeşitliliği açısından Türkiye'nin en tecrübeli gruplarından biridir. <strong>Eksik Yönü:</strong> Şehirdeki nüfus hareketliliği poliklinik yükünü artırsa da cerrahi randevular stratejik önceliklendirme ile çok hızlı çözülmektedir.</p>
+            </div>`
+        }
+    },
+    thermal: {
+        img: "https://images.unsplash.com/photo-1596464716127-f2a82984de30?q=80&w=400",
+        phone: "0348 212 10 10", 
+        tr: {
+            hospName: "Kilis Şifalı Kaynaklar & Bölgesel Wellness Etüdleri",
+            shortDesc: "🌡️ Mezopotamya'nın yer altı mineralleriyle doğal arınma; cilt sağlığı ve metabolik denge için mineralli sular.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#2980b9;">🧪 Hidro-Minerolojik Yapı ve Doğal Destek</h4>
+                <p>Kilis ve çevresindeki su kaynakları, bölgenin kalkerli ve zengin toprak yapısından süzülen, mineral yoğunluğu dengelenmiş kaynaklardır.</p>
+                <ul>
+                    <li>🧪 <strong>Mineralli Su Karakteristiği:</strong> Bikarbonatlı ve sülfatlı yapı; sindirim sistemi fonksiyonlarını düzenleyici ve mide mukozasını yatıştırıcı içme kürleri potansiyeli.</li>
+                    <li>🦴 <strong>Romatizmal Destek:</strong> Suyun doğal sıcaklığı ve mineral yapısı; kas gerginliklerini azaltıcı ve kronik eklem ağrılarında semptomatik iyileşme sağlayıcı etki.</li>
+                    <li>🧖‍♂️ <strong>Dermatolojik Rahatlama:</strong> Cilt bariyerini destekleyen mineral dengesi sayesinde mevsimsel deri döküntülerinde ve kurulukta doğal nemlendirici rolü.</li>
+                    <li>🧘 <strong>İklim ve Su Sentezi:</strong> Kilis'in kuru ve güneşli havasıyla birleşen su terapileri, özellikle D vitamini senteziyle romatizmal hastalıklara çift taraflı şifa sunar.</li>
+                </ul>
+                
+                <h4>➡️ Bölgesel Değerlendirme</h4>
+                <p><strong>Dürüst Analiz:</strong> Kilis'te termal imkanlar butik ve yerel bazdadır. Ancak suyun kalitesi ve bölgenin doğal yapısı, 'Ham ve İşlenmemiş Şifa' arayanlar için özgün bir alternatif sunar.</p>
+            </div>`
+        }
+    },
+    elderly: {
+        img: "https://images.unsplash.com/photo-1581578731522-a2047864146e?q=80&w=400",
+        phone: "0348 212 11 05", 
+        tr: {
+            hospName: "Kilis Huzurevi Yaşlı Bakım Merkezi & Evde Sağlık ve Geriatri İzlem Birimi",
+            shortDesc: "👴 Zeytinyağının mucizesiyle uzun ömür; ailevi sıcaklıkta bakım ve sürekli akademik medikal denetim.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#27ae60;">🧠 Akdeniz-Mezopotamya Diyeti ve Aktif Geriatri</h4>
+                <p>Kilis, 4000 yıllık zeytinyağı kültürüyle yaşlılar için doğal bir 'Uzun Yaşam Laboratuvarı' gibidir. Bölgedeki düşük nem oranı, yaşlıların kalp ve damar sağlığını pozitif yönde etkiler.</p>
+                <ul>
+                    <li>🏥 <strong>Evde Sağlık ve Mobil Takip:</strong> Şehrin her noktasına ulaşan mobil ekiplerle yaşlıların rutin kontrolleri, ilaç düzenlemeleri ve fiziksel rehabilitasyonlarının yerinde yapılması.</li>
+                    <li>🫒 <strong>Kilis Yağlık Zeytinyağı Kürleri:</strong> Polifenol zengini yerel zeytinyağı odaklı beslenme programları ile kolesterol kontrolü ve bilişsel fonksiyonların korunması.</li>
+                    <li>🥗 <strong>Doğal Gastronomi:</strong> Bölgenin taze bakliyatları, sebzeleri ve meyveleriyle desteklenen, bağışıklık sistemini en üst düzeyde tutan antioksidan menüler.</li>
+                    <li>🧠 <strong>Sosyal Entegrasyon ve Moral:</strong> Geleneksel 'Kilis Evi' kültüründeki sosyal avlu yaşamı sayesinde yaşlıların yalnızlaşmasının önlenmesi ve zihinsel aktivitenin korunması.</li>
+                </ul>
+
+                <h4>➡️ Altyapı Notu</h4>
+                <p><strong>Dürüst Analiz:</strong> Kilis, yaşlılar için "Sıcak ve Saygın" bir şehirdir. <strong>Güçlü Yönü:</strong> Şehirdeki sosyal dayanışma kültürünün çok yüksek olması ve yaşlıların her türlü ihtiyacında sağlık kuruluşlarına 'VIP Hızında' erişebilmesidir.</p>
+            </div>`
+        }
+    },
+    disabled: {
+        img: "https://images.unsplash.com/photo-1576091160550-2173dad99901?q=80&w=400",
+        phone: "0348 229 00 00",
+        tr: {
+            hospName: "Kilis Prof. Dr. Alaeddin Yavaşca FTR Birimi & Özel Rehabilitasyon Birimleri",
+            shortDesc: "♿ Travma ve cerrahi sonrası hızlı geri kazanım; uzman fizyoterapistler eşliğinde fonksiyonel terapi.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#e67e22;">💪 Fonksiyonel Mobilizasyon ve Nöro-Rehabilitasyon Uzmanlığı</h4>
+                <p>Kilis'te rehabilitasyon, özellikle büyük cerrahi operasyonlar ve travmalar sonrası hastanın bağımsızlığını maksimuma çıkarmayı hedefler.</p>
+                <ul>
+                    <li>♿ <strong>Nörolojik Rehabilitasyon:</strong> İnme ve travmatik beyin yaralanmaları sonrası nöroplastisite odaklı denge, yürüme ve koordinasyon eğitimleri.</li>
+                    <li>⚙️ <strong>Elektroterapi ve Ağrı Yönetimi:</strong> Modern stimülasyon cihazları, ultrason ve lazer üniteleri ile doku onarımının biyolojik olarak hızlandırılması.</li>
+                    <li>🦵 <strong>Kineziterapi ve Manuel Terapi:</strong> Ameliyat sonrası eklem kısıtlılıklarını gidermeye yönelik manuel mobilizasyon ve uzman denetimli egzersiz seansları.</li>
+                    <li>🧒 <strong>Pediatrik Özel Eğitim:</strong> Çocuklarda gelişimsel gerilikler ve Serebral Palsi için özel duyu bütünleme çalışmaları ve aile destek programları.</li>
+                </ul>
+
+                <h4>🌟 Teknik Dürüst Analiz</h4>
+                <p><strong>Dürüst Analiz:</strong> Kilis, fizik tedavide 'Genç ve Dinamik' bir uzman kadrosuna sahiptir. <strong>Güçlü Yönü:</strong> Rehabilitasyon birimlerinin yeni hastane bünyesinde en son teknoloji cihazlarla donatılmış olmasıdır.</p>
+            </div>`
+        }
+    },
+    spa: {
+        img: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=400",
+        phone: "0348 212 10 00",
+        tr: {
+            hospName: "Kilis Tarihi Hamamları (Paşa Hamamı) & Şehir Wellness Birimleri",
+            shortDesc: "🧖‍♂️ Tarihi Mezopotamya dokusunda arınma; geleneksel Türk hamamı ritüelleri ve zeytinyağı masajları.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#8e44ad;">🌿 Geleneksel Wellness ve Doğal Detoks</h4>
+                <p>Kilis'te Wellness, şehrin binlerce yıllık hamam kültürü ile yerel zeytinyağının şifasını birleştiren bir deneyimdir.</p>
+                <ul>
+                    <li>🧼 <strong>Tarihi Hamam Ritüelleri:</strong> Osmanlı döneminden kalan Paşa Hamamı gibi mekanlarda sunulan, cildi ölü deriden arındıran derinlemesine kese-köpük seansları.</li>
+                    <li>🫒 <strong>Zeytinyağı ve Defne Sabunu Terapisi:</strong> Cildi besleyen, doğal antioksidan içeren yerel sabunlar ve yağlarla yapılan rahatlatıcı masajlar.</li>
+                    <li>🧖‍♂️ <strong>Sauna ve Buhar Alanları:</strong> Modern konaklama tesisleri bünyesinde sunulan, toksin atılımını sağlayan ısıl dinlenme birimleri.</li>
+                    <li>😌 <strong>Mental Arınma:</strong> Şehrin sessiz ve tarihi atmosferinde, günün stresini atan huzurlu dinlenme köşeleri.</li>
+                </ul>
+
+                <h4>➡️ Sektörel Durum</h4>
+                <p><strong>Dürüst Analiz:</strong> Kilis'te SPA hizmeti 'Butik ve Geleneksel' bir yapıdadır. Geleneksel yöntemlerin doğallığı, modern lüks arayışından ziyade 'Gerçek Arınma' isteyenler için rakipsizdir.</p>
+            </div>`
+        }
+    }
+},
+ "OSMANIYE": {
+    surgery: {
+        img: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=400", 
+        phone: "0328 826 12 00",
+        tr: {
+            hospName: "Osmaniye Devlet Hastanesi (Yeni Kampüs) & Kadirli Devlet Hastanesi",
+            shortDesc: "🏥 Çukurova'nın en modern sağlık yatırımlarından biri; 800+ yatak kapasitesi, 24 dijital ameliyathane ve ileri travma merkezi.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#c0392b;">🩺 Yüksek Teknolojili Cerrahi ve Endüstriyel Sağlık Altyapısı</h4>
+                <p>Osmaniye, özellikle 2023-2024 döneminde tamamlanan yeni hastane kompleksi ile bölgenin cerrahi 'Amiral Gemisi' haline gelmiştir. Sismik izolatörlü yapısı ve akıllı bina teknolojisiyle, her türlü afet durumunda cerrahi süreklilik garanti altına alınmıştır.</p>
+                <ul>
+                    <li>⚕️ <strong>Minimal İnvaziv (Kapalı) Cerrahi Üssü:</strong> Obezite cerrahisi (tüp mide), laparoskopik kolon cerrahisi ve ileri düzey fıtık onarımlarında %90'ı aşan kapalı operasyon oranı.</li>
+                    <li>🫀 <strong>İleri Girişimsel Kardiyoloji ve KVC:</strong> Kompleks koroner stentleme, kalp kapağı tamirleri ve bypass ameliyatlarında Adana-Gaziantep hattındaki en güçlü alternatif cerrahi merkez.</li>
+                    <li>🦴 <strong>Ortopedik Travma ve Artroplasti:</strong> Sanayi ve tarım kazalarına bağlı kompleks ekstremite yaralanmaları, robotik diz/kalça protezi uygulamaları ve sporcu sağlığı cerrahisi.</li>
+                    <li>🧠 <strong>Nöroşirürji (Beyin ve Sinir Cerrahisi):</strong> Mikro-cerrahi yöntemlerle tümör rezeksiyonu, anevrizma müdahaleleri ve ileri düzey spinal (omurga) stabilizasyon sistemleri.</li>
+                    <li>🤱 <strong>Kapsamlı Anne-Bebek Sağlığı:</strong> 3. seviye yenidoğan yoğun bakım ünitesi (NICU) ve 'Anne Dostu Hastane' standartlarında modern doğum locaları.</li>
+                    <li>☢️ <strong>Onkolojik Cerrahi ve Radyoloji:</strong> PET-CT desteğiyle tümör evreleme ve cerrahi sınır belirleme; multidisipliner tümör konseyi ile kişiye özel tedavi planları.</li>
+                    <li>🦷 <strong>Osmaniye Ağız ve Diş Sağlığı Merkezi:</strong> Dijital panoramik röntgen destekli implantoloji, gömülü diş cerrahisi ve restoratif diş hekimliği uygulamaları.</li>
+                </ul>
+
+                <h4 style="color:#2c3e50;">🌍 Lojistik Strateji ve Bölgesel Konum</h4>
+                <p>Osmaniye, otoyol kavşağında yer alması sebebiyle çevre illerden gelen acil vakaların 'Altın Saat' içinde müdahale alabildiği kritik bir noktadadır. Hastanenin helikopter pisti, bölge genelindeki hava ambulansı trafiğini yönetebilecek kapasitededir.</p>
+
+                <h4>➡️ Teknik Dürüst Analiz</h4>
+                <p><strong>Güçlü Yönü:</strong> Hastane binalarının ve tıbbi cihaz envanterinin Türkiye'deki 'En Yeni' serilerden oluşmasıdır. Fiziksel konfor ve dijital kayıt sistemleri hatasız çalışmaktadır. <strong>Eksik Yönü:</strong> Hızlı sanayileşme nedeniyle bazı spesifik yan dallarda poliklinik yoğunluğu yaşansa da cerrahi müdahale süreleri oldukça optimize edilmiştir.</p>
+            </div>`
+        }
+    },
+    thermal: {
+        img: "https://images.unsplash.com/photo-1596464716127-f2a82984de30?q=80&w=400",
+        phone: "0328 718 10 10", 
+        tr: {
+            hospName: "Haruniye (Düziçi) Kaplıcaları & Osmaniye Şifalı Kaynak Suları",
+            shortDesc: "🌡️ Amanos Dağları'nın kalbinden gelen şifa; yüksek mineralizasyon ile romatizmal ve nörolojik arınma.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#2980b9;">🧪 Radon ve Kükürt Odaklı Su Analizi</h4>
+                <p>Düziçi-Haruniye bölgesi, Berke Barajı kıyısında, doğa ile iç içe ve mineral bakımından Türkiye'nin en değerli sularından birine sahiptir.</p>
+                <ul>
+                    <li>🧪 <strong>Kükürtlü ve Florürlü Yapı:</strong> Suyun doğal kükürt içeriği deri hastalıklarında (sedef, egzama) antiseptik etki yaratırken; florür yapısı kemik metabolizmasını destekler.</li>
+                    <li>🦴 <strong>Romatizmal Şifa:</strong> Kireçlenme, siyatik, lumbago ve yumuşak doku romatizmalarında ısıl ve kimyasal etkisiyle ağrıyı baskılayan kürler.</li>
+                    <li>🧖‍♂️ <strong>Dermatolojik Yenilenme:</strong> Suyun pH dengesi, cildin nem kapasitesini artırarak operasyon sonrası yara izlerinin (skar dokusu) yumuşatılmasında etkilidir.</li>
+                    <li>🛀 <strong>Nörolojik Rehabilitasyon Destek:</strong> Periferik sinir felçleri ve kas spazmlarında termal banyoların gevşetici ve dolaşım hızlandırıcı rolü.</li>
+                </ul>
+                
+                <h4>➡️ Bölgesel Değerlendirme</h4>
+                <p><strong>Dürüst Analiz:</strong> Haruniye Kaplıcaları, "Doğa ve Şifa" kombinasyonunu en saf haliyle sunar. Tesisler yenilenme sürecinde olup, suyun tıbbi kalitesi dünya standartlarındadır.</p>
+            </div>`
+        }
+    },
+    elderly: {
+        img: "https://images.unsplash.com/photo-1581578731522-a2047864146e?q=80&w=400",
+        phone: "0328 814 11 05", 
+        tr: {
+            hospName: "Osmaniye Özden Huzurevi & Yaşlı Bakım ve Rehabilitasyon Merkezi",
+            shortDesc: "👴 Çukurova'nın bereketli doğasında, güvenli ve tıbbi denetimli yaşlılık; yüksek moral ve aktif yaşam.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#27ae60;">🧠 Bütünsel Geriatri ve Yayla Havası Avantajı</h4>
+                <p>Osmaniye, yaşlılar için kışın ılıman iklimi, yazın ise serin yaylaları (Zorkun vb.) ile ideal bir yaşam döngüsü sunar.</p>
+                <ul>
+                    <li>🏥 <strong>Kronik Hastalık Yönetimi:</strong> Yeni Devlet Hastanesi Geriatri birimiyle entegre; diyabet, hipertansiyon ve kalp yetmezliği olan yaşlılar için dijital takip sistemleri.</li>
+                    <li>🥗 <strong>Fıstık ve Zeytin Odaklı Beslenme:</strong> Bölgenin tescilli yer fıstığı (E vitamini zengini) ve doğal sızma zeytinyağı ile hazırlanan, bilişsel sağlığı koruyan diyetler.</li>
+                    <li>🌬️ <strong>Klimaterapi (Hava Şifası):</strong> Amanos Dağları'ndan süzülen temiz havanın, yaşlılarda solunum kapasitesini artırması ve uyku kalitesini düzenlemesi.</li>
+                    <li>🧠 <strong>Sosyal Aktivite ve Hobi:</strong> Geleneksel el sanatları (Karatepe kilim dokuma), bahçe terapisi ve kuşaklar arası etkileşim projeleri.</li>
+                </ul>
+
+                <h4>➡️ Altyapı Notu</h4>
+                <p><strong>Dürüst Analiz:</strong> Osmaniye, yaşlılar için "Sessiz ama Modern" bir şehirdir. <strong>Güçlü Yönü:</strong> Şehrin düz ayak yapısı sayesinde yaşlıların sosyal alanlara ve sağlık merkezlerine erişim kolaylığıdır.</p>
+            </div>`
+        }
+    },
+    disabled: {
+        img: "https://images.unsplash.com/photo-1576091160550-2173dad99901?q=80&w=400",
+        phone: "0328 826 12 00",
+        tr: {
+            hospName: "Osmaniye EAH Fizik Tedavi Ünitesi & Özel Engelsiz Yaşam Merkezleri",
+            shortDesc: "♿ Ortopedik ve nörolojik rehabilitasyonda uzman birimler; su içi egzersiz ve manuel terapi seansları.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#e67e22;">💪 Fonksiyonel Rehabilitasyon ve Sosyal Adaptasyon</h4>
+                <p>Osmaniye'de rehabilitasyon, sadece fiziksel iyileşmeyi değil, bireyin toplumsal hayata tam katılımını hedefleyen kapsamlı bir süreçtir.</p>
+                <ul>
+                    <li>♿ <strong>Nöro-Rehabilitasyon:</strong> İnme ve spinal yaralanmalar sonrası uzman fizyoterapistler eşliğinde denge, koordinasyon ve yürüme eğitimleri.</li>
+                    <li>⚙️ <strong>Gelişmiş Fizik Tedavi Parkuru:</strong> Elektroterapi, vakum terapi ve ultrason destekli ağrı yönetimi ile doku iyileşmesinin hızlandırılması.</li>
+                    <li>🦵 <strong>Kineziterapi ve Mobilizasyon:</strong> Ameliyat sonrası eklem kısıtlılıklarını gidermeye yönelik manuel terapi teknikleri ve kişiye özel egzersiz reçeteleri.</li>
+                    <li>🧒 <strong>Pediatrik Rehabilitasyon:</strong> Çocuklarda gelişimsel gerilikler için özel duyu bütünleme odaları ve oyun terapisi destekli fiziksel gelişim birimleri.</li>
+                </ul>
+
+                <h4>🌟 Teknik Dürüst Analiz</h4>
+                <p><strong>Dürüst Analiz:</strong> Osmaniye, rehabilitasyon hizmetlerinde "Erişilebilirlik" açısından bölgenin en rahat illerinden biridir. <strong>Güçlü Yönü:</strong> Kamu ve özel rehabilitasyon merkezlerinin yaygınlığı ve yüksek teknolojik donanımıdır.</p>
+            </div>`
+        }
+    },
+    spa: {
+        img: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=400",
+        phone: "0328 812 10 00",
+        tr: {
+            hospName: "Osmaniye Şehir Wellness Noktaları & Geleneksel Hamamlar",
+            shortDesc: "🧖‍♂️ Çukurova sıcağında ferahlatıcı arınma; geleneksel Türk hamamı ve modern Wellness deneyimi.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#8e44ad;">🌿 Wellness, Arınma ve Şehir Detoksu</h4>
+                <p>Osmaniye'de Wellness deneyimi, bölgenin sıcak iklimine uygun ferahlatıcı ve canlandırıcı terapiler üzerine kurgulanmıştır.</p>
+                <ul>
+                    <li>🧼 <strong>Hamam Ritüelleri:</strong> Hijyenik mermer sıcaklığında sunulan kese-köpük masajları ile cildi yenileyen klasik arınma seansları.</li>
+                    <li>💆 <strong>Rahatlatma ve Spor Masajları:</strong> Kas gerginliğini azaltan, kan dolaşımını hızlandıran profesyonel masaj uygulamaları.</li>
+                    <li>🧖‍♂️ <strong>Sauna ve Buhar Banyosu:</strong> Toksin atılımını sağlayan, bağışıklığı güçlendiren ve vücudu rahatlatan ısıl dinlenme alanları.</li>
+                    <li>😌 <strong>Stress-Free Alanlar:</strong> Huzurlu atmosferlerde sunulan zihinsel dinginlik odaklı Wellness paketleri.</li>
+                </ul>
+
+                <h4>➡️ Sektörel Durum</h4>
+                <p><strong>Dürüst Analiz:</strong> Osmaniye'de SPA hizmeti, modern konaklama tesisleri ve şehir hamamları bünyesinde "Kaliteli ve Hijyenik" bir standartta sunulmaktadır. Sanayi ve ticaret için şehre gelenlerin en büyük dinlenme durağıdır.</p>
+            </div>`
+        }
+    }
+},
+   "DÜZCE": {
+    surgery: {
+        img: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=400", 
+        phone: "0380 542 13 90",
+        tr: {
+            hospName: "Düzce Üniversitesi Tıp Fakültesi Araştırma Hastanesi & Düzce Atatürk Devlet Hastanesi",
+            shortDesc: "🏥 Batı Karadeniz'in akademik cerrahi referans noktası; deprem izolatörlü modern kampüs, ileri onkoloji merkezi ve 7/24 travma yönetimi.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#c0392b;">🩺 Akademik Cerrahi Disiplin ve Mikro-Cerrahi Yetkinliği</h4>
+                <p>Düzce, üniversite hastanesinin varlığı sayesinde tıbbi literatürü bizzat üreten bir cerrahi merkeze sahiptir. İstanbul ve Ankara arasındaki otoyol aksı üzerinde olması, hastanenin 'Kritik Trafik Kazaları ve Travma Yönetimi' konusunda Türkiye'nin en tecrübeli ekiplerinden birine sahip olmasını sağlamıştır.</p>
+                <ul>
+                    <li>⚕️ <strong>İleri Laparoskopik ve Robotik Cerrahi:</strong> Gastrointestinal sistem tümörleri, bariatrik cerrahi (obezite) ve ileri düzey fıtık onarımlarında akademik düzeyde kapalı müdahaleler.</li>
+                    <li>🦴 <strong>Ortopedi, Travmatoloji ve El Cerrahisi:</strong> Sanayi kazaları ve trafik travmaları sonrası mikro-cerrahi ile doku/uzuv onarımı; sporcu sağlığı kapsamında ileri artroskopik diz ve omuz operasyonları.</li>
+                    <li>🫀 <strong>Kapsamlı Kardiyovasküler Cerrahi:</strong> Kalp kapak değişimleri, koroner bypass operasyonları ve girişimsel kardiyoloji (anjiyo, stent) birimlerinde 7/24 kesintisiz uzman desteği.</li>
+                    <li>🧠 <strong>Nöroşirürji ve Fonksiyonel Nörocerrahi:</strong> Beyin tümörü rezeksiyonları, Parkinson cerrahisi (beyin pili) ve mikroskobik spinal cerrahi uygulamaları.</li>
+                    <li>🤱 <strong>Perinatoloji ve Yenidoğan Yoğun Bakım:</strong> Riskli gebeliklerin akademik takibi ve 3. basamak yenidoğan ünitesi ile Batı Karadeniz'in bebek sağlığı referans noktası.</li>
+                    <li>🩸 <strong>Üro-Onkoloji ve Taş Tedavileri:</strong> Lazerle kapalı böbrek taşı ameliyatları (RIRS) ve prostat cerrahisinde plazmakinetik/lazer yöntemleri.</li>
+                    <li>🦷 <strong>Düzce Üniversitesi Diş Hekimliği Fakültesi:</strong> Maksillofasiyal cerrahi (çene cerrahisi), ileri implantoloji ve estetik gülüş tasarımı alanında akademik klinik hizmeti.</li>
+                </ul>
+
+                <h4 style="color:#2c3e50;">🌍 Stratejik Konum ve Lojistik Hız</h4>
+                <p>Düzce, Türkiye'nin en yoğun iki şehri arasında bir 'Sağlık Filtresi' görevi görür. Helikopter pisti ve gelişmiş ambulans ağı ile acil vakaların dakikalar içinde akademik müdahaleye ulaşmasını sağlar.</p>
+
+                <h4>➡️ Teknik Dürüst Analiz</h4>
+                <p><strong>Güçlü Yönü:</strong> Tıp Fakültesi hocalarının bizzat vakalara girmesi ve hastanenin teknolojik donanımının (3 Tesla MR, Dijital Tomografi) en üst seviyede olmasıdır. <strong>Eksik Yönü:</strong> Bölge illerinden gelen yoğun sevk trafiği nedeniyle poliklinik bekleme süreleri artsa da cerrahi planlamalar akademik titizlikle yürütülür.</p>
+            </div>`
+        }
+    },
+    thermal: {
+        img: "https://images.unsplash.com/photo-1596464716127-f2a82984de30?q=80&w=400",
+        phone: "0380 411 10 10", 
+        tr: {
+            hospName: "Efteni Kaplıcaları & Düzce Termal Wellness Kaynakları",
+            shortDesc: "🌡️ Melen Çayı ve Efteni Gölü kıyısında doğal şifa; yüksek mineralizasyon ile nörolojik ve romatizmal arınma.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#2980b9;">🧪 Oligometalik ve Minerolojik Şifa Analizi</h4>
+                <p>Düzce'nin termal suları, Efteni Gölü havzasının zengin yer altı yapısından beslenir. Su, özellikle 'Nöro-Rehabilitasyon' destekleyici özellikleri ile bilinir.</p>
+                <ul>
+                    <li>🧪 <strong>Mineralli Su Kompozisyonu:</strong> Bikarbonat, kalsiyum ve magnezyum zengini yapı; içme kürlerinde metabolik süreçleri hızlandırıcı etki.</li>
+                    <li>🦴 <strong>Kas ve Eklem Rehabilitasyonu:</strong> Suyun doğal sıcaklığı ve mineral yapısı sayesinde kronik bel ağrıları, kireçlenme ve iltihaplı romatizmalarda inflamasyon azaltıcı rol.</li>
+                    <li>🧖‍♂️ <strong>Dermatolojik Saflık:</strong> Cildin nem dengesini düzenleyen pH yapısı ile sedef ve egzama gibi kronik deri hastalıklarında destekleyici terapi.</li>
+                    <li>🌬️ <strong>Klimaterapi ve Doğal Wellness:</strong> Efteni Gölü'nün flora zenginliği ile birleşen su tedavileri, solunum yollarını rahatlatan yüksek oksijenli bir ortam sunar.</li>
+                </ul>
+                
+                <h4>➡️ Bölgesel Değerlendirme</h4>
+                <p><strong>Dürüst Analiz:</strong> Efteni Kaplıcaları, "Butik ve Şifa Odaklı" bir merkezdir. Lüks SPA konseptinden ziyade, gerçek medikal termal fayda arayan hastalar için ideal bir destinasyondur.</p>
+            </div>`
+        }
+    },
+    elderly: {
+        img: "https://images.unsplash.com/photo-1581578731522-a2047864146e?q=80&w=400",
+        phone: "0380 524 11 05", 
+        tr: {
+            hospName: "Düzce Muharrem Sancaklı Huzurevi & Yaşlı Bakım ve Rehabilitasyon Merkezi",
+            shortDesc: "👴 Batı Karadeniz'in huzurlu doğasında, akademik denetimli yaşlılık; güvenli, sosyal ve aktif bir hayat.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#27ae60;">🧠 Akademik Geriatri ve Yayla Havası Destekli Yaşam</h4>
+                <p>Düzce, yaşlılar için Türkiye'nin en dengeli iklimlerinden birine sahiptir. Şehirdeki üniversite varlığı, yaşlı sağlığı hizmetlerini 'Bilimsel Gözlem' seviyesine taşır.</p>
+                <ul>
+                    <li>🏥 <strong>Geriatrik İzlem Protokolleri:</strong> Tıp Fakültesi Geriatri birimi ile koordineli; Alzheimer, Demans ve Parkinson vakaları için özel bilişsel egzersiz programları.</li>
+                    <li>🥗 <strong>Doğal Beslenme Döngüsü:</strong> Bölgenin fındığı (Omega-3), mısırı ve taze bahçe ürünleriyle desteklenen, kalp ve beyin sağlığını koruyan beslenme planları.</li>
+                    <li>🌬️ <strong>Hava Kalitesi ve Solunum Konforu:</strong> Şehrin orman varlığı sayesinde KOAH ve astım hastası yaşlılarda nefes kapasitesinin doğal yoldan artması.</li>
+                    <li>🧠 <strong>Sosyal Dinamizm:</strong> Üniversite öğrencileriyle yürütülen 'Kuşaklararası Etkileşim' projeleri, hobi bahçeciliği ve doğa yürüyüşleri.</li>
+                </ul>
+
+                <h4>➡️ Altyapı Notu</h4>
+                <p><strong>Dürüst Analiz:</strong> Düzce, yaşlılar için "Sağlık ve Huzur Dengesi" kurmuş bir şehirdir. <strong>Güçlü Yönü:</strong> Herhangi bir acil durumda 5-10 dakika içinde tam teşekküllü bir üniversite hastanesine ulaşabiliyor olmaktır.</p>
+            </div>`
+        }
+    },
+    disabled: {
+        img: "https://images.unsplash.com/photo-1576091160550-2173dad99901?q=80&w=400",
+        phone: "0380 542 13 90",
+        tr: {
+            hospName: "Düzce Üniversitesi FTR Merkezi & Özel Engelsiz Yaşam Birimleri",
+            shortDesc: "♿ Akademik fizyoterapi ve hidroterapi çözümleri; robotik sistemler ve uzman denetimli egzersizler.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#e67e22;">💪 Nöro-Rehabilitasyon ve Robotik Yürüme Teknolojisi</h4>
+                <p>Düzce'de rehabilitasyon, üniversitenin akademik kadrosu tarafından planlanan kişiye özel 'Fonksiyonel Gelişim' programlarından oluşur.</p>
+                <ul>
+                    <li>♿ <strong>İleri Nörolojik Rehabilitasyon:</strong> İnme (felç), MS ve spinal yaralanmalar sonrası nöroplastisiteyi tetikleyen cihaz destekli egzersizler.</li>
+                    <li>⚙️ <strong>Elektroterapi ve Fiziksel Ajanlar:</strong> Lazer terapi, vakum ve ultrasonik dalgalar ile ağrı kontrolü ve doku iyileşme hızlandırması.</li>
+                    <li>🦵 <strong>Kineziterapi ve Manuel Mobilizasyon:</strong> Ameliyat sonrası eklem sertliklerini gidermeye yönelik spesifik manuel terapi teknikleri.</li>
+                    <li>🧒 <strong>Pediatrik Rehabilitasyon:</strong> Serebral Palsi ve gelişimsel gerilikler için özel oyunlaştırılmış terapi odaları ve aile eğitim desteği.</li>
+                </ul>
+
+                <h4>🌟 Teknik Dürüst Analiz</h4>
+                <p><strong>Dürüst Analiz:</strong> Düzce, fizik tedavide 'Akademik Güvence' arayanlar için bölgenin lideridir. <strong>Güçlü Yönü:</strong> Tedavi süreçlerinin Tıp Fakültesi disipliniyle güncel ve denetimli ilerlemesidir.</p>
+            </div>`
+        }
+    },
+    spa: {
+        img: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=400",
+        phone: "0380 411 10 00",
+        tr: {
+            hospName: "Düzce Wellness Noktaları & Akçakoca Sahil SPA Birimleri",
+            shortDesc: "🧖‍♂️ Doğanın kalbinde arınma; deniz ve termal etkili modern SPA ritüelleri.",
+            analysis: `
+            <div class="analysis-content">
+                <h4 style="color:#8e44ad;">🌿 Holistik Wellness ve Doğal Detoks</h4>
+                <p>Düzce'de Wellness, Karadeniz'in iyot kokulu sahili (Akçakoca) ile orman içi termal kaynakların birleştiği bir 'Yenilenme' sürecidir.</p>
+                <ul>
+                    <li>🧼 <strong>Hamam ve Termal Arınma:</strong> Hijyenik mermer sıcaklığında kese-köpük ritüelleri ve mineralli su banyoları.</li>
+                    <li>💆 <strong>Medikal ve Relax Masajlar:</strong> Kas spazmlarını çözen, lenf drenajını destekleyen ve zihinsel rahatlama sağlayan profesyonel seanslar.</li>
+                    <li>🧖‍♂️ <strong>Sauna ve Buhar Odaları:</strong> Solunum yollarını temizleyen, cildi tazeleyen ısıl dinlenme alanları.</li>
+                    <li>😌 <strong>Doğa Meditasyonu:</strong> Orman ve su kenarı tesislerde sunulan, stres seviyesini minimize eden huzurlu atmosferler.</li>
+                </ul>
+
+                <h4>➡️ Sektörel Durum</h4>
+                <p><strong>Dürüst Analiz:</strong> Düzce'de SPA hizmeti, özellikle şehir otelleri ve Akçakoca'daki sahil tesislerinde "Modern ve Kaliteli" bir yapıda sunulur. Şehir yorgunluğunu atmak için Marmara-Karadeniz hattındaki en sakin duraklardan biridir.</p>
+            </div>`
+        }
+    }
+},
 };
 /* ==========================================================
    3. BAŞLATMA VE HARİTA YÖNETİMİ
