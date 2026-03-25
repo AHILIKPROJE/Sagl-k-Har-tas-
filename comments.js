@@ -1,9 +1,9 @@
 /**
- * 🛰️ SOSYALFEST VERİ VE ŞEHİR YÖNETİM SİSTEMİ
- * Bu modül 81 ili dinamik olarak yükler, yıldız sistemini yönetir ve Firestore filtrelemesini sağlar.
+ * 🛰️ CURA TR: SAĞLIK TURİZMİ YÖNETİM SİSTEMİ
+ * Bu modül 81 ili dinamik olarak yükler ve Firestore filtrelemesini yönetir.
  */
 
-// 1. TÜRKİYE 81 İL LİSTESİ (Tam Liste & Alfabetik)
+// 1. TÜRKİYE 81 İL LİSTESİ
 const turkiyeIlleri = [
     "Adana", "Adıyaman", "Afyonkarahisar", "Ağrı", "Amasya", "Ankara", "Antalya", "Artvin", "Aydın", "Balıkesir", "Bilecik", "Bingöl", "Bitlis", "Bolu", "Burdur", "Bursa", "Çanakkale", "Çankırı", "Çorum", "Denizli", "Diyarbakır", "Edirne", "Elazığ", "Erzincan", "Erzurum", "Eskişehir", "Gaziantep", "Giresun", "Gümüşhane", "Hakkari", "Hatay", "Isparta", "Mersin", "İstanbul", "İzmir", "Kars", "Kastamonu", "Kayseri", "Kırklareli", "Kırşehir", "Kocaeli", "Konya", "Kütahya", "Malatya", "Manisa", "Kahramanmaraş", "Mardin", "Muğla", "Muş", "Nevşehir", "Niğde", "Ordu", "Rize", "Sakarya", "Samsun", "Siirt", "Sinop", "Sivas", "Tekirdağ", "Tokat", "Trabzon", "Tunceli", "Şanlıurfa", "Uşak", "Van", "Yozgat", "Zonguldak", "Aksaray", "Bayburt", "Karaman", "Kırıkkale", "Batman", "Şırnak", "Bartın", "Ardahan", "Iğdır", "Yalova", "Karabük", "Kilis", "Osmaniye", "Düzce"
 ];
@@ -11,11 +11,7 @@ const turkiyeIlleri = [
 // 2. SAYFA YÜKLENDİĞİNDE ÇALIŞACAK ANA FONKSİYON
 document.addEventListener('DOMContentLoaded', () => {
     console.log("🚀 Manager: Sistem başlatılıyor...");
-    
-    // Şehir listelerini doldurmaya başla
     populateCityDropdowns();
-    
-    // Veritabanından ilk yorumları çek
     loadReviews();
 });
 
@@ -25,7 +21,7 @@ function populateCityDropdowns() {
     const filterCitySelect = document.getElementById('filter-city');
 
     if (!postCitySelect || !filterCitySelect) {
-        console.error("❌ HATA: Şehir seçim kutuları HTML içinde bulunamadı!");
+        console.error("❌ HATA: Şehir seçim kutuları bulunamadı.");
         return;
     }
 
@@ -42,7 +38,6 @@ function populateCityDropdowns() {
         optionFilter.textContent = sehir;
         filterCitySelect.appendChild(optionFilter);
     });
-
     console.log("✅ 81 İl başarıyla listelere eklendi.");
 }
 
@@ -54,16 +49,16 @@ async function sendReview() {
     const user = auth.currentUser;
     const btn = document.getElementById('submit-review-btn');
     
-    // Yıldız değerini al
+    // Yıldız değerini güvenli al
     const ratingInput = document.querySelector('input[name="rating"]:checked');
-    const rating = ratingInput ? ratingInput.value : 0;
+    const ratingValue = ratingInput ? parseInt(ratingInput.value) : 0;
 
     if (!user) {
         alert("⚠️ Yorum yapmak için giriş yapmalısınız!");
         return;
     }
     if (!city || !category || !text || text.length < 5) {
-        alert("⚠️ Lütfen şehir, kategori ve en az 5 karakterlik bir mesaj girin.");
+        alert("⚠️ Lütfen tüm alanları doldurun (Yorum en az 5 karakter).");
         return;
     }
 
@@ -77,25 +72,24 @@ async function sendReview() {
             city: city,
             category: category,
             comment: text,
-            rating: parseInt(rating),
+            rating: ratingValue,
             createdAt: firebase.firestore.FieldValue.serverTimestamp()
         });
 
-        // Temizlik
         document.getElementById('review-text').value = "";
-        if (ratingInput) ratingInput.checked = false; // Yıldız seçimini temizle
-        alert("🎉 Deneyiminiz başarıyla paylaşıldı!");
+        if (ratingInput) ratingInput.checked = false;
+        alert("🎉 Yorumunuz başarıyla yayınlandı!");
         
     } catch (error) {
-        console.error("Firestore Error:", error);
-        alert("❌ Veri gönderilirken bir hata oluştu: " + error.message);
+        console.error("Gönderim Hatası:", error);
+        alert("❌ Hata oluştu: " + error.message);
     } finally {
         btn.disabled = false;
         btn.innerHTML = '<span>Yorumu Yayınla</span> <span class="btn-icon">🚀</span>';
     }
 }
 
-// 5. YORUMLARI LİSTELEME VE FİLTRELEME MOTORU
+// 5. YORUMLARI LİSTELEME VE FİLTRELEME MOTORU (Hata Düzeltildi)
 function loadReviews() {
     const fCity = document.getElementById('filter-city').value;
     const fCat = document.getElementById('filter-category').value;
@@ -103,22 +97,18 @@ function loadReviews() {
 
     if (!list) return;
 
-    list.innerHTML = '<div class="loading-spinner">Veriler senkronize ediliyor...</div>';
+    list.innerHTML = '<div class="loading-spinner">📡 Veriler yükleniyor...</div>';
 
     let query = db.collection("reviews").orderBy("createdAt", "desc");
 
-    if (fCity !== "all") {
-        query = query.where("city", "==", fCity);
-    }
-    if (fCat !== "all") {
-        query = query.where("category", "==", fCat);
-    }
+    if (fCity !== "all") query = query.where("city", "==", fCity);
+    if (fCat !== "all") query = query.where("category", "==", fCat);
 
     query.onSnapshot((snapshot) => {
         list.innerHTML = ""; 
 
         if (snapshot.empty) {
-            list.innerHTML = '<p class="no-data">🔍 Bu kriterlere uygun yorum bulunamadı.</p>';
+            list.innerHTML = '<p class="no-data">🔍 Henüz yorum bulunamadı.</p>';
             return;
         }
 
@@ -126,7 +116,7 @@ function loadReviews() {
             const d = doc.data();
             const date = d.createdAt ? new Date(d.createdAt.seconds * 1000).toLocaleDateString('tr-TR') : "Yeni";
             
-            // ⭐ Yıldızları döngü içinde, her yorum için ayrı oluşturuyoruz (Hata buradaydı)
+            // ⭐ YILDIZLAR BURADA ÜRETİLİYOR (Doğru yer burası)
             const ratingValue = d.rating || 0;
             const starsHtml = "⭐".repeat(ratingValue);
 
@@ -137,9 +127,7 @@ function loadReviews() {
                         <span class="meta-tag cat-tag">🏥 ${d.category}</span>
                         <span class="meta-date">📅 ${date}</span>
                     </div>
-
-                    <div class="review-stars" style="margin: 10px 0; font-size: 14px;">${starsHtml}</div>
-
+                    <div class="review-stars" style="color: #fbbf24; margin: 10px 0;">${starsHtml}</div>
                     <p class="review-body">${d.comment}</p>
                     <div class="review-footer">
                         <span class="user-id">👤 ${d.userEmail ? d.userEmail.split('@')[0] : 'Anonim'}</span>
@@ -148,6 +136,7 @@ function loadReviews() {
             `;
         });
     }, (error) => {
-        console.error("Firestore SnapShot Error:", error);
+        console.error("Firestore Hatası:", error);
+        list.innerHTML = '<p class="no-data">⚠️ Veriler alınırken bir hata oluştu.</p>';
     });
 }
