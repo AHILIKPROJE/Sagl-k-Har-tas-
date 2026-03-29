@@ -1914,7 +1914,39 @@ const cityDetailedData = {
 
                     <h4>➡️ Dürüst Analiz ve Sektörel Güç</h4>
                     <p>Ankara, Türkiye’de cerrahi sağlık turizminin en güvenilir şehridir. İstanbul vaka sayısı olarak önde olsa da, Ankara akademik denetim ve komplikasyon yönetimi açısından (üniversite hastaneleri sayesinde) çok daha dürüst ve güvenli bir çizgidedir.</p>
-                </div>`
+                <div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Hacettepe Üniversitesi Hastanesi: "Akademik Cerrahi ve İleri Tıp Merkezi"</h3>
+    <p>Türkiye’nin en köklü ve en prestijli sağlık kurumlarından biri olan Hacettepe Üniversitesi Hastanesi, akademik gücü ve ileri teknoloji altyapısı ile kompleks cerrahi operasyonlarda öne çıkar. Hem yerli hem de uluslararası hastalar için referans merkezi konumundadır.</p>
+    
+    <ul>
+        <li>🧠 <strong>Kompleks ve İleri Cerrahi:</strong> Onkolojik cerrahi, nöroşirürji, organ nakli ve ileri düzey operasyonlarda uzmanlaşmıştır.</li>
+        
+        <li>🧑‍⚕️ <strong>Akademik ve Multidisipliner Kadro:</strong> Profesör ve uzman doktorlardan oluşan ekip, vaka bazlı ve bilimsel temelli tedavi planları oluşturur.</li>
+        
+        <li>🔬 <strong>Gelişmiş Tanı ve Araştırma Altyapısı:</strong> Klinik araştırmalar, ileri görüntüleme sistemleri ve laboratuvar imkanları ile yüksek doğrulukta teşhis sağlanır.</li>
+        
+        <li>🏥 <strong>Entegre Tedavi Süreci:</strong> Tanı, ameliyat ve rehabilitasyon süreçleri tek kampüste entegre şekilde yürütülür.</li>
+        
+        <li>🌍 <strong>Uluslararası Hasta Kabulü:</strong> Yabancı hastalar için özel birimler ve koordinasyon hizmetleri mevcuttur.</li>
+    </ul>
+</div>
+<div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Memorial Ankara Hastanesi: "Modern Cerrahi ve Yüksek Teknoloji Altyapısı"</h3>
+    <p>Çankaya’da bulunan Memorial Ankara Hastanesi, ileri teknoloji ameliyathaneleri ve uzman kadrosu ile cerrahi alanında güçlü bir merkezdir. Minimal invaziv ve robotik cerrahi uygulamalarıyla hızlı iyileşme süreçleri sunar.</p>
+    
+    <ul>
+        <li>🤖 <strong>Robotik ve Minimal İnvaziv Cerrahi:</strong> Laparoskopik ve robot destekli operasyonlar ile daha az ağrı ve hızlı iyileşme sağlanır.</li>
+        
+        <li>🩺 <strong>Geniş Cerrahi Branş Yelpazesi:</strong> Genel cerrahi, ortopedi, kardiyovasküler cerrahi ve onkoloji alanlarında hizmet sunar.</li>
+        
+        <li>💻 <strong>Dijital Ameliyathaneler:</strong> Gelişmiş görüntüleme ve tele-tıp sistemleri ile operasyon sırasında yüksek hassasiyet sağlanır.</li>
+        
+        <li>🧑‍⚕️ <strong>Uzman Kadro:</strong> Deneyimli cerrahlar ve multidisipliner ekip ile kişiye özel tedavi planları oluşturulur.</li>
+        
+        <li>🌐 <strong>Uluslararası Hasta Hizmetleri:</strong> Tercüman, ulaşım ve konaklama desteği ile yabancı hastalar için kolaylık sağlanır.</li>
+    </ul>
+</div>
+                    </div>`
             }
         },
         thermal: {
@@ -1935,7 +1967,39 @@ const cityDetailedData = {
                     
                     <h4>➡️ Bölgesel Değerlendirme</h4>
                     <p>Ankara’da güçlü bir termal turizm kültürü vardır; ancak Afyon gibi termal odaklı şehirlerle kıyaslandığında daha çok bölgesel bir güçtür.</p>
-                </div>`
+                <div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Haymana Termal Tesisleri: "Ankara’nın En Zengin Mineralli Suları"</h3>
+    <p>Haymana ilçesinde bulunan bu termal tesisler, yüksek mineral değerine sahip sıcak su kaynakları ile Türkiye’nin en önemli kaplıca merkezlerinden biridir. Özellikle romatizmal hastalıklar ve ortopedik rahatsızlıklar için tercih edilir.</p>
+    
+    <ul>
+        <li>♨️ <strong>Yüksek Mineralli Termal Sular:</strong> Kas-eklem ağrıları, romatizma ve cilt hastalıkları üzerinde olumlu etkiler sağlar.</li>
+        
+        <li>💆 <strong>Termal Tedavi ve Wellness:</strong> Kaplıca havuzları, hidroterapi ve masaj uygulamaları ile fiziksel rahatlama sunar.</li>
+        
+        <li>🏥 <strong>Rehabilitasyon Entegrasyonu:</strong> Fizik tedavi programları ile termal tedavi bir arada uygulanabilir.</li>
+        
+        <li>🏨 <strong>Konaklama İmkanları:</strong> Termal oteller ve tesisler, uzun süreli sağlık turizmi için uygundur.</li>
+        
+        <li>🧘 <strong>Doğal ve Sakin Ortam:</strong> Şehirden uzak, huzurlu yapısı ile stres azaltıcı bir etki sağlar.</li>
+    </ul>
+</div>
+<div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Ayaş İçmece ve Termal Kaynakları: "Doğal Şifa ve Sindirim Sağlığı"</h3>
+    <p>Ayaş ilçesinde yer alan bu termal kaynaklar, hem içme suyu hem de kaplıca olarak kullanılan doğal mineralli sularıyla bilinir. Özellikle sindirim sistemi ve metabolizma üzerinde olumlu etkileri ile öne çıkar.</p>
+    
+    <ul>
+        <li>♨️ <strong>İçmece ve Kaplıca Suları:</strong> Sindirim sistemi, mide ve bağırsak rahatsızlıklarına destekleyici etkiler sunar.</li>
+        
+        <li>💆 <strong>Termal ve Spa Hizmetleri:</strong> Kaplıca havuzları, masaj ve hidroterapi uygulamaları ile genel sağlık desteklenir.</li>
+        
+        <li>🌿 <strong>Doğal Ortam:</strong> Sessiz ve sakin çevresi ile zihinsel rahatlama sağlar.</li>
+        
+        <li>🏨 <strong>Konaklama ve Tedavi Entegrasyonu:</strong> Termal otellerde konaklama ile sağlık programları bir arada sunulur.</li>
+        
+        <li>🧘 <strong>Kişiye Özel Sağlık Programları:</strong> Termal tedavi, diyet ve wellness programları bireysel ihtiyaçlara göre planlanabilir.</li>
+    </ul>
+</div>
+                    </div>`
             }
         },
         elderly: {
@@ -1957,7 +2021,39 @@ const cityDetailedData = {
 
                     <h4>➡️ Altyapı Notu</h4>
                     <p>Ankara bu alanda çok gelişmiş bir devlet ve özel sektör altyapısına sahiptir; odağı daha çok yerel ve uzun süreli bakım üzerinedir.</p>
-                </div>`
+                <div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Keçiören Geriatri ve Yaşlı Bakım Merkezi: "Kapsamlı Sağlık ve Günlük Yaşam Desteği"</h3>
+    <p>Keçiören’de bulunan bu merkez, yaşlı bireylerin hem fiziksel hem zihinsel ihtiyaçlarını karşılayan kapsamlı bakım hizmetleri sunar. Uzman kadrosu ve modern tesisleri ile uzun süreli bakım için uygun bir ortam sağlar.</p>
+    
+    <ul>
+        <li>👴 <strong>Günlük Yaşam Desteği:</strong> Yemek, kişisel bakım, ilaç takibi ve hareket desteği profesyonel ekip tarafından sağlanır.</li>
+        
+        <li>🧑‍⚕️ <strong>Sağlık Takibi ve Rehabilitasyon:</strong> Düzenli doktor kontrolleri ve fiziksel terapi programları ile sağlıklı yaşam desteklenir.</li>
+        
+        <li>🎨 <strong>Sosyal ve Zihinsel Aktiviteler:</strong> El sanatları, müzik terapisi ve grup etkinlikleri ile sosyal katılım artırılır.</li>
+        
+        <li>🏡 <strong>Konforlu Konaklama:</strong> Güvenli ve modern odalar ile yaşlı bireylerin rahat bir yaşam sürmesi sağlanır.</li>
+        
+        <li>🌿 <strong>Huzurlu Ortam:</strong> Açık alanlar ve bahçeler ile sakin ve dinlendirici bir yaşam alanı sunulur.</li>
+    </ul>
+</div>
+<div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Çankaya Özel Geriatri ve Emekli Yaşam Merkezi: "Modern Yaşam ve Sosyal Destek"</h3>
+    <p>Çankaya’da bulunan bu merkez, yaşlı bireylerin fiziksel, psikolojik ve sosyal ihtiyaçlarını bütünsel olarak karşılayan modern bir bakım tesisidir. Aile odaklı yaklaşımı ve profesyonel hizmetleri ile öne çıkar.</p>
+    
+    <ul>
+        <li>👵 <strong>Yaşam Destek Hizmetleri:</strong> Günlük bakım, yemek, ilaç takibi ve kişisel ihtiyaçlar profesyonel ekip tarafından karşılanır.</li>
+        
+        <li>🧑‍⚕️ <strong>Multidisipliner Kadro:</strong> Doktor, hemşire, fizyoterapist ve psikologlardan oluşan ekip ile kapsamlı bakım sağlanır.</li>
+        
+        <li>🤝 <strong>Sosyal ve Rehabilitasyon Programları:</strong> Egzersiz, grup aktiviteleri ve bilişsel oyunlar ile yaşam kalitesi artırılır.</li>
+        
+        <li>🏡 <strong>Ev Konforunda Yaşam:</strong> Tesis, yaşlı bireylerin kendilerini ev ortamında hissetmesini sağlayacak şekilde tasarlanmıştır.</li>
+        
+        <li>🌿 <strong>Güvenli ve Huzurlu Çevre:</strong> Sessiz, güvenli ve doğayla uyumlu yaşam alanları sunar.</li>
+    </ul>
+</div>
+                    </div>`
             }
         },
         disabled: {
@@ -1979,7 +2075,39 @@ const cityDetailedData = {
 
                     <h4>🌟 Ulusal Konum</h4>
                     <p>Ankara, Türkiye’de rehabilitasyon alanında en güçlü şehirdir ve referans hastanelere ev sahipliği yapar.</p>
-                </div>`
+                <div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Hacettepe Üniversitesi Fizik Tedavi ve Rehabilitasyon Merkezi: "Akademik ve İleri Rehabilitasyon"</h3>
+    <p>Hacettepe Üniversitesi bünyesinde faaliyet gösteren bu merkez, akademik altyapısı ve ileri teknoloji cihazları ile engelli bireylere kapsamlı rehabilitasyon hizmetleri sunar. Özellikle nörolojik ve ortopedik rehabilitasyon alanlarında referans merkezdir.</p>
+    
+    <ul>
+        <li>🧠 <strong>Nörolojik Rehabilitasyon:</strong> İnme, omurilik yaralanmaları ve beyin hasarı sonrası fonksiyon kazanımı için özel programlar uygulanır.</li>
+        
+        <li>🦾 <strong>Fonksiyonel Rehabilitasyon:</strong> Kas-iskelet sistemi problemlerinde kişiye özel egzersiz ve tedavi planları hazırlanır.</li>
+        
+        <li>🧑‍⚕️ <strong>Multidisipliner Kadro:</strong> Fizyoterapistler, ergoterapistler, doktorlar ve psikologlar koordineli çalışır.</li>
+        
+        <li>🔬 <strong>Akademik ve Araştırma Destekli Tedavi:</strong> Bilimsel yöntemlere dayalı rehabilitasyon programları uygulanır.</li>
+        
+        <li>🏥 <strong>Modern Tesis:</strong> Gelişmiş terapi alanları ve donanımlı rehabilitasyon salonları ile hasta konforu sağlanır.</li>
+    </ul>
+</div>
+                    <div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Güven Hastanesi Rehabilitasyon Merkezi: "Modern Teknoloji ve Kişiye Özel Tedavi"</h3>
+    <p>Çankaya’da bulunan Güven Hastanesi Rehabilitasyon Merkezi, engelli bireyler için ileri teknoloji destekli fizik tedavi ve rehabilitasyon hizmetleri sunar. Kişiye özel programlar ve modern ekipmanlarla yüksek başarı hedeflenir.</p>
+    
+    <ul>
+        <li>🤖 <strong>Modern ve Teknolojik Rehabilitasyon:</strong> Yürüme, denge ve kas güçlendirme programları ileri cihazlarla desteklenir.</li>
+        
+        <li>🦿 <strong>Ortopedik ve Nörolojik Tedavi:</strong> Hem ortopedik hem de nörolojik engelliliklerde kapsamlı rehabilitasyon uygulanır.</li>
+        
+        <li>🧑‍⚕️ <strong>Uzman Kadro:</strong> Fizyoterapistler, rehabilitasyon uzmanları ve doktorlar multidisipliner yaklaşım sunar.</li>
+        
+        <li>🏨 <strong>Konforlu Tedavi Ortamı:</strong> Modern terapi alanları ve hasta dostu tasarım ile rahat bir süreç sağlanır.</li>
+        
+        <li>🌐 <strong>Uluslararası Hasta Hizmetleri:</strong> Yabancı hastalar için koordinasyon, tercüman ve konaklama desteği sunulur.</li>
+    </ul>
+</div>
+                    </div>`
             }
         },
         spa: {
@@ -2000,7 +2128,39 @@ const cityDetailedData = {
 
                     <h4>➡️ Sektörel Durum</h4>
                     <p>Ankara’da spa kültürü genellikle termal otel konseptiyle iç içedir; Antalya tarzı devasa bağımsız wellness merkezleri daha sınırlıdır.</p>
-                </div>`
+               <div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Büyük Anadolu Termal Hotel & Spa: "Termal ve Modern Wellness Buluşması"</h3>
+    <p>Kızılcahamam bölgesinde yer alan Büyük Anadolu Termal Hotel & Spa, doğal termal kaynakları modern spa hizmetleri ile birleştirerek ziyaretçilere kapsamlı bir wellness deneyimi sunar. Hem sağlık hem de dinlenme amaçlı tercih edilen önemli merkezlerden biridir.</p>
+    
+    <ul>
+        <li>♨️ <strong>Termal Mineralli Sular:</strong> Romatizma, kas-eklem ağrıları ve cilt problemleri için destekleyici etkiler sunar.</li>
+        
+        <li>💆 <strong>Spa ve Masaj Hizmetleri:</strong> Aromaterapi, sıcak taş masajı ve vücut bakımları ile fiziksel ve zihinsel rahatlama sağlar.</li>
+        
+        <li>🏊 <strong>Havuz ve Sauna İmkanları:</strong> Kapalı/açık havuzlar, sauna, hamam ve jakuzi ile kapsamlı rahatlama sunar.</li>
+        
+        <li>🧘 <strong>Kişiye Özel Wellness Programları:</strong> Yoga, fitness ve detox programları ile bireysel ihtiyaçlara göre planlama yapılır.</li>
+        
+        <li>🏨 <strong>Konforlu Konaklama:</strong> Termal ve spa hizmetleri ile entegre modern otel odaları mevcuttur.</li>
+    </ul>
+</div>
+                <div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Eliz Hotel Convention Center Thermal Spa & Wellness: "Lüks Termal ve Spa Deneyimi"</h3>
+    <p>Haymana’da bulunan Eliz Hotel Thermal Spa & Wellness, yüksek mineralli termal suları ve modern spa hizmetleri ile Ankara’nın önde gelen wellness merkezlerinden biridir. Sağlık turizmi açısından hem yerli hem yabancı ziyaretçilere hitap eder.</p>
+    
+    <ul>
+        <li>♨️ <strong>Yüksek Mineralli Termal Kaynaklar:</strong> Kas-eklem rahatsızlıkları ve stres üzerinde olumlu etkiler sağlar.</li>
+        
+        <li>💆 <strong>Lüks Spa Hizmetleri:</strong> Masaj terapileri, cilt bakımları ve aromaterapi uygulamaları sunulur.</li>
+        
+        <li>🏊 <strong>Termal Havuz ve Spa Alanları:</strong> Havuzlar, sauna, Türk hamamı ve jakuzi ile kapsamlı rahatlama imkânı sağlar.</li>
+        
+        <li>🌿 <strong>Doğal ve Sakin Ortam:</strong> Şehirden uzak konumu ile huzurlu ve dinlendirici bir atmosfer sunar.</li>
+        
+        <li>🧘 <strong>Wellness Programları:</strong> Fitness, yoga ve detox programları ile bütünsel sağlık desteklenir.</li>
+    </ul>
+</div>
+                        </div>`
             }
         }
     },
@@ -2029,7 +2189,39 @@ const cityDetailedData = {
 
                 <h4>➡️ Dürüst Analiz</h4>
                 <p>Antalya, hız ve estetik sonuç odaklı hastalar için dünyadaki en iyi 5 destinasyondan biridir. <strong>Dürüst Analiz:</strong> Sektörün çok büyük olması sebebiyle 'merdiven altı' diye tabir edilen ruhsatsız klinikler konusunda dikkatli olunmalıdır. Akademik güvence isteyen hastalar için üniversite ve şehir hastanesi kanadı, ticari kliniklere göre çok daha güvenli ve bilimsel bir limandır.</p>
-            </div>`
+            <div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Medical Park Antalya Hastane Kompleksi: "Uluslararası Sağlık Turizminin Merkezi"</h3>
+    <p>Antalya’da sağlık turizminin en güçlü merkezlerinden biri olan Medical Park Antalya, özellikle uluslararası hasta kabulü ve ileri cerrahi uygulamaları ile öne çıkar. Modern altyapısı ve geniş branş yelpazesi ile kompleks cerrahi operasyonlarda tercih edilir.</p>
+    
+    <ul>
+        <li>🌍 <strong>Uluslararası Hasta Deneyimi:</strong> Avrupa, Orta Doğu ve Rusya’dan gelen hastalar için özel koordinasyon ve dil desteği sunulur.</li>
+        
+        <li>🤖 <strong>Robotik ve Minimal İnvaziv Cerrahi:</strong> Laparoskopik ve robot destekli operasyonlar ile hızlı iyileşme sağlanır.</li>
+        
+        <li>🫀 <strong>Organ Nakli ve İleri Cerrahi:</strong> Karaciğer ve böbrek nakli başta olmak üzere kompleks cerrahi operasyonlar gerçekleştirilir.</li>
+        
+        <li>🧑‍⚕️ <strong>Uzman Kadro:</strong> Kardiyovasküler, onkoloji, ortopedi ve genel cerrahi alanlarında deneyimli ekipler görev yapar.</li>
+        
+        <li>🏥 <strong>Modern Tesis ve Yoğun Bakım:</strong> Gelişmiş ameliyathaneler ve yoğun bakım üniteleri ile güvenli tedavi süreçleri sağlanır.</li>
+    </ul>
+</div>
+            <div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Anadolu Hastanesi Antalya: "Kişiye Özel Cerrahi ve Konfor"</h3>
+    <p>Antalya şehir merkezinde yer alan Anadolu Hastanesi, cerrahi branşlarda modern teknikler ve hasta odaklı yaklaşımı ile öne çıkar. Özellikle kısa süreli tedavi ve hızlı iyileşme süreçleri ile sağlık turistleri için ideal bir seçenektir.</p>
+    
+    <ul>
+        <li>🩺 <strong>Geniş Cerrahi Hizmetler:</strong> Genel cerrahi, ortopedi, estetik cerrahi ve üroloji alanlarında hizmet sunar.</li>
+        
+        <li>💻 <strong>Modern Ameliyathaneler:</strong> Dijital sistemler ve ileri teknoloji ekipmanlar ile operasyonlar gerçekleştirilir.</li>
+        
+        <li>🧑‍⚕️ <strong>Kişiye Özel Tedavi:</strong> Hastaya özel planlanan cerrahi süreçler ile yüksek başarı oranı hedeflenir.</li>
+        
+        <li>🌐 <strong>Uluslararası Hasta Hizmetleri:</strong> Tercüman, transfer ve konaklama desteği sunulur.</li>
+        
+        <li>🏨 <strong>Konforlu İyileşme Süreci:</strong> Otel konforunda hasta odaları ile ameliyat sonrası rahat bir süreç sağlanır.</li>
+    </ul>
+</div>
+                </div>`
         }
     },
     thermal: {
@@ -2049,7 +2241,39 @@ const cityDetailedData = {
                 
                 <h4>➡️ Bölgesel Değerlendirme</h4>
                 <p>Antalya'da termal sağlık, 'Deniz-Güneş' turizminin gölgesinde kalmıştır. <strong>Dürüst Analiz:</strong> Afyon veya Bursa gibi büyük termal oteller ve tıbbi kür merkezleri Antalya'da sınırlıdır. Termal potansiyel daha çok 'çamur banyosu' ve lokal şifa odaklıdır; profesyonel bir termal rehabilitasyon için altyapı geliştirilmeye muhtaçtır.</p>
-            </div>`
+            <div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Finike Termal Kaynakları: "Akdeniz Kıyısında Doğal Şifa"</h3>
+    <p>Finike bölgesinde bulunan bu termal kaynaklar, doğal mineralli suları ve sakin atmosferi ile sağlık turizmi açısından önemli bir potansiyele sahiptir. Özellikle kas-eklem rahatsızlıkları ve stres yönetimi için tercih edilir.</p>
+    
+    <ul>
+        <li>♨️ <strong>Mineralli Termal Sular:</strong> Romatizma, kas-eklem ağrıları ve cilt problemleri üzerinde destekleyici etkiler sunar.</li>
+        
+        <li>🌊 <strong>Deniz ve Doğa Entegrasyonu:</strong> Akdeniz kıyısına yakın konumu ile hem termal hem deniz turizmini bir arada sunar.</li>
+        
+        <li>💆 <strong>Wellness ve Spa Hizmetleri:</strong> Masaj, aromaterapi ve hidroterapi uygulamaları ile bedensel ve zihinsel rahatlama sağlar.</li>
+        
+        <li>🏨 <strong>Konaklama İmkanları:</strong> Termal oteller ve pansiyonlar ile uzun süreli konaklama mümkündür.</li>
+        
+        <li>🧘 <strong>Kişiye Özel Programlar:</strong> Termal tedavi ve wellness paketleri bireysel ihtiyaçlara göre planlanabilir.</li>
+    </ul>
+</div>
+<div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Korkuteli Termal Kaynakları: "Doğal ve Sakin Şifa Merkezi"</h3>
+    <p>Korkuteli ilçesinde yer alan bu termal kaynaklar, doğal sıcak su rezervleri ve huzurlu ortamı ile dikkat çeker. Şehir kalabalığından uzak, sakin bir sağlık turizmi deneyimi sunar.</p>
+    
+    <ul>
+        <li>♨️ <strong>Doğal Termal Sular:</strong> Kas ve eklem ağrıları, romatizmal hastalıklar ve stres için faydalıdır.</li>
+        
+        <li>🌿 <strong>Doğa ile İç İçe Ortam:</strong> Dağlık ve yeşil alanlarla çevrili yapısı ile zihinsel rahatlama sağlar.</li>
+        
+        <li>💆 <strong>Hidroterapi ve Wellness:</strong> Kaplıca havuzları, masaj ve spa uygulamaları ile desteklenir.</li>
+        
+        <li>🏨 <strong>Konaklama Seçenekleri:</strong> Termal tesisler ve küçük oteller ile konaklama imkanı sunar.</li>
+        
+        <li>🧘 <strong>Bireysel Sağlık Programları:</strong> Termal tedavi ve dinlenme odaklı programlar kişiye göre hazırlanır.</li>
+    </ul>
+</div>
+                </div>`
         }
     },
     elderly: {
@@ -2070,7 +2294,39 @@ const cityDetailedData = {
 
                 <h4>➡️ Altyapı Notu</h4>
                 <p><strong>Dürüst Analiz:</strong> Antalya, yaşlı bakımı için Türkiye'nin en pahalı ama en kaliteli hizmet sunan şehridir. Yaz aylarındaki aşırı sıcaklar kalp hastası yaşlılar için risk teşkil eder; bu nedenle tesislerin iklimlendirme kalitesi hayati önem taşır.</p>
-            </div>`
+            <div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Muratpaşa Yaşlı Bakım ve Rehabilitasyon Merkezi: "Şehir İçinde Modern ve Aktif Yaşam"</h3>
+    <p>Muratpaşa’da bulunan bu merkez, yaşlı bireylerin hem sağlık hem de sosyal ihtiyaçlarını karşılayan modern bir bakım tesisidir. Şehir merkezine yakın konumu sayesinde erişim kolaylığı sunar.</p>
+    
+    <ul>
+        <li>👴 <strong>Günlük Yaşam Desteği:</strong> Yemek, kişisel bakım, ilaç takibi ve hareket desteği profesyonel ekip tarafından sağlanır.</li>
+        
+        <li>🧑‍⚕️ <strong>Sağlık Takibi:</strong> Düzenli doktor kontrolleri ve fizyoterapi hizmetleri ile sağlıklı yaşam desteklenir.</li>
+        
+        <li>🎨 <strong>Sosyal Aktiviteler:</strong> Sanat, müzik, egzersiz ve grup etkinlikleri ile aktif yaşam teşvik edilir.</li>
+        
+        <li>🏡 <strong>Konforlu Konaklama:</strong> Modern odalar ve güvenli yaşam alanları ile rahat bir ortam sunulur.</li>
+        
+        <li>🌿 <strong>Şehir ve Doğa Dengesi:</strong> Açık alanlar ve bahçeler ile huzurlu bir atmosfer sağlanır.</li>
+    </ul>
+</div>
+<div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Konyaaltı Özel Emekli Yaşam ve Geriatri Merkezi: "Deniz Kenarında Huzurlu Yaşam"</h3>
+    <p>Konyaaltı bölgesinde yer alan bu merkez, yaşlı bireyler için deniz manzarası eşliğinde konforlu ve huzurlu bir yaşam sunar. Hem fiziksel hem psikolojik destek sağlayan bütünsel bir bakım anlayışı benimsenmiştir.</p>
+    
+    <ul>
+        <li>👵 <strong>Kapsamlı Bakım Hizmetleri:</strong> Günlük bakım, yemek, ilaç takibi ve kişisel ihtiyaçlar profesyonel ekip tarafından karşılanır.</li>
+        
+        <li>🧑‍⚕️ <strong>Multidisipliner Sağlık Ekibi:</strong> Doktor, hemşire, fizyoterapist ve psikologlar koordineli hizmet verir.</li>
+        
+        <li>🤝 <strong>Sosyal ve Rehabilitasyon Programları:</strong> Egzersiz, grup aktiviteleri ve bilişsel terapi ile yaşam kalitesi artırılır.</li>
+        
+        <li>🏡 <strong>Ev Konforunda Yaşam:</strong> Tesis, yaşlı bireylerin kendilerini evlerinde gibi hissetmeleri için tasarlanmıştır.</li>
+        
+        <li>🌊 <strong>Deniz ve Doğa Entegrasyonu:</strong> Açık alanlar ve deniz manzarası ile huzurlu bir ortam sunar.</li>
+    </ul>
+</div>
+                </div>`
         }
     },
     disabled: {
@@ -2091,7 +2347,39 @@ const cityDetailedData = {
 
                 <h4>🌟 Dürüst Analiz</h4>
                 <p>Antalya, rehabilitasyon teknolojisinde İstanbul ile yarışmaktadır. <strong>Dürüst Analiz:</strong> Kamu hastanelerindeki yoğunluk nedeniyle 'robotik sistemlere' erişim vakit alabilir; ancak özel rehabilitasyon klinikleri global standartlarda ama yüksek maliyetli bir hizmet sunar.</p>
-            </div>`
+            <div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Medical Park Antalya Rehabilitasyon Merkezi: "Fonksiyonel Yenilenme ve İleri Teknoloji"</h3>
+    <p>Antalya’da sağlık turizmi açısından öne çıkan Medical Park Antalya Rehabilitasyon Merkezi, engelli bireyler için modern fizik tedavi ve fonksiyonel rehabilitasyon hizmetleri sunar. Gelişmiş cihazlar ve kişiye özel programlarla maksimum iyileşme hedeflenir.</p>
+    
+    <ul>
+        <li>🦾 <strong>Fonksiyonel Rehabilitasyon:</strong> Ortopedik ve nörolojik engelliliklerde kişiye özel tedavi planları uygulanır.</li>
+        
+        <li>🤖 <strong>Robotik ve Yardımcı Teknoloji:</strong> Yürüme, denge ve motor beceri geliştirme programları ileri teknoloji cihazlarla desteklenir.</li>
+        
+        <li>🧑‍⚕️ <strong>Uzman Kadro:</strong> Fizyoterapistler, rehabilitasyon hekimleri ve terapistler multidisipliner yaklaşım sunar.</li>
+        
+        <li>🏥 <strong>Modern Tesis:</strong> Donanımlı terapi alanları ve egzersiz salonları ile hasta konforu sağlanır.</li>
+        
+        <li>🌐 <strong>Uluslararası Hasta Hizmetleri:</strong> Tercüman, ulaşım ve konaklama desteği ile yabancı hastalar için süreç kolaylaştırılır.</li>
+    </ul>
+</div>
+<div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Anadolu Hastanesi Fizik Tedavi ve Rehabilitasyon Merkezi: "Kişiye Özel ve Konfor Odaklı Rehabilitasyon"</h3>
+    <p>Antalya merkezde bulunan Anadolu Hastanesi FTR Merkezi, engelli bireyler için modern fizik tedavi ve rehabilitasyon hizmetleri sunar. Kişiye özel programlar ve konforlu ortamı ile dikkat çeker.</p>
+    
+    <ul>
+        <li>🦿 <strong>Ortopedik ve Nörolojik Rehabilitasyon:</strong> İnme, kas-iskelet sistemi hastalıkları ve travma sonrası rehabilitasyon uygulanır.</li>
+        
+        <li>💻 <strong>Modern Tedavi Yöntemleri:</strong> Elektroterapi, egzersiz terapisi ve manuel terapi teknikleri kullanılır.</li>
+        
+        <li>🧑‍⚕️ <strong>Uzman Kadro:</strong> Fizyoterapistler ve rehabilitasyon uzmanları bireysel tedavi planları oluşturur.</li>
+        
+        <li>🏨 <strong>Konforlu Tedavi Ortamı:</strong> Hasta dostu tasarım ve modern tesis ile rahat bir süreç sağlanır.</li>
+        
+        <li>🌐 <strong>Uluslararası Hasta Desteği:</strong> Yabancı hastalar için koordinasyon ve destek hizmetleri sunulur.</li>
+    </ul>
+</div>
+                </div>`
         }
     },
     spa: {
@@ -2112,7 +2400,39 @@ const cityDetailedData = {
 
                 <h4>➡️ Sektörel Durum</h4>
                 <p>Antalya, SPA & Wellness konusunda tartışmasız dünya lideridir. <strong>Dürüst Analiz:</strong> Şehirde 'Wellness' sadece dinlenmek değil, ciddi bir lüks tüketim kalemidir. Kalite kusursuzdur ancak bu hizmetlerin büyük çoğunluğu sadece otel misafirlerine özeldir; şehir içinde bağımsız tıbbi wellness merkezi sayısı daha sınırlıdır.</p>
-            </div>`
+           <div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Titanic Deluxe Lara Spa & Wellness: "Akdeniz Kıyısında Lüks ve Yenilenme"</h3>
+    <p>Lara bölgesinde bulunan Titanic Deluxe, spa ve wellness alanında sunduğu üst düzey hizmetlerle hem yerli hem yabancı turistler için önemli bir merkezdir. Modern spa altyapısı ve geniş hizmet yelpazesi ile dikkat çeker.</p>
+    
+    <ul>
+        <li>💆 <strong>Lüks Spa Hizmetleri:</strong> Aromaterapi, sıcak taş masajı, cilt bakımları ve özel terapi seansları sunulur.</li>
+        
+        <li>♨️ <strong>Hamam ve Sauna Deneyimi:</strong> Türk hamamı, sauna, buhar odası ve jakuzi ile kapsamlı rahatlama imkânı sağlar.</li>
+        
+        <li>🌊 <strong>Deniz ve Doğa Entegrasyonu:</strong> Akdeniz manzarası ve açık alanlar ile huzurlu bir ortam sunar.</li>
+        
+        <li>🧘 <strong>Wellness Programları:</strong> Yoga, pilates, fitness ve detox programları ile bütünsel sağlık desteklenir.</li>
+        
+        <li>🏨 <strong>Konforlu Konaklama:</strong> Spa ile entegre lüks odalar ve resort hizmetleri mevcuttur.</li>
+    </ul>
+</div>
+<div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Akra Hotels Pablito Spa & Wellness: "Şehir ve Deniz Arasında Premium Deneyim"</h3>
+    <p>Antalya merkezde bulunan Akra Hotels içerisindeki Pablito Spa & Wellness, şehir konforu ile deniz manzarasını birleştirerek modern bir spa deneyimi sunar. Sağlık turizmi kapsamında kısa süreli wellness programları için ideal bir seçenektir.</p>
+    
+    <ul>
+        <li>💆 <strong>Profesyonel Spa Hizmetleri:</strong> Masaj terapileri, cilt bakımları ve özel wellness uygulamaları sunulur.</li>
+        
+        <li>🏊 <strong>Havuz ve Spa Alanları:</strong> Kapalı/açık havuzlar, sauna, buhar odası ve fitness alanları ile kapsamlı hizmet sağlar.</li>
+        
+        <li>🌅 <strong>Deniz Manzaralı Ortam:</strong> Akdeniz manzarası ile zihinsel ve fiziksel rahatlama sağlar.</li>
+        
+        <li>🧘 <strong>Kişiye Özel Wellness Programları:</strong> Yoga, fitness ve detox programları bireysel ihtiyaçlara göre planlanır.</li>
+        
+        <li>🏨 <strong>Modern ve Konforlu Tesis:</strong> Şehir merkezinde kolay ulaşım ve lüks konaklama imkânı sunar.</li>
+    </ul>
+</div>
+                </div>`
         }
     }
 },
@@ -3017,7 +3337,39 @@ const cityDetailedData = {
 
                 <h4>➡️ Dürüst Analiz</h4>
                 <p>Bursa, tıbbi derinlik açısından İstanbul ile yarışabilecek tek şehirdir. <strong>Güçlü Yönü:</strong> Akademik bilgi ile teknolojik donanım (Şehir Hastanesi faktörü) kusursuz birleşmiştir. <strong>Eksik Yönü:</strong> Şehir trafiği ve hastane yoğunluğu, ulaşım lojistiğini hasta için bazen yorucu kılabilmektedir.</p>
-            </div>`
+            <div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Medical Park Bursa Hastanesi: "Modern Cerrahi ve Robotik Uygulamalar"</h3>
+    <p>Nilüfer’de konumlanan Medical Park Bursa Hastanesi, özel sağlık sektöründe yüksek teknolojiye sahip bir merkezdir. Minimal invaziv cerrahi, robotik operasyonlar ve multidisipliner yaklaşımlarla hem yerli hem de uluslararası hastalar için tercih edilir.</p>
+    
+    <ul>
+        <li>🤖 <strong>Robotik ve Minimal İnvaziv Cerrahi:</strong> Laparoskopik ve robotik sistemler ile komplikasyon riski düşük, hızlı iyileşme sağlayan operasyonlar uygulanır.</li>
+        
+        <li>🧑‍⚕️ <strong>Uzman Cerrah Kadrosu:</strong> Kardiyovasküler, üroloji, onkoloji, genel cerrahi ve jinekoloji alanlarında deneyimli ekipler görev alır.</li>
+        
+        <li>🧪 <strong>Modern Tanı ve Görüntüleme:</strong> MR, CT, PET ve dijital radyoloji hizmetleri ile operasyon öncesi ve sonrası süreçler entegre edilir.</li>
+        
+        <li>🌐 <strong>Uluslararası Hasta Desteği:</strong> Tercüman, transfer ve konaklama hizmetleri ile yabancı hastaların süreci kolaylaştırılır.</li>
+        
+        <li>🏨 <strong>Konforlu Konaklama ve Destek:</strong> Uzun süreli cerrahi tedaviler için modern hasta odaları ve wellness alanları mevcuttur.</li>
+    </ul>
+</div>
+<div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Acıbadem Bursa Hastanesi: "Yoğun Bakım ve Multidisipliner Cerrahi"</h3>
+    <p>Osmangazi’de bulunan Acıbadem Bursa Hastanesi, yüksek teknolojiye sahip ameliyathaneler ve yoğun bakım üniteleri ile kompleks cerrahi operasyonlarda güvenilir bir merkezdir. Hem yerli hem de uluslararası hasta kabul kapasitesine sahiptir.</p>
+    
+    <ul>
+        <li>🩺 <strong>Çeşitli Cerrahi Branşlar:</strong> Genel cerrahi, ortopedi, kardiyovasküler cerrahi, üroloji ve onkoloji alanlarında kapsamlı hizmet sunar.</li>
+        
+        <li>💻 <strong>Dijital ve Modern Ameliyathaneler:</strong> Tele-tıp entegrasyonu ile global uzmanlardan operasyon sırasında destek alınabilir.</li>
+        
+        <li>🧑‍⚕️ <strong>Uzman Kadro:</strong> Deneyimli cerrahlar ve multidisipliner ekip ile yüksek başarı oranı sağlanır.</li>
+        
+        <li>🏥 <strong>Yoğun Bakım ve Postoperatif Destek:</strong> Gelişmiş yoğun bakım ve rehabilitasyon üniteleri ile güvenli iyileşme süreçleri sağlanır.</li>
+        
+        <li>🌐 <strong>Uluslararası Hasta Koordinasyonu:</strong> Dil desteği, konaklama ve ulaşım planlaması ile yabancı hastalar için süreçler kolaylaştırılır.</li>
+    </ul>
+</div>
+                </div>`
         }
     },
     thermal: {
@@ -3038,7 +3390,39 @@ const cityDetailedData = {
                 
                 <h4>➡️ Bölgesel Değerlendirme</h4>
                 <p>Bursa, 'Termal' denilince akla gelen ilk şehirdir çünkü burada su sadece banyo değil, bir kültürdür. <strong>Dürüst Analiz:</strong> Tarihi hamamlar otantik bir deneyim sunsa da, modern tıbbi kürler için Çekirge bölgesindeki 'Kür Merkezli' lüks oteller tercih edilmelidir.</p>
-            </div>`
+            <div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Kükürtlü Termal & Spa Merkezi: "Bursa’nın Şifalı Suları"</h3>
+    <p>Çekirge’de yer alan Kükürtlü Termal & Spa Merkezi, doğal kükürtlü termal suları ile kas-eklem ağrıları, romatizmal hastalıklar ve cilt sorunlarına şifa sunar. Ziyaretçilere hem kısa süreli hem de uzun süreli termal tatil imkânı sağlar.</p>
+    
+    <ul>
+        <li>♨️ <strong>Mineralli Sular:</strong> Romatizma, kas-eklem ağrıları ve dermatolojik rahatsızlıklar için faydalıdır.</li>
+        
+        <li>💆 <strong>Wellness ve Masaj Hizmetleri:</strong> Aromaterapi, masaj ve hidroterapi seansları ile fiziksel ve zihinsel yenilenme sağlanır.</li>
+        
+        <li>🌿 <strong>Doğa ve Huzur:</strong> Bahçe ve açık alanlar, doğa ile iç içe huzurlu bir ortam sunar.</li>
+        
+        <li>🏨 <strong>Konforlu Konaklama:</strong> Termal ve spa hizmetleri ile entegre modern odalar bulunur.</li>
+        
+        <li>🧘 <strong>Kişiye Özel Programlar:</strong> Termal terapi, yoga ve wellness paketleri ile bireysel ihtiyaçlara göre planlama yapılır.</li>
+    </ul>
+</div>
+<div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Eskişehir Yolu Termal & Rehabilitasyon Tesisi: "Bursa’nın Sakin Şifalı Kaçamağı"</h3>
+    <p>Oylat bölgesine yakın konumda bulunan Eskişehir Yolu Termal Merkezi, doğal sıcak su kaynakları ve modern spa/rehabilitasyon hizmetleri sunar. Hem kaplıca hem de wellness deneyimi bir arada sunularak ziyaretçilere kapsamlı bir sağlık turizmi alternatifi sağlar.</p>
+    
+    <ul>
+        <li>♨️ <strong>Termal Sular ve Mineraller:</strong> Kas-eklem ağrıları, romatizmal hastalıklar ve cilt sorunları için kullanılır.</li>
+        
+        <li>💆 <strong>Hidroterapi ve Spa Hizmetleri:</strong> Masaj, aromaterapi ve sauna/hamam imkanları ile beden ve ruh sağlığı desteklenir.</li>
+        
+        <li>🌳 <strong>Doğa İle Entegrasyon:</strong> Açık alanlar, bahçeler ve doğal çevre ile huzurlu bir ortam sunar.</li>
+        
+        <li>🏨 <strong>Modern Konaklama:</strong> Termal ve wellness paketleri ile entegre odalar mevcuttur.</li>
+        
+        <li>🧘 <strong>Kişiye Özel Sağlık Programları:</strong> Fiziksel terapi, termal bakım ve wellness aktiviteleri bireysel ihtiyaçlara göre planlanır.</li>
+    </ul>
+</div>
+                </div>`
         }
     },
     elderly: {
@@ -3058,7 +3442,39 @@ const cityDetailedData = {
 
                 <h4>➡️ Altyapı Notu</h4>
                 <p><strong>Dürüst Analiz:</strong> Bursa, yaşlı bakımı için hem kamu hem özel sektörde 'altın standart' sunar. Özellikle Nilüfer bölgesi, Avrupa'daki lüks yaşlı bakım evleriyle yarışacak nitelikte tesislere sahiptir.</p>
-            </div>`
+           <div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Osmangazi Özel Geriatri ve Bakım Merkezi: "Modern Bakım ve Sosyal Yaşam"</h3>
+    <p>Osmangazi’de bulunan bu merkez, yaşlı bireylerin hem fiziksel hem zihinsel sağlıklarını destekleyen kapsamlı hizmetler sunar. Uzman kadrosu ve sosyal aktiviteleri ile uzun süreli bakım için ideal bir merkezdir.</p>
+    
+    <ul>
+        <li>👴 <strong>Günlük Yaşam Desteği:</strong> Yemek, kişisel bakım, ilaç takibi ve hareket desteği gibi temel ihtiyaçlar profesyonel ekip tarafından sağlanır.</li>
+        
+        <li>🧑‍⚕️ <strong>Sağlık Takibi ve Rehabilitasyon:</strong> Doktor ve fizyoterapist gözetiminde düzenli sağlık kontrolleri ve fiziksel terapi uygulanır.</li>
+        
+        <li>🎨 <strong>Sosyal ve Zihinsel Aktiviteler:</strong> Sanat, müzik, el işleri ve grup oyunları ile sosyal katılım ve zihinsel uyarım sağlanır.</li>
+        
+        <li>🏡 <strong>Konforlu Konaklama:</strong> Modern ve güvenli odalar, yaşlı bireylerin rahat bir yaşam sürmesini sağlar.</li>
+        
+        <li>🌿 <strong>Huzurlu ve Güvenli Ortam:</strong> Bahçe ve açık alanlar, doğayla iç içe bir yaşam alanı sunar.</li>
+    </ul>
+</div>
+<div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Yıldırım Özel Huzurevi ve Yaşlı Destek Merkezi: "Toplum Odaklı Bakım ve Sosyal Etkinlikler"</h3>
+    <p>Yıldırım ilçesinde bulunan bu merkez, yaşlı bireylerin fiziksel, zihinsel ve sosyal ihtiyaçlarını bütünsel olarak karşılayan kapsamlı bir tesistir. Aile odaklı yaklaşımı ve deneyimli personeli ile öne çıkar.</p>
+    
+    <ul>
+        <li>👵 <strong>Yaşam Destek Hizmetleri:</strong> Yemek, kişisel bakım, ilaç takibi ve günlük rutin aktivitelerde profesyonel destek sunulur.</li>
+        
+        <li>🧑‍⚕️ <strong>Multidisipliner Kadro:</strong> Doktor, hemşire, fizyoterapist ve psikologlar ile kapsamlı bakım sağlanır.</li>
+        
+        <li>🤝 <strong>Sosyal ve Rehabilitasyon Programları:</strong> Egzersiz, grup aktiviteleri, bilişsel oyunlar ve sosyal etkinliklerle zihinsel ve bedensel sağlık desteklenir.</li>
+        
+        <li>🏡 <strong>Ev Ortamına Yakın Konfor:</strong> Tesis, yaşlı bireylerin kendilerini evlerinde gibi hissetmesini sağlayacak şekilde tasarlanmıştır.</li>
+        
+        <li>🌿 <strong>Huzurlu ve Güvenli Çevre:</strong> Açık alanlar, bahçeler ve güvenli yaşam alanları ile sakin ve rahat bir ortam sunar.</li>
+    </ul>
+</div>
+                </div>`
         }
     },
     disabled: {
@@ -3078,7 +3494,39 @@ const cityDetailedData = {
 
                 <h4>🌟 Dürüst Analiz</h4>
                 <p>Bursa, fizik tedavi konusunda Orta Doğu'nun bile referans noktasıdır. <strong>Dürüst Analiz:</strong> Bu ileri teknolojiye erişim maliyeti yüksektir; ancak iyileşme potansiyeli olan hastalar için geri dönüş hızı açısından yatırıma en değer şehirdir.</p>
-            </div>`
+            <div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Medical Park Bursa Rehabilitasyon Merkezi: "Fonksiyonel Yenilenme ve Teknoloji Odaklı Bakım"</h3>
+    <p>Nilüfer’de bulunan Medical Park Bursa Rehabilitasyon Merkezi, engelli bireyler için modern fizik tedavi ve fonksiyonel rehabilitasyon hizmetleri sunar. Robotik ve ileri teknoloji cihazlarıyla kişiye özel tedavi planları uygulanır.</p>
+    
+    <ul>
+        <li>🦾 <strong>Fonksiyonel Rehabilitasyon:</strong> Ortopedik ve nörolojik engelliliklerde kişiye özel programlar hazırlanır.</li>
+        
+        <li>🤖 <strong>Robotik ve Yardımcı Teknoloji:</strong> Yürüme, denge ve motor beceri geliştirme programları robotik sistemlerle desteklenir.</li>
+        
+        <li>🧑‍⚕️ <strong>Uzman Kadro:</strong> Fizyoterapistler, ergoterapistler ve rehabilitasyon hekimleri multidisipliner yaklaşım uygular.</li>
+        
+        <li>🏨 <strong>Modern Tesis:</strong> Donanımlı terapi odaları ve egzersiz salonları ile hasta konforu ön planda tutulur.</li>
+        
+        <li>🌐 <strong>Uluslararası Hasta Desteği:</strong> Tercüman, konaklama ve koordinasyon hizmetleri ile yabancı hastaların süreci kolaylaştırılır.</li>
+    </ul>
+</div>
+<div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Acıbadem Bursa Rehabilitasyon Merkezi: "Modern Fizik Tedavi ve Nöro-Rehabilitasyon"</h3>
+    <p>Osmangazi’de bulunan Acıbadem Bursa Rehabilitasyon Merkezi, engelli bireyler için kapsamlı fizik tedavi ve nörolojik rehabilitasyon hizmetleri sunar. Gelişmiş cihazlar ve kişiye özel programlarla hastaların maksimum fonksiyon kazanması hedeflenir.</p>
+    
+    <ul>
+        <li>🦿 <strong>Nörolojik Rehabilitasyon:</strong> İnme, omurilik yaralanmaları ve spastik durumlar için özel terapi planları uygulanır.</li>
+        
+        <li>💻 <strong>Modern Fizik Tedavi Cihazları:</strong> Yürüme terapisi, denge ve kas güçlendirme programları için ileri teknoloji cihazlar kullanılır.</li>
+        
+        <li>🧑‍⚕️ <strong>Uzman Kadro:</strong> Fizyoterapistler, ergoterapistler ve rehabilitasyon hekimleri multidisipliner ekip çalışması yürütür.</li>
+        
+        <li>🏥 <strong>Konforlu ve Donanımlı Tesis:</strong> Terapi odaları, egzersiz salonları ve hasta konforunu artıracak alanlar bulunur.</li>
+        
+        <li>🌐 <strong>Uluslararası Hasta Desteği:</strong> Dil desteği, konaklama ve ulaşım hizmetleri ile yabancı hastalar için süreçler kolaylaştırılmıştır.</li>
+    </ul>
+</div>
+                </div>`
         }
     },
     spa: {
@@ -3098,7 +3546,39 @@ const cityDetailedData = {
 
                 <h4>➡️ Sektörel Durum</h4>
                 <p><strong>Dürüst Analiz:</strong> Bursa'daki SPA hizmetleri sadece 'rahatlama' değil, bir 'sağlık ritüeli'dir. Şehirdeki beş yıldızlı otellerin neredeyse tamamı tıbbi termal ruhsatlıdır; bu da aldığınız SPA hizmetinin bilimsel bir temeli olduğu anlamına gelir.</p>
-            </div>`
+           <div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Radisson Blu Hotel & Spa Bursa: "Lüks Wellness ve Termal Deneyim"</h3>
+    <p>Osmangazi’de bulunan Radisson Blu Hotel & Spa Bursa, modern spa ve wellness hizmetlerini termal kaynaklarla birleştirir. Hem bedensel hem de zihinsel yenilenme için kapsamlı programlar sunar.</p>
+    
+    <ul>
+        <li>💆 <strong>Lüks Masaj ve Spa Hizmetleri:</strong> Aromaterapi, sıcak taş masajı, detox ve yüz-beden bakımları ile kapsamlı wellness deneyimi sağlar.</li>
+        
+        <li>♨️ <strong>Termal ve Sauna İmkanları:</strong> Sauna, hamam, jakuzi ve kapalı/ açık havuzlar ile bedensel rahatlama sunar.</li>
+        
+        <li>🌿 <strong>Doğa ve Huzur:</strong> Açık alanlar ve bahçeler ile sakin ve huzurlu bir ortam yaratılır.</li>
+        
+        <li>🧘 <strong>Kişiye Özel Wellness Paketleri:</strong> Yoga, pilates ve kişisel wellness programlarıyla ziyaretçilerin ihtiyaçları karşılanır.</li>
+        
+        <li>🏨 <strong>Konforlu Konaklama:</strong> Spa ve wellness hizmetleriyle entegre modern odalar sunar.</li>
+    </ul>
+</div>
+<div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Oylat Kaplıcaları & Spa Merkezi: "Doğal Termal Şifa ve Modern Wellness"</h3>
+    <p>Oylat bölgesinde konumlanan bu merkez, doğal termal kaynaklar ve modern spa hizmetlerini bir araya getirir. Kas-eklem rahatsızlıkları, stres ve cilt problemleri için kapsamlı bir wellness deneyimi sunar.</p>
+    
+    <ul>
+        <li>♨️ <strong>Mineralli Termal Sular:</strong> Romatizma, kas-eklem ağrıları ve cilt sorunlarına şifalı etkiler sağlar.</li>
+        
+        <li>💆 <strong>Wellness ve Masaj Hizmetleri:</strong> Aromaterapi, hidroterapi ve çeşitli masaj uygulamaları ile bedensel ve zihinsel rahatlama sağlanır.</li>
+        
+        <li>🌳 <strong>Doğa İle Entegrasyon:</strong> Bahçeler, açık alanlar ve doğal çevre ile huzurlu bir deneyim sunar.</li>
+        
+        <li>🧘 <strong>Kişiye Özel Programlar:</strong> Yoga, pilates ve detox paketleri ile bireysel ihtiyaçlara göre planlama yapılır.</li>
+        
+        <li>🏨 <strong>Modern Konaklama:</strong> Termal ve spa hizmetleriyle entegre konforlu odalar mevcuttur.</li>
+    </ul>
+</div>
+                </div>`
         }
     }
 },
@@ -4931,7 +5411,39 @@ const cityDetailedData = {
 
                 <h4>➡️ Dürüst Analiz</h4>
                 <p>İstanbul, medikal teknoloji bakımından New York veya Londra ile eş değer, hatta bazı branşlarda daha moderndir. <strong>Güçlü Yönü:</strong> Dünyanın en iyi cerrahlarını bu şehirde bulabilirsiniz. <strong>Eksik Yönü:</strong> Şehir içi trafik ve hastanelerdeki aşırı yoğunluk, lojistik bir handikaptır. VIP transfer hizmeti olmayan hastalar için ulaşım ciddi stres kaynağı olabilir.</p>
-            </div>`
+            <div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Medipol Mega University Hospital: "Kapsamlı Cerrahi ve Entegre Tıp Merkezi"</h3>
+    <p>İstanbul’un en büyük özel hastanelerinden biri olan Medipol Mega University Hospital, cerrahi alanında kapsamlı uzmanlık ve ileri teknoloji uygulamalarıyla uluslararası hastalar için tercih edilen bir tedavi merkezidir. JCI akreditasyonu ve geniş uzman kadrosu ile hem standart hem kompleks cerrahi alanlarında hizmet verir. :contentReference[oaicite:0]{index=0}</p>
+    
+    <ul>
+        <li>🔬 <strong>Multidisipliner Cerrahi Uzmanlık:</strong> Genel cerrahiden bariatrik cerrahiye, kolorektal ve endokrin cerrahiye kadar geniş yelpazede tedavi hizmetleri sunar. :contentReference[oaicite:1]{index=1}</li>
+        
+        <li>🏥 <strong>Robotik ve Minimal İnvaziv Cerrahi:</strong> En gelişmiş robotik ve laparaskopik cerrahi sistemleriyle ameliyatlar yapılır; bu da daha kısa hastanede kalış ve hızlı iyileşme demektir. :contentReference[oaicite:2]{index=2}</li>
+        
+        <li>🧪 <strong>Dahili Tanı ve Görüntüleme:</strong> Operasyon öncesi ve sonrası tüm tetkik ve görüntülemeler aynı kampüste, son teknoloji cihazlarla gerçekleştirilir. :contentReference[oaicite:3]{index=3}</li>
+        
+        <li>🌍 <strong>Uluslararası Hasta Hizmetleri:</strong> Medipol, yabancı dillerde koordinasyon, tercüme ve lojistik desteği ile uluslararası hastaların süreçlerini kolaylaştırır. :contentReference[oaicite:4]{index=4}</li>
+        
+        <li>👩‍⚕️ <strong>Uzman Cerrah Kadrosu:</strong> Alanında deneyimli cerrahlar, vaka bazlı tedavi planları ile kişiye özel cerrahi çözümler sağlar. :contentReference[oaicite:5]{index=5}</li>
+    </ul>
+</div>
+<div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Memorial Şişli Hospital: "İleri Teknoloji Cerrahi ve Organ Nakli Uygulamaları"</h3>
+    <p>Memorial Şişli Hospital, Türkiye’nin en köklü ve en uluslararası tanınmış özel sağlık kurumlarından biridir. Özellikle kompleks cerrahi, organ nakli, onkoloji ve robotik cerrahi alanlarında dünya standartlarında hizmet verir. Bu hastane, yüksek hasta hacmi ve yıllık binlerce başarılı prosedürle hem yerli hem de yabancı hasta açısından önemli bir cazibe merkezidir. :contentReference[oaicite:6]{index=6}</p>
+    
+    <ul>
+        <li>🧠 <strong>Kompleks Cerrahi Uzmanlığı:</strong> Beyin cerrahisi, nöroşirürji, organ nakli ve onkolojik cerrahide ileri düzey çözümler sunar. :contentReference[oaicite:7]{index=7}</li>
+        
+        <li>💓 <strong>Kalp ve Kardiyovasküler Cerrahi:</strong> Kalp ameliyatları, damar cerrahisi ve minimal invaziv kardiyovasküler uygulamalar ile yüksek başarı eğilimleri gösterir. :contentReference[oaicite:8]{index=8}</li>
+        
+        <li>🤖 <strong>Gelişmiş Robotik Sistemler:</strong> Robot destekli cerrahi ile cerrahi hassasiyet artırılır, kanama azaltılır ve iyileşme süresi kısalır. :contentReference[oaicite:9]{index=9}</li>
+        
+        <li>📈 <strong>Yüksek Vak’a Hacmi:</strong> Her yıl binlerce cerrahi prosedür yapılan Memorial, bununla birlikte kalite göstergesi olarak uluslararası akreditasyonları ile tanınır. :contentReference[oaicite:10]{index=10}</li>
+        
+        <li>🌐 <strong>Uluslararası Hasta Desteği:</strong> Yabancı dil desteği, hasta koordinasyonu ve konaklama planlaması gibi uluslararası hasta hizmetleri ile ayrıştırılır. :contentReference[oaicite:11]{index=11}</li>
+    </ul>
+</div>
+                </div>`
         }
     },
     thermal: {
@@ -4951,8 +5463,41 @@ const cityDetailedData = {
                 </ul>
                 
                 <h4>➡️ Bölgesel Değerlendirme</h4>
-                <p>İstanbul içindeki termal kaynaklar daha çok 'şifa odaklı medikal tesis' yapısındadır. <strong>Dürüst Analiz:</strong> Eğer geniş bir 'Resort' deneyimi isteniyorsa feribotla 45 dakika mesafedeki Yalova tercih edilmelidir; ancak spesifik mide/bağırsak kürleri için Tuzla İçmeler rakipsizdir.</p>
-            </div>`
+            
+            <p>İstanbul içindeki termal kaynaklar daha çok 'şifa odaklı medikal tesis' yapısındadır. <strong>Dürüst Analiz:</strong> Eğer geniş bir 'Resort' deneyimi isteniyorsa feribotla 45 dakika mesafedeki Yalova tercih edilmelidir; ancak spesifik mide/bağırsak kürleri için Tuzla İçmeler rakipsizdir.</p>
+        <div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Kocaeli Kartepe Termal & Wellness Merkezi: "Dağ ve Göl Manzarasında Şifa"</h3>
+    <p>Kocaeli’nin Kartepe bölgesinde bulunan bu termal tesis, doğal mineralli sıcak su kaynaklarıyla ünlüdür. İstanbul’a yakınlığı sayesinde günübirlik veya kısa süreli sağlık turizmi ziyaretleri için idealdir. Modern wellness hizmetleri ve doğayla iç içe ortamıyla hem fiziksel hem zihinsel rahatlama sağlar.</p>
+    
+    <ul>
+        <li>♨️ <strong>Mineralli Sıcak Su Kaynakları:</strong> Kas ve eklem ağrılarını azaltıcı, romatizmal rahatsızlıklara destekleyici mineralli sular sunar.</li>
+        
+        <li>💆 <strong>Wellness ve Spa Hizmetleri:</strong> Masaj, aromaterapi ve hidroterapi seçenekleri ile beden ve zihin yenilenir.</li>
+        
+        <li>🌄 <strong>Doğa ile Entegre Deneyim:</strong> Kartepe’nin dağ ve göl manzarası, stres ve yorgunluğu azaltır, psikolojik rahatlama sağlar.</li>
+        
+        <li>🏨 <strong>Modern Konaklama İmkanları:</strong> Termal tesislerde uzun süreli konaklama ve dinlenme imkanları sağlanır.</li>
+        
+        <li>🧘 <strong>Sağlık Turizmine Uygun Programlar:</strong> Günlük veya haftalık termal paketler ile ziyaretçiler rahatça planlama yapabilir.</li>
+    </ul>
+</div>
+<div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Sapanca Termal ve Rehabilitasyon Merkezi: "Göl Kenarında Yenilenme"</h3>
+    <p>Sakarya / Sapanca bölgesinde yer alan bu merkez, İstanbul’a yakınlığı ve doğal göl manzarası ile öne çıkar. Termal suyun yanı sıra fiziksel terapi ve wellness programları sunarak kapsamlı bir sağlık turizmi deneyimi sağlar.</p>
+    
+    <ul>
+        <li>♨️ <strong>Doğal Termal Su Kaynakları:</strong> Mineralli sıcak sular, kas ve eklem sorunlarına destek olur, stres ve yorgunluğu azaltır.</li>
+        
+        <li>💆 <strong>Hidroterapi ve Spa Hizmetleri:</strong> Kaplıca havuzları, masaj, vücut bakım ve rahatlatıcı terapiler ile konforlu bir deneyim sunar.</li>
+        
+        <li>🌿 <strong>Göl Kenarı ve Doğal Ortam:</strong> Sapanca Gölü manzarası, psikolojik rahatlama ve zihinsel yenilenmeyi destekler.</li>
+        
+        <li>🏨 <strong>Konaklama ve Termal Entegrasyon:</strong> Tesisteki konaklama birimleri, wellness ve termal hizmetlerle entegre çalışır.</li>
+        
+        <li>🧘 <strong>Kişiye Özel Sağlık Paketleri:</strong> Rehabilitasyon, wellness ve termal programlar kişiye özel olarak planlanabilir.</li>
+    </ul>
+</div>      
+</div>`
         }
     },
     elderly: {
@@ -4973,7 +5518,39 @@ const cityDetailedData = {
 
                 <h4>➡️ Altyapı Notu</h4>
                 <p><strong>Dürüst Analiz:</strong> İstanbul, Türkiye'nin en lüks 'yaşlı yaşam otellerine' sahiptir. <strong>Güçlü Yönü:</strong> Sağlık kuruluşlarına yakınlık ve personel uzmanlığı zirvededir. <strong>Eksik Yönü:</strong> Kaliteli bir bakım evinin maliyeti Türkiye ortalamasının çok üzerindedir ve merkezi yerlerdeki tesislerde yeşil alan kısıtlı olabilir.</p>
-            </div>`
+           <div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Acıbadem Yaşlı Bakım ve Rehabilitasyon Merkezi: "Modern Sağlık ile Konforlu Yaşam"</h3>
+    <p>Acıbadem’de bulunan bu merkez, yaşlı bireylerin hem fiziksel hem zihinsel sağlıklarını destekleyen kapsamlı bir bakım hizmeti sunar. Modern tesisleri ve uzman kadrosu ile uzun süreli bakım ve gündüz programları için tercih edilir.</p>
+    
+    <ul>
+        <li>👴 <strong>Günlük Yaşam Desteği:</strong> Yemek, kişisel bakım, ilaç takibi ve hareket desteği gibi temel ihtiyaçlar profesyonel ekip tarafından sağlanır.</li>
+        
+        <li>🩺 <strong>Sağlık Takibi ve Rehabilitasyon:</strong> Doktor ve fizyoterapist gözetiminde düzenli sağlık kontrolleri, fiziksel terapi ve hareket programları uygulanır.</li>
+        
+        <li>🧘 <strong>Zihinsel ve Sosyal Aktiviteler:</strong> Grup oyunları, el sanatları, müzik terapisi ve sosyal etkinliklerle yaşlıların sosyal katılımı desteklenir.</li>
+        
+        <li>🏨 <strong>Uzun Süreli ve Gündüz Konaklama:</strong> Haftalar veya aylar süren bakım ihtiyacına uygun modern konaklama alanları sunar.</li>
+        
+        <li>🌿 <strong>Rahatlatıcı Ortam:</strong> Bahçe ve açık alanlar, doğayla iç içe bir yaşam alanı sağlayarak sakin ve huzurlu bir ortam sunar.</li>
+    </ul>
+</div>
+<div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Erenköy Geriatri ve Yaşlı Destek Merkezi: "Toplum Odaklı Sağlıklı Yaşam"</h3>
+    <p>İstanbul Erenköy’de yer alan bu merkez, yaşlı bireylerin hem fiziksel hem psikolojik ihtiyaçlarını karşılayan kapsamlı bir hizmet sunar. Aile odaklı yaklaşımı ve deneyimli personeli ile uzun süreli bakımda öne çıkar.</p>
+    
+    <ul>
+        <li>👵 <strong>Yaşam Destek Hizmetleri:</strong> Yemek, kişisel bakım, ilaç takibi ve günlük rutin aktivitelerde profesyonel destek sağlanır.</li>
+        
+        <li>🧑‍⚕️ <strong>Multidisipliner Sağlık Kadrosu:</strong> Doktor, hemşire, fizyoterapist ve psikolog ekipleri ile kapsamlı bakım sunulur.</li>
+        
+        <li>🤝 <strong>Sosyal ve Rehabilitasyon Programları:</strong> Egzersiz, grup aktiviteleri, bilişsel oyunlar ve sosyal etkinliklerle zihinsel ve bedensel sağlık desteklenir.</li>
+        
+        <li>🏡 <strong>Ev Ortamına Yakın Konfor:</strong> Tesis, yaşlı bireylerin kendilerini evlerinde gibi hissetmesini sağlayacak şekilde tasarlanmıştır.</li>
+        
+        <li>🌿 <strong>Huzurlu ve Güvenli Çevre:</strong> Sessiz, güvenli ve doğal ortamda, açık alan ve bahçelerle dolu bir yaşam sunar.</li>
+    </ul>
+</div>
+                </div>`
         }
     },
     disabled: {
@@ -4994,7 +5571,39 @@ const cityDetailedData = {
 
                 <h4>🌟 Dürüst Analiz</h4>
                 <p><strong>Dürüst Analiz:</strong> İstanbul, dünyadaki en modern rehabilitasyon cihazlarına sahip şehirlerden biridir. <strong>Güçlü Yönü:</strong> Hem kamu hem özel sektörde cihaz çeşitliliği muazzamdır. <strong>Eksik Yönü:</strong> Fizyoterapistlerin iş yükü çok fazladır; bu yüzden birebir özel ilgi için butik ve yüksek segmentli özel merkezler tercih edilmelidir.</p>
-            </div>`
+            <div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Acıbadem Fizik Tedavi ve Rehabilitasyon Merkezi: "Robotik ve Multidisipliner Destek"</h3>
+    <p>Acıbadem Sağlık Grubu bünyesindeki bu merkez, ileri teknoloji robotik rehabilitasyon sistemleri ve multidisipliner ekipleriyle engelli bireylere kapsamlı fizik tedavi hizmeti sunar. Hem çocuk hem yetişkin hastalara yönelik programlar mevcuttur.</p>
+    
+    <ul>
+        <li>🤖 <strong>Robotik Destekli Rehabilitasyon:</strong> Yürüme, denge ve kas gücü programları robotik cihazlar ile kişiye özel uygulanır.</li>
+        
+        <li>🧑‍⚕️ <strong>Multidisipliner Kadro:</strong> Fizyoterapistler, ergoterapistler, nörologlar ve rehabilitasyon uzmanlarından oluşan ekip, hastaların maksimum fonksiyon kazanmasını hedefler.</li>
+        
+        <li>🧠 <strong>Nörolojik Rehabilitasyon Programları:</strong> İnme, travmatik beyin hasarı ve spastik durumlar için özel planlanan terapi seansları sunulur.</li>
+        
+        <li>🏥 <strong>Modern Tesis ve Ekipman:</strong> Gelişmiş tedavi odaları, egzersiz salonları ve ileri seviye cihazlar ile hasta konforu sağlanır.</li>
+        
+        <li>🌿 <strong>Psikososyal Destek:</strong> Hastaların motivasyonu ve günlük yaşam becerileri için psikolog ve sosyal hizmet uzmanlarıyla destek verilir.</li>
+    </ul>
+</div>
+                <div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Memorial Şişli Fizik Tedavi ve Rehabilitasyon Merkezi: "Gelişmiş Rehabilitasyon ve Fonksiyonel Yenilenme"</h3>
+    <p>Memorial Şişli Hastanesi bünyesindeki bu merkez, engelli bireylere yönelik kapsamlı fizik tedavi, fonksiyonel yenilenme ve ileri teknoloji destekli rehabilitasyon programları sunar. Yabancı hastalar için uluslararası hasta koordinasyonu da mevcuttur.</p>
+    
+    <ul>
+        <li>🦾 <strong>Fonksiyonel Rehabilitasyon:</strong> Kas-iskelet, nörolojik ve ortopedik engelliliklerde bireyselleştirilmiş tedavi planları uygulanır.</li>
+        
+        <li>🤖 <strong>Robotik ve Yardımcı Teknoloji:</strong> Yürüme terapisi, denge ve motor beceri geliştirme için robotik cihazlar kullanılır.</li>
+        
+        <li>🧑‍⚕️ <strong>Uzman Kadro:</strong> Fizyoterapistler, ergoterapistler, rehabilitasyon hekimleri ve nörologlardan oluşan multidisipliner ekip aktif olarak çalışır.</li>
+        
+        <li>🏨 <strong>Konforlu ve Modern Tesis:</strong> Hasta odaları, egzersiz salonları ve terapi alanları yüksek konfor standartlarında tasarlanmıştır.</li>
+        
+        <li>🌐 <strong>Uluslararası Hasta Desteği:</strong> Dil desteği, koordinasyon ve konaklama planlaması ile yabancı hastalar için süreç kolaylaştırılmıştır.</li>
+    </ul>
+</div>
+                </div>`
         }
     },
     spa: {
@@ -5015,7 +5624,39 @@ const cityDetailedData = {
 
                 <h4>➡️ Sektörel Durum</h4>
                 <p><strong>Dürüst Analiz:</strong> İstanbul'daki SPA sektörü, dünyadaki en iyi 10 destinasyon arasındadır. Özellikle 5 yıldızlı otellerdeki Wellness merkezleri, sadece rahatlama değil, gerçek bir 'sağlık ve gençleşme' vaat eder. Fiyatlar döviz bazlıdır ve rezervasyonlar haftalar öncesinden dolabilmektedir.</p>
-            </div>`
+           <div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Çırağan Palace Kempinski Spa: "Boğaz Manzarasında Lüks Wellness"</h3>
+    <p>Beşiktaş’taki Çırağan Palace Kempinski, tarihi Osmanlı sarayının modernize edilmiş spa ve wellness merkeziyle hem yerli hem de uluslararası misafirler için önde gelen bir destinasyondur. Boğaz manzarası eşliğinde benzersiz bir rahatlama deneyimi sunar.</p>
+    
+    <ul>
+        <li>💆 <strong>Lüks Spa ve Masaj Hizmetleri:</strong> Aromaterapi, sıcak taş masajı, yüz ve vücut bakımları ile tam kapsamlı wellness hizmeti sunar.</li>
+        
+        <li>♨️ <strong>Hammam Deneyimi:</strong> Osmanlı hamam kültürü modern spa teknolojisi ile birleşir, geleneksel kese ve masaj seansları uygulanır.</li>
+        
+        <li>🏊 <strong>Termal ve Havuz İmkanları:</strong> Kapalı ve açık yüzme havuzları, jakuzi ve sauna gibi seçeneklerle vücut ve zihnin yenilenmesi sağlanır.</li>
+        
+        <li>🌿 <strong>Doğa ve Manzara Entegrasyonu:</strong> Boğaz manzarası ve zarif dekor, ziyaretçilere hem görsel hem de ruhsal rahatlama sunar.</li>
+        
+        <li>🧘 <strong>Kişiye Özel Programlar:</strong> Bireysel wellness planları, masaj ve terapi seansları ile kişisel ihtiyaçlara göre uyarlanır.</li>
+    </ul>
+</div>
+      <div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Mandarin Oriental Bosphorus Spa: "Geleneksel ve Modern Wellness Buluşması"</h3>
+    <p>Beyoğlu’nda yer alan Mandarin Oriental Bosphorus Spa, uluslararası standartlarda spa ve wellness hizmetleri sunar. Boğaz kıyısındaki konumu, modern terapiler ve geleneksel masaj tekniklerini birleştirerek benzersiz bir deneyim sağlar.</p>
+    
+    <ul>
+        <li>💆 <strong>Modern ve Geleneksel Terapiler:</strong> Aromaterapi, Thai masajı, refleksoloji ve Osmanlı spa ritüelleri sunulur.</li>
+        
+        <li>♨️ <strong>Termal ve Sauna İmkanları:</strong> Sauna, hamam ve jakuzi ile beden ve ruh sağlığı desteklenir.</li>
+        
+        <li>🌿 <strong>Doğa ile Uyumlu Tasarım:</strong> Boğaz manzaralı odalar, açık alanlar ve doğal ışık ile ziyaretçiye huzurlu bir ortam sunar.</li>
+        
+        <li>🧘 <strong>Özel Wellness Paketleri:</strong> Kişiye özel detox, spa ve fitness programları ile uzun süreli rahatlama sağlanır.</li>
+        
+        <li>🌍 <strong>Uluslararası Hasta ve Misafir Desteği:</strong> Çok dilli koordinasyon ve rezervasyon sistemi ile yabancı misafirlerin konforu artırılır.</li>
+    </ul>
+</div>     
+                </div>`
         }
     }
 },
@@ -5045,7 +5686,39 @@ const cityDetailedData = {
 
                 <h4>➡️ Dürüst Analiz</h4>
                 <p>İzmir, tıbbi etik ve hasta hakları konusunda Türkiye'nin en bilinçli ve gelişmiş şehridir. <strong>Güçlü Yönü:</strong> Akademik birikim ile modern teknoloji (Bayraklı Şehir Hastanesi) kusursuz birleşmiştir. <strong>Eksik Yönü:</strong> Şehir Hastanesi ve Üniversite hastaneleri arasındaki trafik yoğunluğu, acil transferlerde planlama gerektirir.</p>
-            </div>`
+            <div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Memorial İzmir Hastanesi: "Gelişmiş Cerrahi ve Minimal İnvaziv Uygulamalar"</h3>
+    <p>Bornova’da yer alan Memorial İzmir Hastanesi, özel sağlık sektöründe Türkiye’nin önde gelen merkezlerinden biridir. Cerrahi alanında minimal invaziv yöntemler, robotik cerrahi ve multidisipliner yaklaşımlar sunarak hem yerli hem de uluslararası hastalar için tercih edilir.</p>
+    
+    <ul>
+        <li>🔬 <strong>Multidisipliner Cerrahi:</strong> Genel cerrahi, kardiyovasküler, üroloji, jinekoloji ve onkoloji alanlarında uzman ekipler hizmet verir.</li>
+        
+        <li>🤖 <strong>Robotik ve Minimal İnvaziv Cerrahi:</strong> Laparoskopik ve robotik sistemler ile operasyonlar daha kısa sürede ve komplikasyon riski düşük şekilde gerçekleştirilir.</li>
+        
+        <li>🧪 <strong>Modern Tanı ve Görüntüleme:</strong> MR, CT, PET ve dijital radyoloji ile operasyon öncesi ve sonrası takipler aynı kampüste yapılır.</li>
+        
+        <li>🌍 <strong>Uluslararası Hasta Hizmetleri:</strong> Dil desteği, koordinasyon ve konaklama planlaması ile yabancı hastalar için süreçler kolaylaştırılmıştır.</li>
+        
+        <li>🏨 <strong>Konforlu Konaklama ve Destek:</strong> Uzun süreli cerrahi tedavi alan hastalar için modern hasta odaları ve wellness alanları bulunur.</li>
+    </ul>
+</div>
+<div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Medicana International İzmir Hastanesi: "Modern Cerrahi ve Yoğun Bakım Altyapısı"</h3>
+    <p>Karşıyaka’da konumlanan Medicana İzmir Hastanesi, cerrahi branşlarda yüksek teknolojiye sahip ameliyathaneler ve yoğun bakım üniteleri ile dikkat çeker. Hem kompleks cerrahi operasyonlar hem de hızlı iyileşme süreçleri için güçlü bir merkezdir.</p>
+    
+    <ul>
+        <li>🩺 <strong>Çeşitli Cerrahi Branşlar:</strong> Genel cerrahi, ortopedi, kalp damar cerrahisi, göz ve üroloji alanlarında kapsamlı hizmet verir.</li>
+        
+        <li>💻 <strong>Teknoloji ve Dijital Ameliyathaneler:</strong> Operasyon sırasında tele-tıp entegrasyonu ve dijital sistemler ile global uzmanlardan destek alınabilir.</li>
+        
+        <li>🧑‍⚕️ <strong>Uzman Cerrah Kadrosu:</strong> Alanında deneyimli cerrahlar, kişiye özel tedavi planları ile yüksek başarı sağlar.</li>
+        
+        <li>🌐 <strong>Uluslararası Hasta Koordinasyonu:</strong> Yabancı hastalar için tercüman, transfer ve konaklama hizmetleri sunulur.</li>
+        
+        <li>🏥 <strong>Yoğun Bakım ve Destek Hizmetleri:</strong> Postoperatif bakım ve rehabilitasyon üniteleri ile güvenli iyileşme süreci sağlanır.</li>
+    </ul>
+</div>
+                </div>`
         }
     },
     thermal: {
@@ -5066,7 +5739,39 @@ const cityDetailedData = {
                 
                 <h4>➡️ Bölgesel Değerlendirme</h4>
                 <p>İzmir, termal turizmi 'Sağlık Turizmi' ile en iyi entegre eden şehirdir. <strong>Dürüst Analiz:</strong> Balçova tesisleri tıbbi rehabilitasyon odaklıdır; Çeşme tarafı ise daha çok 'Luxury Wellness' konseptine hitap eder.</p>
-            </div>`
+           <div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Seferihisar Sığacık Termal ve Wellness Merkezi: "Doğa ile İç İçe Şifa"</h3>
+    <p>İzmir Seferihisar’da yer alan Sığacık Termal Merkezi, doğal mineralli sıcak su kaynakları ve sakin deniz manzarası ile ziyaretçilere hem fiziksel hem ruhsal rahatlama sunar. Günlük termal programlar ve kısa süreli sağlık turizmi için idealdir.</p>
+    
+    <ul>
+        <li>♨️ <strong>Mineralli Sıcak Su Kaynakları:</strong> Romatizmal hastalıklar, kas-eklem ağrıları ve stres için şifa sağlar.</li>
+        
+        <li>💆 <strong>Wellness ve Spa Hizmetleri:</strong> Masaj, aromaterapi ve hidroterapi seçenekleri ile beden ve zihnin yenilenmesi desteklenir.</li>
+        
+        <li>🌿 <strong>Doğa ile Entegrasyon:</strong> Deniz ve yeşil alan manzarası ile psikolojik rahatlama sağlar, meditasyon ve yoga aktiviteleri sunulur.</li>
+        
+        <li>🏨 <strong>Konaklama İmkanları:</strong> Termal oteller ve pansiyonlar, wellness hizmetleri ile entegre çalışır.</li>
+        
+        <li>🧘 <strong>Kişiye Özel Termal Programlar:</strong> Rehabilitasyon, spa ve detox programları ile bireysel ihtiyaçlara göre planlama yapılabilir.</li>
+    </ul>
+</div>
+<div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Özdere Termal ve Rehabilitasyon Merkezi: "Ege Sahilinde Şifa ve Yenilenme"</h3>
+    <p>Özdere’deki bu termal merkez, Ege Denizi kıyısında konumlanmış olup, hem termal su kaynakları hem de modern rehabilitasyon hizmetleri sunar. Ziyaretçiler kısa süreli termal tatil ve sağlık programlarından faydalanabilir.</p>
+    
+    <ul>
+        <li>♨️ <strong>Termal Mineralli Sular:</strong> Kas ve eklem ağrıları, romatizmal rahatsızlıklar ve cilt sorunları için şifa kaynağıdır.</li>
+        
+        <li>💆 <strong>Hidroterapi ve Wellness Hizmetleri:</strong> Kaplıca havuzları, masaj ve aromaterapi ile fiziksel ve zihinsel yenilenme sağlanır.</li>
+        
+        <li>🌊 <strong>Deniz ve Doğa Entegrasyonu:</strong> Ege Denizi manzarası ve açık alanlarla ziyaretçilere huzurlu bir ortam sunar.</li>
+        
+        <li>🏨 <strong>Modern Konaklama:</strong> Rehabilitasyon ve spa paketleri ile entegre konaklama imkanları bulunur.</li>
+        
+        <li>🧘 <strong>Kişiye Özel Sağlık Programları:</strong> Fiziksel terapi, termal bakım ve wellness paketleri bireysel ihtiyaçlara göre hazırlanır.</li>
+    </ul>
+</div>
+                </div>`
         }
     },
     elderly: {
@@ -5087,7 +5792,39 @@ const cityDetailedData = {
 
                 <h4>➡️ Altyapı Notu</h4>
                 <p><strong>Dürüst Analiz:</strong> İzmir, Türkiye'nin 'Yaşlı Bakım Başkenti'dir. <strong>Güçlü Yönü:</strong> Narlıdere Huzurevi gibi devlete bağlı ancak dünya standartlarında tesisler ve Urla'daki ultra lüks özel bakım köyleri mevcuttur. <strong>Eksik Yönü:</strong> Popülaritesi nedeniyle kontenjanlar çok hızlı dolmaktadır.</p>
-            </div>`
+           <div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Bornova Geriatri ve Yaşlı Bakım Merkezi: "Modern Bakım ve Sosyal Aktivite"</h3>
+    <p>İzmir Bornova’da bulunan bu merkez, yaşlı bireylerin hem fiziksel hem zihinsel sağlıklarını destekleyen kapsamlı hizmetler sunar. Uzman kadrosu ve sosyal aktiviteleri ile uzun süreli bakım için ideal bir merkezdir.</p>
+    
+    <ul>
+        <li>👴 <strong>Günlük Yaşam Desteği:</strong> Yemek, kişisel bakım, ilaç takibi ve hareket desteği gibi temel ihtiyaçlar profesyonel ekip tarafından sağlanır.</li>
+        
+        <li>🧑‍⚕️ <strong>Sağlık Takibi ve Rehabilitasyon:</strong> Doktor ve fizyoterapist gözetiminde düzenli sağlık kontrolleri ve fiziksel terapi uygulanır.</li>
+        
+        <li>🎨 <strong>Sosyal ve Zihinsel Aktiviteler:</strong> Sanat, müzik, el işleri ve grup oyunları ile sosyal katılım ve zihinsel uyarım sağlanır.</li>
+        
+        <li>🏡 <strong>Konforlu Konaklama:</strong> Modern ve güvenli odalar, yaşlı bireylerin rahat bir yaşam sürmesini sağlar.</li>
+        
+        <li>🌿 <strong>Huzurlu ve Güvenli Ortam:</strong> Bahçe ve açık alanlar, doğayla iç içe bir yaşam alanı sunar.</li>
+    </ul>
+</div>
+<div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Konak Özel Geriatri ve Emekli Destek Merkezi: "Toplum Odaklı Sağlıklı Yaşam"</h3>
+    <p>İzmir Konak’ta bulunan bu merkez, yaşlı bireylerin fiziksel, zihinsel ve sosyal ihtiyaçlarını bütünsel olarak karşılayan kapsamlı bir tesistir. Aile odaklı yaklaşımı ve deneyimli personeli ile öne çıkar.</p>
+    
+    <ul>
+        <li>👵 <strong>Yaşam Destek Hizmetleri:</strong> Yemek, kişisel bakım, ilaç takibi ve günlük rutin aktivitelerde profesyonel destek sunulur.</li>
+        
+        <li>🧑‍⚕️ <strong>Multidisipliner Kadro:</strong> Doktor, hemşire, fizyoterapist ve psikologlar ile kapsamlı bakım sağlanır.</li>
+        
+        <li>🤝 <strong>Sosyal ve Rehabilitasyon Programları:</strong> Egzersiz, grup aktiviteleri, bilişsel oyunlar ve sosyal etkinliklerle zihinsel ve bedensel sağlık desteklenir.</li>
+        
+        <li>🏡 <strong>Ev Ortamına Yakın Konfor:</strong> Tesis, yaşlı bireylerin kendilerini evlerinde gibi hissetmesini sağlayacak şekilde tasarlanmıştır.</li>
+        
+        <li>🌿 <strong>Huzurlu ve Güvenli Çevre:</strong> Açık alanlar, bahçeler ve güvenli yaşam alanları ile sakin ve rahat bir ortam sunar.</li>
+    </ul>
+</div>
+                </div>`
         }
     },
     disabled: {
@@ -5108,7 +5845,39 @@ const cityDetailedData = {
 
                 <h4>🌟 Dürüst Analiz</h4>
                 <p><strong>Dürüst Analiz:</strong> İzmir'de fizik tedavi hizmetleri çok yaygın ve kalitelidir. <strong>Güçlü Yönü:</strong> Fizyoterapist kadrolarının akademik düzeyi ve cihaz parkurunun modernliği. <strong>Eksik Yönü:</strong> Kamu hastanelerindeki fizik tedavi ünitelerinde bekleme süreleri uzayabilir; bu noktada butik özel merkezler devreye girer.</p>
-            </div>`
+            <div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Ege Üniversitesi Fizik Tedavi ve Rehabilitasyon Merkezi: "Akademik ve Multidisipliner Yaklaşım"</h3>
+    <p>Bornova’da yer alan Ege Üniversitesi FTR Merkezi, akademik bir altyapıya sahip olup, engelli bireyler için kapsamlı fizik tedavi ve rehabilitasyon hizmetleri sunar. Hem çocuk hem yetişkin hastalara yönelik özel programlar mevcuttur.</p>
+    
+    <ul>
+        <li>🧑‍⚕️ <strong>Multidisipliner Kadro:</strong> Fizyoterapistler, ergoterapistler, rehabilitasyon hekimleri ve psikologlar ile koordineli bakım sağlanır.</li>
+        
+        <li>🤖 <strong>Robotik ve Modern Terapi:</strong> Yürüme terapisi, denge ve kas güçlendirme için ileri seviye cihazlar ve robotik sistemler kullanılır.</li>
+        
+        <li>🧠 <strong>Nörolojik Rehabilitasyon Programları:</strong> İnme, omurilik yaralanmaları ve spastik durumlar için kişiye özel planlanan terapi seansları uygulanır.</li>
+        
+        <li>🏥 <strong>Gelişmiş Tesis ve Ekipman:</strong> Modern egzersiz salonları, terapi odaları ve donanımlı rehabilitasyon alanları ile hasta konforu sağlanır.</li>
+        
+        <li>🌿 <strong>Psikososyal Destek:</strong> Motivasyon ve günlük yaşam becerilerini artıracak psikolojik destek ve sosyal aktiviteler sunulur.</li>
+    </ul>
+</div>
+<div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Medicana International İzmir Rehabilitasyon Merkezi: "Fonksiyonel Yenilenme ve Teknoloji Odaklı Bakım"</h3>
+    <p>Karşıyaka’da bulunan Medicana İzmir Rehabilitasyon Merkezi, engelli bireyler için modern fizik tedavi ve fonksiyonel rehabilitasyon hizmetleri sunar. Gelişmiş teknolojiler ve kişiye özel programlarla hastaların maksimum fonksiyon kazanması hedeflenir.</p>
+    
+    <ul>
+        <li>🦾 <strong>Fonksiyonel Rehabilitasyon:</strong> Ortopedik ve nörolojik engelliliklerde kişiye özel tedavi planları uygulanır.</li>
+        
+        <li>🤖 <strong>Robotik ve Yardımcı Teknoloji:</strong> Yürüme, denge ve motor beceri geliştirme programları robotik cihazlar ile desteklenir.</li>
+        
+        <li>🧑‍⚕️ <strong>Uzman Kadro:</strong> Fizyoterapistler, ergoterapistler ve rehabilitasyon hekimleri multidisipliner yaklaşım uygular.</li>
+        
+        <li>🏨 <strong>Modern Tesis:</strong> Egzersiz salonları, terapi odaları ve hasta konforunu ön planda tutan alanlar sunulur.</li>
+        
+        <li>🌐 <strong>Uluslararası Hasta Desteği:</strong> Tercüman, konaklama ve koordinasyon hizmetleri ile yabancı hastalar için süreçler kolaylaştırılmıştır.</li>
+    </ul>
+</div>
+                </div>`
         }
     },
     spa: {
@@ -5129,7 +5898,39 @@ const cityDetailedData = {
 
                 <h4>➡️ Sektörel Durum</h4>
                 <p><strong>Dürüst Analiz:</strong> İzmir'de SPA sektörü sadece 'rahatlama' değil, 'wellness' odaklıdır. <strong>Güçlü Yönü:</strong> Şehirdeki lüks otellerin sanat eserleriyle birleşen ambiyansı ruhsal arınmayı destekler. Hizmet kalitesi kesinlikle global lüks segmentindedir.</p>
-            </div>`
+            <div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Radisson Blu Resort & Spa Çeşme: "Ege Denizi Manzarasında Lüks Wellness"</h3>
+    <p>Çeşme’de konumlanan Radisson Blu Resort & Spa, modern spa ve wellness hizmetlerini Ege Denizi manzarası ile birleştirir. Hem ulusal hem de uluslararası misafirler için termal ve wellness odaklı programlar sunar.</p>
+    
+    <ul>
+        <li>💆 <strong>Lüks Spa ve Masaj Hizmetleri:</strong> Aromaterapi, sıcak taş masajı, yüz ve vücut bakımları ile kapsamlı wellness deneyimi sağlar.</li>
+        
+        <li>♨️ <strong>Termal ve Sauna İmkanları:</strong> Sauna, hamam, jakuzi ve kapalı/ açık yüzme havuzları ile hem bedensel hem de zihinsel yenilenme sunar.</li>
+        
+        <li>🌿 <strong>Doğa ve Deniz Entegrasyonu:</strong> Açık alanlar, bahçeler ve deniz manzarası ile huzurlu bir ortam yaratılır.</li>
+        
+        <li>🧘 <strong>Kişiye Özel Wellness Paketleri:</strong> Masaj, detox, yoga ve fitness programları ile kişisel ihtiyaçlara göre planlama yapılır.</li>
+        
+        <li>🏨 <strong>Konforlu Konaklama:</strong> Modern ve geniş odalar, spa hizmetleriyle entegre olarak ziyaretçilere yüksek konfor sunar.</li>
+    </ul>
+</div>
+<div class="analysis-content">
+    <h3 style="color:#2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom:5px;"> Ilıca Hotel Thermal & Spa: "Tarih ve Termalin Buluşması"</h3>
+    <p>Çeşme Ilıca’da bulunan Ilıca Hotel Thermal & Spa, bölgenin zengin termal kaynakları ile modern spa hizmetlerini birleştirir. Geleneksel hamam ritüelleri ve modern wellness terapileri sunarak kapsamlı bir deneyim sağlar.</p>
+    
+    <ul>
+        <li>♨️ <strong>Termal Mineralli Sular:</strong> Kas-eklem rahatsızlıkları, romatizmal sorunlar ve stres yönetimi için kullanılır.</li>
+        
+        <li>💆 <strong>Wellness ve Masaj Hizmetleri:</strong> Aromaterapi, sıcak taş masajı ve detox terapileri ile bedensel ve zihinsel rahatlama sağlanır.</li>
+        
+        <li>🏖️ <strong>Doğa ve Deniz Manzarası:</strong> Açık alanlar ve Ege Denizi manzarası ile huzurlu bir spa deneyimi sunar.</li>
+        
+        <li>🧘 <strong>Özel Wellness Programları:</strong> Yoga, pilates, detox ve kişiye özel spa paketleri ile ziyaretçi ihtiyaçlarına uyarlanır.</li>
+        
+        <li>🏨 <strong>Konforlu Konaklama:</strong> Termal ve spa hizmetleri ile entegre modern odalar sunar.</li>
+    </ul>
+</div>
+                </div>`
         }
     }
 },
